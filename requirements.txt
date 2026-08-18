@@ -1,6 +1,7 @@
 # venv\Scripts\activate
-fastapi 
-uvicorn 
-sqlalchemy 
-psycopg2-binary 
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
 pydantic-settings
+alembic

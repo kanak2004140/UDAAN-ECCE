@@ -17,3 +17,7 @@ frontend/out/
 # OS/editor
 .DS_Store
 Thumbs.db
+
+# DataBase
+.env
+.env.*
