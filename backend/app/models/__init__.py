@@ -8,7 +8,8 @@ from app.models.curriculum import Curriculum
 from app.models.subject import Subject
 from app.models.topic import Topic
 from app.models.learning_object import LearningObject
-
+from app.models.activity import Activity
+from app.models.activity_content import ActivityContent
 
 __all__ = [
     "User",
@@ -20,4 +21,6 @@ __all__ = [
     "Subject",
     "Topic",
     "LearningObject",
+    "Activity",
+    "ActivityContent",
 ]

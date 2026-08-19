@@ -27,7 +27,14 @@ from app.models import (
     Language,
     ChildGuardian,
     ChildLanguage,
+    Curriculum,
+    Subject,
+    Topic,
+    LearningObject,
+    Activity,
+    ActivityContent,
 )
+
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
