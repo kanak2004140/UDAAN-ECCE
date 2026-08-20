@@ -36,6 +36,7 @@ from app.models import (
     ContentVariant,
     LearningSession,
     ActivityAttempt,
+    LearningProgress,
 )
 
 
