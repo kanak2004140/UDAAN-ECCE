@@ -18,8 +18,8 @@ class Settings(BaseSettings):
 
     DATABASE_URL: str
 
-
 settings = Settings()
+
 
 from app.models import (
     User,
@@ -33,6 +33,9 @@ from app.models import (
     LearningObject,
     Activity,
     ActivityContent,
+    ContentVariant,
+    LearningSession,
+    ActivityAttempt,
 )
 
 

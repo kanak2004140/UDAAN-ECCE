@@ -10,6 +10,9 @@ from app.models.topic import Topic
 from app.models.learning_object import LearningObject
 from app.models.activity import Activity
 from app.models.activity_content import ActivityContent
+from app.models.content_variant import ContentVariant
+from app.models.learning_session import LearningSession
+from app.models.activity_attempt import ActivityAttempt
 
 __all__ = [
     "User",
@@ -23,4 +26,7 @@ __all__ = [
     "LearningObject",
     "Activity",
     "ActivityContent",
+    "ContentVariant",
+    "LearningSession",
+    "ActivityAttempt",
 ]
