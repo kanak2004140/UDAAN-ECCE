@@ -1,25 +1,37 @@
 from fastapi import FastAPI
 from sqlalchemy import text
+from app.routers.learning_sessions import router as learning_sessions_router
+from app.routers.children import router as children_router
+from app.routers.activities import router as activities_router
+from app.routers.activity_contents import router as activity_contents_router
+from app.routers.content_variants import router as content_variants_router
+from app.routers.learning_objects import router as learning_objects_router
+from app.routers.activity_attempts import router as activity_attempts_router
+from app.routers.learning_progress import router as learning_progress_router
 
 from app.database import engine
 
-from app.database import Base, engine
-from app.models import User, Child, Language
-
-Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
     title="ECCE eTools API",
     description="Backend API for ECCE eTools",
-    version="0.1.0"
+    version="0.1.0",
 )
 
+app.include_router(children_router)
+app.include_router(learning_sessions_router)
+app.include_router(activities_router)
+app.include_router(activity_contents_router)
+app.include_router(content_variants_router)
+app.include_router(learning_objects_router)
+app.include_router(activity_attempts_router)
+app.include_router(learning_progress_router)
 
 @app.get("/")
 def root():
     return {
         "message": "ECCE eTools API is running",
-        "version": "0.1.0"
+        "version": "0.1.0",
     }
 
 
@@ -31,12 +43,12 @@ def health():
 
         return {
             "status": "healthy",
-            "database": "connected"
+            "database": "connected",
         }
 
     except Exception as e:
         return {
             "status": "unhealthy",
             "database": "disconnected",
-            "error": str(e)
+            "error": str(e),
         }
