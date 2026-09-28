@@ -4,6 +4,13 @@ from uuid import UUID
 from pydantic import BaseModel, ConfigDict
 
 
+class ActivityAttemptCreate(BaseModel):
+    learning_session_id: UUID
+    activity_id: UUID
+    status: str = "completed"
+    response: dict | None = None
+
+
 class ActivityAttemptResponse(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 

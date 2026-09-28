@@ -1,6 +1,6 @@
 from uuid import UUID
 
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 
 from app.database import get_db
@@ -15,7 +15,7 @@ router = APIRouter(
 
 
 @router.get(
-    "/",
+    "",
     response_model=list[LearningObjectResponse],
 )
 def get_learning_objects(
@@ -43,5 +43,8 @@ def get_learning_object(
         .filter(LearningObject.id == learning_object_id)
         .first()
     )
+
+    if learning_object is None:
+        raise HTTPException(status_code=404, detail="Learning object not found")
 
     return learning_object

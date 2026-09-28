@@ -1,7 +1,7 @@
 from datetime import datetime
 from uuid import UUID
 
-from pydantic import BaseModel, ConfigDict
+from pydantic import BaseModel, ConfigDict, Field
 
 
 class ContentVariantResponse(BaseModel):
@@ -12,6 +12,6 @@ class ContentVariantResponse(BaseModel):
     language_id: UUID
     content_key: str
     content_text: str | None
-    metadata: dict
+    metadata: dict = Field(validation_alias="content_metadata")
     created_at: datetime
     updated_at: datetime

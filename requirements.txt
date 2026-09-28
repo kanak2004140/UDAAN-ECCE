@@ -7,3 +7,6 @@ sqlalchemy
 psycopg2-binary
 pydantic-settings
 alembic
+werkzeug
+email-validator
+PyJWT

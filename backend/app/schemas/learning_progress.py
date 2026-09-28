@@ -4,6 +4,14 @@ from uuid import UUID
 from pydantic import BaseModel, ConfigDict
 
 
+class LearningProgressUpdate(BaseModel):
+    child_id: UUID
+    learning_object_id: UUID
+    status: str = "in_progress"
+    mastery_level: int = 0
+    successful: bool = False
+
+
 class LearningProgressResponse(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 
