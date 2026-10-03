@@ -6,6 +6,7 @@ import CuriousLearnerWorld, {
 } from "@/app/components/age_groups/4-6/CuriousLearnerWorld";
 import { getActivities, type ActivityResponse } from "@/lib/api/activities";
 import ActivitySessionPanel from "@/app/components/learning/ActivitySessionPanel";
+import AiTutorSection from "@/app/components/learning/AiTutorSection";
 import { usePersistedProgressStage } from "@/lib/hooks/usePersistedProgressStage";
 
 const AGE_GROUP = "4-6";
@@ -125,6 +126,7 @@ export default function CuriousLearnersPage() {
         onSessionStarted={() => setProgressStage((stage) => (stage === "start" ? "session" : stage))}
         onActivityCompleted={() => setProgressStage("completed")}
       />
+      <AiTutorSection ageGroup={AGE_GROUP} />
     </>
   );
 }

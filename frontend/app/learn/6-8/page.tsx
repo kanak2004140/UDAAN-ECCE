@@ -6,6 +6,7 @@ import YoungAdventurerWorld, {
 } from "@/app/components/age_groups/6-8/YoungAdventurerWorld";
 import { getActivities, type ActivityResponse } from "@/lib/api/activities";
 import ActivitySessionPanel from "@/app/components/learning/ActivitySessionPanel";
+import AiTutorSection from "@/app/components/learning/AiTutorSection";
 import { usePersistedProgressStage } from "@/lib/hooks/usePersistedProgressStage";
 
 const AGE_GROUP = "6-8";
@@ -120,6 +121,7 @@ export default function YoungAdventurersPage() {
         onSessionStarted={() => setProgressStage((stage) => (stage === "start" ? "session" : stage))}
         onActivityCompleted={() => setProgressStage("completed")}
       />
+      <AiTutorSection ageGroup={AGE_GROUP} />
     </>
   );
 }
