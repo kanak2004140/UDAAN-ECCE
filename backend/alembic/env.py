@@ -37,6 +37,7 @@ from app.models import (
     LearningSession,
     ActivityAttempt,
     LearningProgress,
+    ContentSource,
 )
 
 

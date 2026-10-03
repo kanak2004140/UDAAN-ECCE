@@ -14,6 +14,7 @@ from app.models.content_variant import ContentVariant
 from app.models.learning_session import LearningSession
 from app.models.activity_attempt import ActivityAttempt
 from app.models.learning_progress import LearningProgress
+from app.models.content_source import ContentSource
 
 __all__ = [
     "User",
@@ -31,4 +32,5 @@ __all__ = [
     "LearningSession",
     "ActivityAttempt",
     "LearningProgress",
+    "ContentSource",
 ]
