@@ -1,0 +1,865 @@
+Mystery Matrix
+Mystery Matrix
+Fill the yellow boxes with 1-digit numbers 
+(multiplicands and multipliers) such that 
+you get the products given in the white 
+boxes.
+Fill the remaining white boxes with 
+appropriate products.
+The product of the numbers 
+in each row is given in the 
+orange boxes. The product of 
+the numbers in each column is 
+given in the blue boxes. Identify 
+appropriate numbers to fill the 
+blank boxes.
+56
+54
+63
+48
+42
+50
+60
+35
+×
+32
+42
+45
+21
+Times-10
+Times-10
+Match each problem with the appropriate pictorial representation and 
+write the answer.
+2 × 10 =  2 Tens = ______
+5 × 10 = _____ Tens = ______
+8 × 10 = _____ Tens = ______
+Times-10
+Times-10
+Chapter
+13
+The Transport 
+The Transport 
+Museum
+Museum
+Reprint 2026-27
+
+
+185
+Times-10
+Times-10
+10 Tens
+10 Tens
+1 Hundred =100
+Constructing Tables
+Constructing Tables
+How many pebbles are there in 
+this arrangement? _______
+This is a 5 × 15 arrangement. 
+There is an easy way to find 
+this product by splitting the 
+arrangement.
+5 × 15	 =	 5 × 10 and 5 × 5
+	
+=	 ______ + ______ = ______
+15
+15
+What is 10 × 10 = ____ Tens = _______
+Reprint 2026-27
+
+
+186
+1 × 15 = ___
+2 × 15 = ___
+3 × 15 = ___
+4 × 15 = ___
+5 × 15 = ___
+6 × 15 = ___
+7 × 15 = ___
+8 × 15 = ___
+9 × 15 = ___
+10 × 15 = ___
+Recall the times-tables that we created in Grade 3. Now 
+construct a times-15 table. You may use the arrangement 
+given below and split the columns into 10 and 5 for 
+ease of counting, as shown on the previous page.
+15
+10
+How can we 
+find 1 ×15, 
+2 ×15, ..... with 
+this?
+1.	 What patterns do you see in this table?
+2.	 Compare the times-15 table with the times-5 
+table. What similarities and differences do 
+you notice?
+15 – 5   = 10
+30 – 10 = 20
+45 – 15 = 30
+____________
+____________
+____________
+____________
+____________
+____________
+____________
+Times - 5
+Times - 15
+1 × 5 =   5
+2 × 5 = 10
+3 × 5 = 15
+4 × 5 = ___
+5 × 5 = ___
+6 × 5 = ___
+7 × 5 = ___
+8 × 5 = ___
+9 × 5 = ___
+10 × 5 = ___
+1 × 15 = 15
+2 × 15 = 30
+3 × 15 = 45
+4 × 15 = ___
+5 × 15 = ___
+6 × 15 = ___
+7 × 15 = ___
+8 × 15 = ___
+9 × 15 = ___
+10 × 15 = ___
+What times-table is 
+this? ____
+How did we get 
+this?
+Reprint 2026-27
+
+
+187
+3.	 Construct other times-tables for numbers from 11 to 20, as you did 
+for 15.
+4.	 As you compared the times-5 table with the times-15 table, compare 
+the times-1 table with the times-11 table, the times-2 table with the 
+times-12 table, and so on. Share your observations.
+Times-10
+Times-10
+Making tables by splitting into equal groups
+Making tables by splitting into equal groups
+Here is an arrangement of wheels. To count the total number of wheels, 
+Tara splits them into two equal groups.
+14
+3 × 14	 =	 3 × 7 and 3 × 7
+	
+=	 21 + 21	 =	 double of 21
+	
+	 	
+=	 42
+Similarly, 6 × 14 can be obtained by 
+splitting the arrangement into two equal 
+groups.
+14
+6 × 14 = Double of 6 × 7 
+Why?
+Reprint 2026-27
+
+
+188
+6 × 14	 =	 6 × 7 and 6 × 7
+	
+=	 42 + 42	 =	double of 42
+	
+	 	
+=	84
+We have seen how to calculate 3 × 14 and 6 × 14 by splitting and 
+doubling. Can we construct the times-14 table by splitting and 
+doubling? Try!
+What other times-tables can be constructed by splitting into equal 
+groups and doubling? Give examples.
+Times-10
+Times-10
+Multiples of 10
+Multiples of 10
+10 Tens
+4 Tens
+14 × 10	 =	 14 Tens 
+	
+=	 10 Tens + 4 Tens 
+	
+=	 100 + 40 
+	
+=	 140
+Find the answers to the following:
+a) 15 × 10 = _____ Tens = _____	 	
+c) 19 × 10 = _____ Tens = _____
+b) 16 × 10 = _____ Tens = _____	 	
+d) 20 × 10 = _____ Tens = _____
+10 × 10 = ____
+2 times (i.e., double of) 10 × 10 = ____
+Discuss in grade what happens when we take several groups of 10.
+Note for Teachers: Support the learners in understanding multiplication when group 
+size is a multiple of 10. Language of ‘tens’ is a useful way to think about this.
+For example:	 16 × 10  = 16 Tens  is 160
+	
+16 × 20  = 16 × 2 Tens = 32 Tens = 320
+Reprint 2026-27
+
+
+189
+30 × 10 = _____        40 × 10 = _____         70 × 10 = _____
+50 × 10 = _____        60 × 10 = _____         80 × 10 = _____
+Let us find the number of people who can travel in 26 tempo travellers. 
+26 × 10 = ______ travellers. 
+26 × 10 = 26 Tens = 20 Tens + 6 Tens = 200 + 60 = 260
+Answer the following questions. Share your thoughts. 
+a)	 21 × 10 = _____
+b)	 42 × 10 = _____
+c)	 65 × 10 = _____
+d)	 38 × 10 = _____
+e)	 53 × 10 = _____
+f)	 87 × 10 = _____
+A small bus can seat 20 people. How many people can be seated in 12 
+buses?
+Now let us do 12 × 20.
+10
+20 = 2 Tens
+I can solve it like this 
+12 × 20 = 10 × 20 and 2 × 20 
+= 200 + 40 = 240
+I can also solve it as 
+12 × 20 = 12 × 10 and 12 × 10 
+= 120 + 120 
+= 240
+I can solve it as 
+12 × 20 = 12 × 2 Tens 
+= 24 Tens 
+= 240
+2
+Now think and answer the following problems.
+Reprint 2026-27
+
+
+190
+Solve the following problems. Share your thoughts.
+24 × 40 = _______            50 × 60 = _______
+13 × 30 = _______                43 × 60 = _______
+70 × 80 = _______
+Times-10
+Times-10
+A Day at the Transport Museum
+A Day at the Transport Museum
+Amala, Raahi and Farzan are visiting 
+the “Transport Museum”.
+This museum has a collection of 
+different modes of transport used by 
+people in India. It includes several 
+vehicles from the olden days.
+Raahi spots a toy train. She figures 
+out that each coach can seat 14 
+children. The toy train has 15 
+coaches.
+How many children can be seated in the toy train?
+We have to find 15 × 14.
+10
+10
+5
+4
+10
+10
+4
+5
+Reprint 2026-27
+
+
+191
+She wonders how many coaches will be needed for the 324 children 
+from her school. Remember, each coach can seat only 14 children.
+Such remaining number in a division problem is called ‘remainder’.
+We have to find 324 ÷ 14
+No. of 
+children
+No. of 
+coaches 
+needed
+No. of children 
+remaining
+324
+140
+10
+324 – 140 = 184
+140
+10
+184 – 140 = 44
+14
+1
+44 – 14 = 30
+28
+2
+2
+14) 324 (10+10+1+2
+  –140
+    184
+  –140
+      44
+    –14
+      30
+    –28
+        2
+______
+______
+______
+______
+Total no. of coaches = _____
+What do we do with the remaining 
+2 children? Discuss in grade.
+  15 × 14 = 100 + 40 + 50 + 20  
+= 210
+In 15 coaches, 210 children 
+can be seated.
+×
+10
+4
+10
+10 × 10 = 100
+10 × 4 = 40
+5
+5 × 10 = 50
+5 × 4 = 20
+150
+60
+210
+Reprint 2026-27
+
+
+192
+a)	 25 × 34
+b)	 16 × 43
+c)	 68 × 12
+d)	 39 × 13
+e)	 125 ÷ 15
+f)	 94 ÷ 11
+g)	 440 ÷ 22
+h)	 508 ÷ 18
+     Let Us Solve
+2 × 100 = 2 Hundreds = 200
+3 × 100 = _____ Hundreds = ______
+5 × 100 = _______ = __________
+8 × 100 = ______ = _________
+Multiples of 100
+Multiples of 100
+11 × 100	=	 11 Hundreds 
+	
+=	 10 Hundreds + 1 Hundred
+	
+=	 1000+ 100 = 1100
+12 × 100	=	 _______
+15 × 100	=	 _______
+20 × 100 =	 20 Hundreds = 2000
+27 × 100 = 	_______
+70 × 100 =	 _______
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+10 × 100 = 10 Hundreds = 1000
+What happens when we put 10 
+Hundreds together?
+Also, identify remainder (if any) in the division problems.
+Reprint 2026-27
+
+
+193
+30 × 100 = ________	
+40 × 100 = ________
+50 × 100 = ________	
+24 × 100 = ________  
+53 × 100 = ________	
+19 × 100 = ________
+We Know
+80 × 100 = 8000
+Find 
+80 × 50 = ________	 	
+	
+	
+   40 × 50 = ______
+Now answer the following questions. Share your thoughts.
+10 × 100
+10 × 100
+20 × 100 is
+ 10 × 100 and 10 × 100 
+10 × 100 is 1000. 
+So, 20 × 100 is 
+2 × 1000 = 2000
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+Reprint 2026-27
+
+
+194
+Let us find 11 × 200 
+11 × 200 = 10 × 200 and 1 × 200 
+= 2000 + 200 = 2200
+ 
+11 × 200 = 11 × 100 and 11 × 100 
+= 1100 + 1100 
+= 2200
+11 × 200 = 11 × 2 Hundreds 
+= 22 Hundreds
+= 2200
+Share what you notice about the answers to these 
+problems.
+What do you 
+notice about 
+any number 
+times-100s
+11 × 100 = _______
+11 × 200 = _______
+22 × 100 =  _______
+22 × 200 =  _______
+Note for Teachers: Encourage students to understand the multiplication of a number 
+times-100 by splitting the number of groups in suitable ways. For example, 18 × 100 
+= 18 Hundreds = 10 Hundreds and 8 Hundreds, that is, 1800. Also, children should 
+be encouraged to see relationships in the answers to two different multiplication 
+problems like the ones above, for example, changing the group size from 100 to 200 
+or changing the number of groups from 11 to 22.
+200
+10
+1
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+Answer the following questions. Share your thoughts.
+18 × 100 = _______	
+5 × 500 = _______ 
+15 × 200 = _______	
+14 × 300 = _______
+23 × 200 = _______	
+7 × 800 = _______
+Reprint 2026-27
+
+
+195
+Find the answers in Set A. Examine the relationships between the 
+problems and the answers in Set A carefully. Then use this understanding 
+to find the answers in Set B.
+14 × 100	 =	 _____
+14 × 500	 =	 _____
+7 × 500	
+=	 _____
+7 × 250	
+=	 _____
+30 × 100 = _____
+30 × 200 = _____
+15 × 100 = _____
+15 × 200 = _____
+14 × 10	=	 _____
+14 × 50	=	 _____
+7 × 50	 =	 _____
+7 × 25	 =	 _____
+30 × 10	=	_____
+30 × 20	=	_____
+15 × 10	=	_____
+15 × 20	=	_____
+14 × 1	 =	 _____
+14 × 5	 =	 _____
+7 × 5	
+=  _____
+7 × 10	 =	 _____
+30 × 1	=	_____
+30 × 2	=	_____
+15 × 1	=	_____
+15 × 2	=	_____
+A
+B
+C
+Note for Teachers: Encourage students to understand the patterns in the above 
+problems. Relationships between doubles and halves and multiplication by 10s and 
+100s should be pointed out.
+Amala is fascinated to read this information in the aeroplane section of 
+the transport museum. 
+“During the COVID-19 pandemic, the Indian Government undertook 
+a massive evacuation of Indians living outside the country, under a 
+mission called Vande Bharat. In the first week, 64 flights carried 152 
+people each.”
+Answer the following questions
+1)	
+44 × 10 = ________
+	
+22 × 20 = ________
+2)	
+16 × 100 = ________
+	
+  4 × 400 = ________
+Reprint 2026-27
+
+
+196
+Amala wonders how many people travelled the first week of this ‘Vande 
+Bharat Mission’. 
+Help her find the answer. 
+64 × 152
+×
+100
+50
+2
+60
+6000
+3000
+120
+4
+400
+200
+8
+6400
+3200
+128
+9728
+60 × 100 
+= 6000
+60 × 50
+= 3000
+60 × 2
+=120
+4 × 100 
+= 400
+4 × 50
+= 200
+4 × 2
+= 8
+100
+50
+60
+4
+2
+Farzan notices the famous snake boat from Kerela. 
+The technique for making these 
+boats is 800 years old. Vallam 
+kali (the snake-boat race) is held 
+during the monsoon season 
+between July and September 
+and concludes with Onam, the 
+harvest festival. These boats 
+are 30 to 35 metres long and 
+can be peddled by 64 –128 
+people.
+Reprint 2026-27
+
+
+197
+In a particular race, 960 participants volunteered. Each boat is pedalled 
+by 64 people. How many boats will be needed?
+We have to find 960 ÷ 64 
+No. of 
+boats
+No. of 
+participants
+No. of 
+people 
+remaining
+960
+10
+640
+320
+5
+320
+0
+Total no. of boats: 15
+a)	 237 × 28
+b)	 140 × 16
+c)	 389 × 57
+d)	 807 ÷ 24
+e)	 692 ÷ 33
+f)	 996 ÷ 45
+     Let Us Solve
+A farmer packs his rice in sacks of 10 kg each.
+a)	 If he has 60 kg of rice, how many sacks does he need?
+b)	 If he has 600 kg of rice, how many sacks does he need?
+If a sack of rice weighs 100 kg 
+then how many sacks does he 
+need for 600 kg of rice?____
+60 ÷ 10 = _______ 
+600 ÷ 10 = _______
+600 ÷ 100 = _______
+10 kg
+Dividing by 10 and 100
+Dividing by 10 and 100
+64) 960 (10 + 5
+  –640
+    320
+  –320
+      0
+______
+______
+Also, identify remainder (if any) in the division problems.
+Reprint 2026-27
+
+
+198
+Find the answers to the following questions. Share your thoughts in 
+grade.
+40 ÷ 10 = ____
+400 ÷ 10 = ____
+400 ÷ 100 = ____
+400 ÷ 2 = ____
+400 ÷ 20 = ____
+400 ÷ 200 = ____
+4 ÷ 2 = ____
+40 ÷ 20 = ____
+400 ÷ 200 = ____
+Think and answer. Write the division statement in each case.
+1.	 Manku the monkey sees 870 bananas in the  
+market. Each bunch has 10 bananas. How  
+many bunches are there in the market? _______
+2.	 Rukhma Bi wants to distribute `1000/- equally  
+among her 10 grandchildren on the occasion of 
+Eid.  
+How much money will each of them get? ________
+     Let Us Solve
+1.	 The 
+oldest 
+long-distance 
+train of the Indian Railways 
+is the Punjab Mail which 
+ran between Mumbai and 
+Peshawar. Its first journey 
+was on 12 October 1912. 
+Do you know how many 
+coaches it had on its first journey? It had 6 coaches: 3 carrying 96 
+passengers and 3 for goods.
+a)	 How many people travelled in each coach on the first journey?
+b)	 This train has been running for 106 years now. It runs between 
+Mumbai, Maharashtra and Ferozepur, Punjab. It has 24 coaches. 
+Each coach can carry 72 passengers. How many people can 
+travel on this train?
+Reprint 2026-27
+
+
+199
+2.	 Amala and her 35 classmates, along with 6 
+teachers, are going on a school trip to Goa. 
+They are using the double-decker “hop on hop 
+off” sightseeing bus to explore the city.
+a)	 2 people can sit on every seat of the bus. 
+There are 15 seats in the lower deck and 10 
+in the upper deck. How many seats will they 
+need to occupy? Are there enough seats for everyone? 
+b)	 Find the total cost of the tickets for all 
+children.
+c)	 What is the cost of the tickets for all 
+teachers?
+3.	 Kedar works in a brick kiln.
+a)	 The kiln makes 125 bricks in a day. How many bricks can be 
+made in a month?
+b)	 Each brick is sold in the market for ` 9. How much money can 
+they earn in a month?
+4.	 Chilika lake in Odisha is the largest saltwater lake in India. It is 
+famous for the Irrawaddy dolphins. Boats can be hired to go see the 
+dolphins. The trip from Puri includes a bus ride followed by a boat 
+ride. Eight people will be going on the trip.
+  Ticket price
+Adult	
+- ` 899/- 
+Children	
+- ` 359/-
+•	 A bus ticket from Puri to Satapada costs ` 60.
+•	 A two-hour boat ride for 8 people costs ` 1200.
+•	 How much money do we need to spend on each person?
+Reprint 2026-27
+
+
+200
+5.	 Find the multiplication and division sentences below. Shade the 
+sentences. How many can you find? Some are done for you.
+134
+52
+30
+31
+931
+10
+93
+55
+5
+20
+15
+15
+250
+3
+33
+101
+22
+1040
+450
+0
+4
+26
+104
+5555
+110
+100
+50
+20
+1000
+60
+16
+99
+44
+104
+19
+3
+6
+22
+132
+7
+20
+6
+950
+6 
+6000
+30
+200
+693
+808
+624
+31
+14
+1200
+8
+16
+24
+35
+9
+525
+5
+105
+62
+3200
+78
+250 × 4 = 1000
+50 × 20 = 1000
+525 ÷ 5 = 105
+______________
+______________
+______________
+______________
+______________
+______________
+6.	 Solve
+a)	 35 × 76
+b)	 267 × 38
+c)	 498 × 9
+d)	 89 × 42
+e)	 55 × 23
+f)	 345 × 17
+g)	 66 × 22
+h)	 704 × 11
+i)	 319 × 26
+j)	 459 ÷ 3
+k)	 774 ÷ 18
+l)	 864 ÷ 26
+m)	304 ÷ 12
+n)	 670 ÷ 9
+o)	 584 ÷ 25
+p)	 900 ÷ 15
+q)	 658 ÷ 32
+r)	 974 ÷ 9
+Reprint 2026-27
+
+
+201
+Times-10
+Times-10
+Chinnu’s Coins
+Chinnu’s Coins
+1.	 Five friends plan to visit an amusement park nearby. Each of them 
+uses different notes and coins to buy the ticket. The cost of the 
+ticket is ` 750.
+12
+× 13
+______
+156
+11
+× 14
+______
+154
+13
+× 13
+______
+169
+11
+× 12
+______
+132
+In each case, do you see any pattern in the two numbers and their 
+product? (Hint: Look at the coloured digits!)
+For what other multiplication problems will this pattern hold?
+Find 5 such examples.
+•	 Bujji has brought all notes of ` 200.
+•	 And Munna has brought all notes of ` 50.
+•	 Whereas Balu has brought all notes of ` 20.
+•	 And guess what, Chinnu has all coins of ` 5.
+•	 And Sansu has all coins of ` 2.
+a)	 Find out how many notes/coins each child has to bring to buy 
+the ticket.
+b)	 Which of these children will not receive any change from the 
+cashier?
+c)	 How long would the cashier take to count Chinnu’s coins?
+2.	 Observe the following multiplications. The answers have been 
+provided.
+Reprint 2026-27
+
+
+202
+3.	 Assume each vehicle is travelling with full capacity. How many 
+people can travel in each of these vehicles? Match them up.
+400
+75
+4560
+156
+864
+412
+75 Cycles
+52 Autos
+103 Cars
+20 Minibus
+30 Aeroplanes
+15 Train sleeper
+coaches
+Reprint 2026-27

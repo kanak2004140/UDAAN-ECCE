@@ -1,0 +1,129 @@
+{
+  "book_title": "Our Wonderous World",
+  "class_number": 4,
+  "language": "English",
+  "publisher": "NCERT",
+  "license_information": "NCERT textbooks are made available by the National Council of Educational Research and Training (India) for educational use. Verify current licensing terms on ncert.nic.in before redistribution.",
+  "chapters": [
+    {
+      "book_code": "deev1",
+      "subject": "The World Around Us",
+      "chapter": 1,
+      "pdf": "deev101.pdf",
+      "text": "deev101.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/deev101.pdf",
+      "sha256": "5f4ceaa6a57f16b033db8605b5eee8e0ad6b8ca2e6ebcb1740ef3d015aaccd75",
+      "pages": 16,
+      "characters": 14509,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "deev1",
+      "subject": "The World Around Us",
+      "chapter": 2,
+      "pdf": "deev102.pdf",
+      "text": "deev102.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/deev102.pdf",
+      "sha256": "a50dbbac024f5daf88b6be29dcded4d9e9454c4561c3fd46e6cd86c71de39c65",
+      "pages": 16,
+      "characters": 13295,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "deev1",
+      "subject": "The World Around Us",
+      "chapter": 3,
+      "pdf": "deev103.pdf",
+      "text": "deev103.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/deev103.pdf",
+      "sha256": "104732b1691cea7bef1a650a3e59c8ff496b93be37753dbff0be5e5dd3a66d2d",
+      "pages": 24,
+      "characters": 13448,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "deev1",
+      "subject": "The World Around Us",
+      "chapter": 4,
+      "pdf": "deev104.pdf",
+      "text": "deev104.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/deev104.pdf",
+      "sha256": "64d1975477e7927dd10e4021dd81185e0a1ca88cc10a483cffe7f3c63baad45a",
+      "pages": 12,
+      "characters": 7936,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "deev1",
+      "subject": "The World Around Us",
+      "chapter": 5,
+      "pdf": "deev105.pdf",
+      "text": "deev105.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/deev105.pdf",
+      "sha256": "0f0d0b9559ead32ff09eb6a09f44e7f70c2bee4b54bb2df075c9ab17a2aba7fe",
+      "pages": 16,
+      "characters": 12025,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "deev1",
+      "subject": "The World Around Us",
+      "chapter": 6,
+      "pdf": "deev106.pdf",
+      "text": "deev106.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/deev106.pdf",
+      "sha256": "16fe029296a5cf708721fa4035bb5dadd5fc932b937a25bc6f4dea543e352028",
+      "pages": 17,
+      "characters": 9335,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "deev1",
+      "subject": "The World Around Us",
+      "chapter": 7,
+      "pdf": "deev107.pdf",
+      "text": "deev107.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/deev107.pdf",
+      "sha256": "2df6ff55568abfa56071b6cdeadcf75f1eb0e23349f808624a8ac8289e9b5797",
+      "pages": 15,
+      "characters": 12433,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "deev1",
+      "subject": "The World Around Us",
+      "chapter": 8,
+      "pdf": "deev108.pdf",
+      "text": "deev108.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/deev108.pdf",
+      "sha256": "6c332567754b5afc0b272e9a88629b68823bb4e71137662e27575612d472c643",
+      "pages": 11,
+      "characters": 7662,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "deev1",
+      "subject": "The World Around Us",
+      "chapter": 9,
+      "pdf": "deev109.pdf",
+      "text": "deev109.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/deev109.pdf",
+      "sha256": "07773b10715fd1308c3cb6006c5db8ad03976b54ed5ee2adbf59ab33bef33de0",
+      "pages": 24,
+      "characters": 15056,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "deev1",
+      "subject": "The World Around Us",
+      "chapter": 10,
+      "pdf": "deev110.pdf",
+      "text": "deev110.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/deev110.pdf",
+      "sha256": "e2e234a351039e97c12136f58b1410b3933207b2408bceba818f0e47324d5707",
+      "pages": 13,
+      "characters": 8264,
+      "needs_ocr": false
+    }
+  ]
+}

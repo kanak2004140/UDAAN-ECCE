@@ -1,0 +1,45 @@
+{
+  "book_title": "Khel Yoga",
+  "class_number": 4,
+  "language": "English",
+  "publisher": "NCERT",
+  "license_information": "NCERT textbooks are made available by the National Council of Educational Research and Training (India) for educational use. Verify current licensing terms on ncert.nic.in before redistribution.",
+  "chapters": [
+    {
+      "book_code": "deky1",
+      "subject": "Physical Education and Well Being",
+      "chapter": 1,
+      "pdf": "deky101.pdf",
+      "text": "deky101.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/deky101.pdf",
+      "sha256": "f977dc1b729c6bee96ef8c3d46bf42f52e52a38515711115ff61dfa47b9d2ef4",
+      "pages": 46,
+      "characters": 40556,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "deky1",
+      "subject": "Physical Education and Well Being",
+      "chapter": 2,
+      "pdf": "deky102.pdf",
+      "text": "deky102.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/deky102.pdf",
+      "sha256": "0c9b06f2d0545a74a843ce6755aa59244a128643540f64e7f40b0981bab9cf8c",
+      "pages": 18,
+      "characters": 19185,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "deky1",
+      "subject": "Physical Education and Well Being",
+      "chapter": 3,
+      "pdf": "deky103.pdf",
+      "text": "deky103.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/deky103.pdf",
+      "sha256": "7c1e2427786651b2a6544a849f5aa3c419fd0b1b94898d305caa9755f862142c",
+      "pages": 70,
+      "characters": 67672,
+      "needs_ocr": false
+    }
+  ]
+}

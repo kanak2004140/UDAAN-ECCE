@@ -1,0 +1,141 @@
+{
+  "book_title": "Joyful-Mathematics (English)",
+  "class_number": 2,
+  "language": "English",
+  "publisher": "NCERT",
+  "license_information": "NCERT textbooks are made available by the National Council of Educational Research and Training (India) for educational use. Verify current licensing terms on ncert.nic.in before redistribution.",
+  "chapters": [
+    {
+      "book_code": "bejm1",
+      "subject": "Mathematics",
+      "chapter": 1,
+      "pdf": "bejm101.pdf",
+      "text": "bejm101.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/bejm101.pdf",
+      "sha256": "ead718df99c547945c2b91072ccb4acd404f938244bf7aecda0c4e62d15f5b1d",
+      "pages": 15,
+      "characters": 9738,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "bejm1",
+      "subject": "Mathematics",
+      "chapter": 2,
+      "pdf": "bejm102.pdf",
+      "text": "bejm102.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/bejm102.pdf",
+      "sha256": "e10a9e89b025c49d9e09f10646b1afa7a2914cdbe3113a31c3761ee8d59cd12d",
+      "pages": 7,
+      "characters": 3230,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "bejm1",
+      "subject": "Mathematics",
+      "chapter": 3,
+      "pdf": "bejm103.pdf",
+      "text": "bejm103.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/bejm103.pdf",
+      "sha256": "50aae164e6b0afecf06146e89590c9295340def4d2d04a330f9accd138f68e75",
+      "pages": 9,
+      "characters": 7438,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "bejm1",
+      "subject": "Mathematics",
+      "chapter": 4,
+      "pdf": "bejm104.pdf",
+      "text": "bejm104.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/bejm104.pdf",
+      "sha256": "4e4179a780d250af7a5e224884a39352fbf23e7bbf81572cfbf231cae340f521",
+      "pages": 12,
+      "characters": 5768,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "bejm1",
+      "subject": "Mathematics",
+      "chapter": 5,
+      "pdf": "bejm105.pdf",
+      "text": "bejm105.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/bejm105.pdf",
+      "sha256": "0e0c9c3c859a61f3c445282a538c4b3f5d54fcace503412ae4945511e97c9bb5",
+      "pages": 6,
+      "characters": 2197,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "bejm1",
+      "subject": "Mathematics",
+      "chapter": 6,
+      "pdf": "bejm106.pdf",
+      "text": "bejm106.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/bejm106.pdf",
+      "sha256": "c1abaf8014726e27e379ebbe4983ebd18207286083dc17f5071954833474c77e",
+      "pages": 21,
+      "characters": 11584,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "bejm1",
+      "subject": "Mathematics",
+      "chapter": 7,
+      "pdf": "bejm107.pdf",
+      "text": "bejm107.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/bejm107.pdf",
+      "sha256": "14f870100d12aaad24055d26025d4d45af7e38ffeb334cf48b85fe1866adbb5d",
+      "pages": 12,
+      "characters": 5712,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "bejm1",
+      "subject": "Mathematics",
+      "chapter": 8,
+      "pdf": "bejm108.pdf",
+      "text": "bejm108.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/bejm108.pdf",
+      "sha256": "3dd3b7075398ea08638e1703850548d4a6ab50446c6758141b057b95a17f41f9",
+      "pages": 15,
+      "characters": 6924,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "bejm1",
+      "subject": "Mathematics",
+      "chapter": 9,
+      "pdf": "bejm109.pdf",
+      "text": "bejm109.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/bejm109.pdf",
+      "sha256": "02fbceec63a33eafe168ca92ee746e018ccaaa317a7e21647ac29aa32a5195a2",
+      "pages": 15,
+      "characters": 10021,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "bejm1",
+      "subject": "Mathematics",
+      "chapter": 10,
+      "pdf": "bejm110.pdf",
+      "text": "bejm110.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/bejm110.pdf",
+      "sha256": "7070c75f6b25101883da5a4fab480eb9f1806770e2c40a2d748be327482d1763",
+      "pages": 10,
+      "characters": 4131,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "bejm1",
+      "subject": "Mathematics",
+      "chapter": 11,
+      "pdf": "bejm111.pdf",
+      "text": "bejm111.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/bejm111.pdf",
+      "sha256": "1ffd8c2b779633eb21c729ca5de29edc72be1f4aa41e971b1bf5e7295ec0c8f0",
+      "pages": 16,
+      "characters": 6958,
+      "needs_ocr": false
+    }
+  ]
+}

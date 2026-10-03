@@ -1,0 +1,153 @@
+{
+  "book_title": "Santoor",
+  "class_number": 3,
+  "language": "English",
+  "publisher": "NCERT",
+  "license_information": "NCERT textbooks are made available by the National Council of Educational Research and Training (India) for educational use. Verify current licensing terms on ncert.nic.in before redistribution.",
+  "chapters": [
+    {
+      "book_code": "cesa1",
+      "subject": "English",
+      "chapter": 1,
+      "pdf": "cesa101.pdf",
+      "text": "cesa101.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/cesa101.pdf",
+      "sha256": "7edb1e5edba5816abfd90729c5b12b038a6c32c202e39752115f062208067a7b",
+      "pages": 14,
+      "characters": 5714,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "cesa1",
+      "subject": "English",
+      "chapter": 2,
+      "pdf": "cesa102.pdf",
+      "text": "cesa102.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/cesa102.pdf",
+      "sha256": "da9b908b7c7e8111844fb290a11a70c337dd8d46cb32ff7659e4c1de15512ce4",
+      "pages": 10,
+      "characters": 5978,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "cesa1",
+      "subject": "English",
+      "chapter": 3,
+      "pdf": "cesa103.pdf",
+      "text": "cesa103.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/cesa103.pdf",
+      "sha256": "e9c3b98ad3719cebec70f9e79b53d1b594560d161914b60c36e2afead7cc88aa",
+      "pages": 11,
+      "characters": 5382,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "cesa1",
+      "subject": "English",
+      "chapter": 4,
+      "pdf": "cesa104.pdf",
+      "text": "cesa104.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/cesa104.pdf",
+      "sha256": "6d6498469931766e2873e917d6685067721b2badca51fd176ce68c144256fe27",
+      "pages": 8,
+      "characters": 3494,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "cesa1",
+      "subject": "English",
+      "chapter": 5,
+      "pdf": "cesa105.pdf",
+      "text": "cesa105.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/cesa105.pdf",
+      "sha256": "ac7b6df922be068fef91a84b1ad59dbb56b77abfae1b9ce3ba51dc32f9d46e5a",
+      "pages": 12,
+      "characters": 5917,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "cesa1",
+      "subject": "English",
+      "chapter": 6,
+      "pdf": "cesa106.pdf",
+      "text": "cesa106.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/cesa106.pdf",
+      "sha256": "8b878036f9fe07f5f36e58fdff86e51bd48bc21367dd993b6e296ce145bd91d0",
+      "pages": 12,
+      "characters": 7260,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "cesa1",
+      "subject": "English",
+      "chapter": 7,
+      "pdf": "cesa107.pdf",
+      "text": "cesa107.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/cesa107.pdf",
+      "sha256": "f386340d79a6626805c7ca38cf19fb40663d90b66d77bb2f78916a2ed2372374",
+      "pages": 10,
+      "characters": 5446,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "cesa1",
+      "subject": "English",
+      "chapter": 8,
+      "pdf": "cesa108.pdf",
+      "text": "cesa108.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/cesa108.pdf",
+      "sha256": "429ec1e9578470d92c0724ff393662b3d16cff02531f22735b68d05b9203b025",
+      "pages": 10,
+      "characters": 5688,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "cesa1",
+      "subject": "English",
+      "chapter": 9,
+      "pdf": "cesa109.pdf",
+      "text": "cesa109.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/cesa109.pdf",
+      "sha256": "38b6030caf7b4866bfadcde1c500a64a9d847168ed0a7430a1a95a6ca939bd67",
+      "pages": 14,
+      "characters": 9958,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "cesa1",
+      "subject": "English",
+      "chapter": 10,
+      "pdf": "cesa110.pdf",
+      "text": "cesa110.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/cesa110.pdf",
+      "sha256": "1e0377d7eddce6c9622dc5403bfd99e7ed3be17facbf3d9a499cb521a9539545",
+      "pages": 7,
+      "characters": 3393,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "cesa1",
+      "subject": "English",
+      "chapter": 11,
+      "pdf": "cesa111.pdf",
+      "text": "cesa111.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/cesa111.pdf",
+      "sha256": "2de04e20602be925abd1ce0a92f59b5ee110a161ac799021a7d97a9747d0e6f7",
+      "pages": 9,
+      "characters": 4994,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "cesa1",
+      "subject": "English",
+      "chapter": 12,
+      "pdf": "cesa112.pdf",
+      "text": "cesa112.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/cesa112.pdf",
+      "sha256": "5d1e64fd75f697e34df3cac2156c27f73dc1087cb4a76bd5e3ac62efc278d45b",
+      "pages": 11,
+      "characters": 7998,
+      "needs_ocr": false
+    }
+  ]
+}

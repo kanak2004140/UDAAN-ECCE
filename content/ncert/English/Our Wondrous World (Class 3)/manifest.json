@@ -1,0 +1,153 @@
+{
+  "book_title": "Our Wondrous World",
+  "class_number": 3,
+  "language": "English",
+  "publisher": "NCERT",
+  "license_information": "NCERT textbooks are made available by the National Council of Educational Research and Training (India) for educational use. Verify current licensing terms on ncert.nic.in before redistribution.",
+  "chapters": [
+    {
+      "book_code": "ceev1",
+      "subject": "The World Around Us",
+      "chapter": 1,
+      "pdf": "ceev101.pdf",
+      "text": "ceev101.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/ceev101.pdf",
+      "sha256": "16d57d64453c3f2c0e74aa93fa4b2d02ae53d2fb2dca3824f6fbcf8acdb18ba8",
+      "pages": 18,
+      "characters": 11969,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "ceev1",
+      "subject": "The World Around Us",
+      "chapter": 2,
+      "pdf": "ceev102.pdf",
+      "text": "ceev102.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/ceev102.pdf",
+      "sha256": "6b319db51be412ae1945819ce053c6535421c45b7f7f5fe28ae450af66b7bc53",
+      "pages": 15,
+      "characters": 7151,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "ceev1",
+      "subject": "The World Around Us",
+      "chapter": 3,
+      "pdf": "ceev103.pdf",
+      "text": "ceev103.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/ceev103.pdf",
+      "sha256": "674c08e607fdfe6be8662323dc0f444c6885422a0a38844168f31edc2a44e58b",
+      "pages": 11,
+      "characters": 6977,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "ceev1",
+      "subject": "The World Around Us",
+      "chapter": 4,
+      "pdf": "ceev104.pdf",
+      "text": "ceev104.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/ceev104.pdf",
+      "sha256": "eb3755a47f3ce56379fe4427801d3b5e4fe9fc9d0132106b088135a22d641f7a",
+      "pages": 17,
+      "characters": 13056,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "ceev1",
+      "subject": "The World Around Us",
+      "chapter": 5,
+      "pdf": "ceev105.pdf",
+      "text": "ceev105.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/ceev105.pdf",
+      "sha256": "45ccdcffab2cf363f12326fa3730c590e787965a0f15e453ec845ebe7bf76c60",
+      "pages": 10,
+      "characters": 6816,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "ceev1",
+      "subject": "The World Around Us",
+      "chapter": 6,
+      "pdf": "ceev106.pdf",
+      "text": "ceev106.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/ceev106.pdf",
+      "sha256": "c6ff12909dfe671eb18647d47c05e7eea646e0610974853148843e5ad401b638",
+      "pages": 12,
+      "characters": 8859,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "ceev1",
+      "subject": "The World Around Us",
+      "chapter": 7,
+      "pdf": "ceev107.pdf",
+      "text": "ceev107.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/ceev107.pdf",
+      "sha256": "cd42cb5b8674897c326ff05b9c4f5c30b5a428c8035b351b00993be9823a2691",
+      "pages": 16,
+      "characters": 13363,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "ceev1",
+      "subject": "The World Around Us",
+      "chapter": 8,
+      "pdf": "ceev108.pdf",
+      "text": "ceev108.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/ceev108.pdf",
+      "sha256": "88b5d32e26c28f5d6d1ed203e548c652c230f8229d23da16f04eb89220f609c1",
+      "pages": 9,
+      "characters": 6507,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "ceev1",
+      "subject": "The World Around Us",
+      "chapter": 9,
+      "pdf": "ceev109.pdf",
+      "text": "ceev109.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/ceev109.pdf",
+      "sha256": "533b7395b960d76ba192d2aca12e0177025fdbef66f7e12693f39d0e8b2aed17",
+      "pages": 12,
+      "characters": 9924,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "ceev1",
+      "subject": "The World Around Us",
+      "chapter": 10,
+      "pdf": "ceev110.pdf",
+      "text": "ceev110.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/ceev110.pdf",
+      "sha256": "309ead0009e901e3bb651ee2759f1392f9e2b1a3c91ad93402e88e51e1555600",
+      "pages": 14,
+      "characters": 12414,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "ceev1",
+      "subject": "The World Around Us",
+      "chapter": 11,
+      "pdf": "ceev111.pdf",
+      "text": "ceev111.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/ceev111.pdf",
+      "sha256": "2bc47bbe9b1d516d506fa31d15fa4a39a4b8ea22440de83acf56613578323f0e",
+      "pages": 14,
+      "characters": 7418,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "ceev1",
+      "subject": "The World Around Us",
+      "chapter": 12,
+      "pdf": "ceev112.pdf",
+      "text": "ceev112.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/ceev112.pdf",
+      "sha256": "d6246972a3459874cdfa8ff6c6acb200b71e6d4adc0267c3af14fd3d7651642e",
+      "pages": 16,
+      "characters": 10220,
+      "needs_ocr": false
+    }
+  ]
+}

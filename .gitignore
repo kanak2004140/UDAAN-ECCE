@@ -5,7 +5,6 @@ __pycache__/
 venv/
 backend/venv/
 backend/app/__pycache__/
-.claude
 
 # Node / Next.js
 node_modules/
@@ -23,3 +22,10 @@ Thumbs.db
 .env
 .env.*
 Chat_Reference.md
+
+# NCERT original PDFs. ~1 GB for English Class 1-4 alone and tens of GB once all
+# 23 languages are in, so they stay on disk (content/ncert/<Language>/<Book>/) but
+# out of git. The extracted .txt files and each book's manifest.json (source URLs +
+# SHA-256 of every PDF) ARE committed; re-download the PDFs with
+# `python -m app.ingestion.ingest_wave` and verify them against the manifest.
+content/ncert/**/*.pdf

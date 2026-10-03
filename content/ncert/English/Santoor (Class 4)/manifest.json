@@ -1,0 +1,153 @@
+{
+  "book_title": "Santoor",
+  "class_number": 4,
+  "language": "English",
+  "publisher": "NCERT",
+  "license_information": "NCERT textbooks are made available by the National Council of Educational Research and Training (India) for educational use. Verify current licensing terms on ncert.nic.in before redistribution.",
+  "chapters": [
+    {
+      "book_code": "desa1",
+      "subject": "English",
+      "chapter": 1,
+      "pdf": "desa101.pdf",
+      "text": "desa101.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/desa101.pdf",
+      "sha256": "a597bfd917184205e76d41eee945ecfaa2325d4ccabb82cfdc4bed13bb218d96",
+      "pages": 8,
+      "characters": 5643,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "desa1",
+      "subject": "English",
+      "chapter": 2,
+      "pdf": "desa102.pdf",
+      "text": "desa102.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/desa102.pdf",
+      "sha256": "f7d5e4a107b7943eb71f50d4b8c4692f522bc5bcc154928d4e50b5f15b58535f",
+      "pages": 16,
+      "characters": 12895,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "desa1",
+      "subject": "English",
+      "chapter": 3,
+      "pdf": "desa103.pdf",
+      "text": "desa103.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/desa103.pdf",
+      "sha256": "14c1ba48d4cd5e191d93558f90806de01001cb6ecf9a3cb65a275f5cb78498e4",
+      "pages": 10,
+      "characters": 8028,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "desa1",
+      "subject": "English",
+      "chapter": 4,
+      "pdf": "desa104.pdf",
+      "text": "desa104.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/desa104.pdf",
+      "sha256": "b810e06fe2daa6db50ef1f193a8544aaab828dcf614d3d7accb8296f57f9624b",
+      "pages": 8,
+      "characters": 4599,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "desa1",
+      "subject": "English",
+      "chapter": 5,
+      "pdf": "desa105.pdf",
+      "text": "desa105.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/desa105.pdf",
+      "sha256": "854ba6e3fdc5ba77524cdefb0d324a2e7b241b49cb2629ac8ced905e98cfabd9",
+      "pages": 12,
+      "characters": 8453,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "desa1",
+      "subject": "English",
+      "chapter": 6,
+      "pdf": "desa106.pdf",
+      "text": "desa106.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/desa106.pdf",
+      "sha256": "017f322377dc14b64131b53f0673880744558f8fc89affc1c4a801ebbfc72e64",
+      "pages": 12,
+      "characters": 7996,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "desa1",
+      "subject": "English",
+      "chapter": 7,
+      "pdf": "desa107.pdf",
+      "text": "desa107.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/desa107.pdf",
+      "sha256": "da30f02bfdbc61f225db66ae022d2de6cbf1b004d89fb4a4d9f7211b123a2fd5",
+      "pages": 6,
+      "characters": 4218,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "desa1",
+      "subject": "English",
+      "chapter": 8,
+      "pdf": "desa108.pdf",
+      "text": "desa108.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/desa108.pdf",
+      "sha256": "ae67eab2ef33dbfc1d2549357c939b8ae9190d11f66f1a6d49509a19f2fef74f",
+      "pages": 16,
+      "characters": 12901,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "desa1",
+      "subject": "English",
+      "chapter": 9,
+      "pdf": "desa109.pdf",
+      "text": "desa109.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/desa109.pdf",
+      "sha256": "3e2efb5da1567d4fc6334be1c7e4894e6d963a72731475aaf0545310279cf6b7",
+      "pages": 14,
+      "characters": 10155,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "desa1",
+      "subject": "English",
+      "chapter": 10,
+      "pdf": "desa110.pdf",
+      "text": "desa110.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/desa110.pdf",
+      "sha256": "3cc104e3e2d5adf4ed1e57d6e6c9023ed0933a820150f47c28e5a54af6d9bcba",
+      "pages": 8,
+      "characters": 5649,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "desa1",
+      "subject": "English",
+      "chapter": 11,
+      "pdf": "desa111.pdf",
+      "text": "desa111.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/desa111.pdf",
+      "sha256": "1da15e0d2c8d0dfcd8ce76bcabc1f7fba7921fcd7db62bac8ad1c43ab151b87c",
+      "pages": 14,
+      "characters": 11631,
+      "needs_ocr": false
+    },
+    {
+      "book_code": "desa1",
+      "subject": "English",
+      "chapter": 12,
+      "pdf": "desa112.pdf",
+      "text": "desa112.txt",
+      "source_url": "https://ncert.nic.in/textbook/pdf/desa112.pdf",
+      "sha256": "ac220bc588d410e2cc136a98107e5adf2cf599d886ffe9eb2b0c88fb66caebaa",
+      "pages": 12,
+      "characters": 9196,
+      "needs_ocr": false
+    }
+  ]
+}
