@@ -110,6 +110,11 @@ Important routes include:
 | GET | `/activity-attempts/session/{id}` | Get session attempts |
 | POST | `/learning-progress` | Create or update progress |
 | GET | `/learning-progress/child/{id}` | Get child progress |
+| GET | `/topics` | List topics (filter by `age_group`, `subject_id`) |
+| GET | `/topics/{topic_id}` | Get one topic |
+| GET | `/languages` | List active languages |
+| GET | `/content-sources` | List approved NCERT source chapters (authenticated) |
+| POST | `/lessons/generate` | Generate a lesson for a topic from approved NCERT text (authenticated) |
 | GET | `/health` | Check API and database health |
 
 Interactive API documentation is available at:
@@ -152,15 +157,52 @@ Important tables:
 - `learning_sessions`
 - `activity_attempts`
 - `learning_progress`
+- `content_sources` (one row per ingested NCERT chapter)
+- `content_chunks` (retrievable text chunks with embeddings)
 
 Passwords are stored as hashes, never as plain text.
+
+## NCERT Content
+
+Official NCERT Class 1-4 textbooks are downloaded per language and stored by book:
+
+```text
+content/ncert/
+  English/
+    Maths Mela (Class 3)/
+      cemm101.pdf      original download (kept out of git, see below)
+      cemm101.txt      text extracted from that PDF
+      manifest.json    chapters, source URLs and the SHA-256 of every PDF
+    Mridang (Class 1)/
+  Hindi/
+  Marathi/
+```
+
+Run from `backend/` with the virtual environment active:
+
+```powershell
+python -m app.ingestion.ingest_wave --languages English --dry-run   # which book codes are live
+python -m app.ingestion.ingest_wave --languages English             # download + extract text
+python -m app.ingestion.chunk_and_embed                             # chunk + multilingual embeddings
+python -m app.ingestion.organize_content --apply                    # curriculum > subject > topic + age band
+python -m app.ingestion.organize_content --approve --book-code cemm1   # only after reviewing the text
+python -m app.ingestion.organize_files                              # tidy folders, refresh manifests
+```
+
+The PDFs are listed in `.gitignore`: English Class 1-4 alone is about 1 GB, and all 23 languages
+would be tens of GB, which GitHub and the deployment builds cannot handle well. The extracted text
+and the manifests are committed. To restore the PDFs on another machine, re-run `ingest_wave` and
+compare each file with the SHA-256 in its book's `manifest.json`.
+
+Ingested content is never served to children until it has been reviewed and approved
+(`review_status = approved`).
 
 ## Migrations
 
 Alembic manages all schema changes. Current migration head:
 
 ```text
-c8d3e5f7a012
+f5b4ccfa61cc
 ```
 
 Apply migrations with the existing backend virtual environment:
@@ -231,16 +273,13 @@ NEXT_PUBLIC_API_URL=http://127.0.0.1:8000
 
 The project currently demonstrates the complete age-aware data and persistence foundation. The current activity completion control records completion and progress, but the activities are not yet full interactive games with answer evaluation.
 
-Future work includes:
+Phased future work (full detail in `ECCE_UDAAN_Roadmap.md`):
 
-- Real answer-selection and answer-evaluation interfaces.
-- Matching, sorting, counting, quizzes, and drag-and-drop activities.
-- Regional-language content and audio.
-- Voice-first learning.
-- Offline content packages and synchronization.
-- AI recommendations and adaptive difficulty.
-- AR and computer-vision activities.
-- Parent and teacher progress dashboards.
+- **Deployment (Phases 10-13):** move the database to Neon, deploy the backend (Render/Railway/VPS) and frontend (Vercel), then smoke-test the live stack.
+- **NCERT content & AI tutor pipeline (Phases 14-23):** scrape and ingest real NCERT-sourced material into `ContentSource`, chunk and embed it with `pgvector`, classify it by age band/topic, and retrieve + generate lessons via RAG. Ages 4-8 get generated text/speech lessons; ages 2-4/2-6 get a language-independent pre-generated video paired with a per-language narration script read aloud by on-device offline TTS. The assistant switches between live generation (online) and cached video + local TTS (offline).
+- **Frontend track (Phases 14F-21F):** build the missing pieces the current frontend doesn't have yet — shared app state, an age-differentiated topic picker, a real generated-lesson renderer, a video/script player, a language picker, genuinely offline-capable TTS, and connectivity-aware caching (service worker/IndexedDB) — each paired with its corresponding backend phase above.
+- **Product improvements (Phases 24-27, lower priority):** per-activity progress granularity, an AI/ML classifier upgrade once the manual version proves out, multilingual content at scale, and broader offline hardening beyond content serving.
+- Matching, sorting, counting, quizzes, and drag-and-drop activity types; AR/computer-vision activities; parent and teacher progress dashboards remain unscoped beyond this list.
 
 ## Validation
 
