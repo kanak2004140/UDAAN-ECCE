@@ -18,6 +18,10 @@ frontend/out/
 .DS_Store
 Thumbs.db
 
+# Local Claude Code settings (can hold machine-local API tokens; one was
+# committed and rotated out in d8ce442 - keep this folder out of git).
+.claude
+
 # DataBase
 .env
 .env.*

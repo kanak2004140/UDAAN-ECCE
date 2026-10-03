@@ -84,6 +84,9 @@ def chunk_and_embed_source(db, source: ContentSource) -> int:
     if source.source_metadata.get("needs_ocr"):
         print(f"  {source.id}: scanned PDF with no extractable text (needs OCR), skipping")
         return 0
+    if source.source_metadata.get("needs_reextraction"):
+        print(f"  {source.id}: text extraction looks corrupted (needs re-extraction), skipping")
+        return 0
 
     text_path = source.source_metadata.get("extracted_text_path")
     text_file = resolve_stored_path(text_path) if text_path else None

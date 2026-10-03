@@ -26,6 +26,18 @@ from app.services.embeddings import EMBEDDING_MODEL_NAME, embed_query
 
 GENERATION_MODEL_NAME = "claude-sonnet-5-5"
 DEFAULT_TOP_K = 5
+ANTHROPIC_TIMEOUT_SECONDS = 30.0
+
+# One client, not one per request: avoids a new connection pool per call and
+# lets a real request timeout be set (the SDK default has none).
+_client: Anthropic | None = None
+
+
+def _get_client() -> Anthropic:
+    global _client
+    if _client is None:
+        _client = Anthropic(api_key=settings.ANTHROPIC_API_KEY, timeout=ANTHROPIC_TIMEOUT_SECONDS)
+    return _client
 
 
 class LessonGenerationError(Exception):
@@ -102,8 +114,7 @@ def generate_lesson_text(topic: Topic, age_group: str, chunks: list[RetrievedChu
         )
 
     system_prompt, user_prompt = build_prompt(topic, age_group, chunks)
-    client = Anthropic(api_key=settings.ANTHROPIC_API_KEY)
-    response = client.messages.create(
+    response = _get_client().messages.create(
         model=GENERATION_MODEL_NAME,
         max_tokens=1024,
         system=system_prompt,
@@ -128,6 +139,11 @@ def generate_lesson_for_topic(db: Session, topic: Topic) -> LessonResult:
         raise LessonGenerationError(
             f"No approved content is available yet for topic '{topic.name}'."
         )
+
+    # All chunk data needed below is already loaded in memory - end the
+    # transaction before the slow, external LLM call so this request's DB
+    # connection isn't held (and its rows locked) for that whole duration.
+    db.commit()
 
     lesson_text = generate_lesson_text(topic, topic.age_group, retrieved)
 

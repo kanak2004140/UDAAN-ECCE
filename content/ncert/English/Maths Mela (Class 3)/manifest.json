@@ -15,7 +15,8 @@
       "sha256": "132dd4936bba5e6c667d185cd8aba40291f2e38c58dae33edd370771c39e2d07",
       "pages": 8,
       "characters": 7096,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "cemm1",
@@ -27,7 +28,8 @@
       "sha256": "51c5e4d3fd9f17f2d0d52547e21283b42bdb68d6978c8a5c1c07ecc998c131f4",
       "pages": 7,
       "characters": 4772,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "cemm1",
@@ -39,7 +41,8 @@
       "sha256": "8d8a22be9fbe6d12902aedf31b6dc2aa7feb922b8c62d59278be828dbaf9f482",
       "pages": 13,
       "characters": 9566,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "cemm1",
@@ -51,7 +54,8 @@
       "sha256": "40c381af94720ce3b9138f522f3ab36bfdb0127069ad53740078fb10643cafab",
       "pages": 15,
       "characters": 13465,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "cemm1",
@@ -63,7 +67,8 @@
       "sha256": "a004efac4fc26edf30854f610a93cf3f8f2c9db0ef0b49785945456662cb6d73",
       "pages": 20,
       "characters": 11580,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "cemm1",
@@ -75,7 +80,8 @@
       "sha256": "b2a63a9f5b7b704ccf7e8898a3343fd2bb10b92e26c5f4a02f8d271c60dd57dd",
       "pages": 18,
       "characters": 13442,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "cemm1",
@@ -87,7 +93,8 @@
       "sha256": "2dbfef60f731ab5184fe00c5167ebfe379a26c31c7377e5e29ab027853198c5b",
       "pages": 25,
       "characters": 19230,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "cemm1",
@@ -99,7 +106,8 @@
       "sha256": "1d292fbeaea2dbcef03edcda7f1aff88922a60b334b99a80152b4fe2f22002c9",
       "pages": 10,
       "characters": 6112,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "cemm1",
@@ -111,7 +119,8 @@
       "sha256": "11995377670386e115d2e9134da8ef223e4747e91b43251097e0fa2aab7d2d45",
       "pages": 11,
       "characters": 8508,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "cemm1",
@@ -123,7 +132,8 @@
       "sha256": "796a5f4b8e432c1e9460aaf1ce77aca853b0aacc7b278f4f3c98f41af653ad3e",
       "pages": 11,
       "characters": 7655,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "cemm1",
@@ -135,7 +145,8 @@
       "sha256": "098adfa8a5b2687824b06115fb8b639dfa3f7dd19934d69ea1f5bcb9ed56836a",
       "pages": 11,
       "characters": 9857,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "cemm1",
@@ -147,7 +158,8 @@
       "sha256": "ab468f8a5242626c61dea706c7fabc1e7bc05004716c211e671213ae28eefb44",
       "pages": 15,
       "characters": 9081,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "cemm1",
@@ -159,7 +171,8 @@
       "sha256": "57c09d321f5f8a8d668d24b1556b6cf07ed26650dcede0003ae4915e8a2bbfd6",
       "pages": 12,
       "characters": 8391,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "cemm1",
@@ -171,7 +184,8 @@
       "sha256": "06184b26b1f137e81423051423298fa56290b4ba7539a29bf0d1199a50ae21f1",
       "pages": 32,
       "characters": 12436,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     }
   ]
 }

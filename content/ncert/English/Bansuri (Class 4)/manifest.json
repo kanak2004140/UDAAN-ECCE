@@ -15,7 +15,8 @@
       "sha256": "f479d228bcdc31517e55dc7e907914ec1ccc2fe8b9629430b3f880518c1b3a03",
       "pages": 17,
       "characters": 11406,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "debu1",
@@ -27,7 +28,8 @@
       "sha256": "c19193ca4c30c0e1d253611ce86a5759f53cd924c309e261099ad95e44e0b11e",
       "pages": 8,
       "characters": 4620,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "debu1",
@@ -39,7 +41,8 @@
       "sha256": "50cff0b6b6ceacf064245821920c9979c333e9c5a1e81735d5464e1a17d429fe",
       "pages": 11,
       "characters": 3991,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "debu1",
@@ -51,7 +54,8 @@
       "sha256": "ea8fb9ce4c9876a635c451fc78fe1f63c153898b92929b04e8f7ff6ee412cbd9",
       "pages": 12,
       "characters": 5289,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "debu1",
@@ -63,7 +67,8 @@
       "sha256": "7c136274d9706b4f79333259109d57fd69ce2878ab19a7ac56cbc6f0f1eb3dac",
       "pages": 12,
       "characters": 12896,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "debu1",
@@ -75,7 +80,8 @@
       "sha256": "717331b0fc2eeb7e10419bea1d060c7657e09697145a041c4d2b8f4014775aff",
       "pages": 12,
       "characters": 9738,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "debu1",
@@ -87,7 +93,8 @@
       "sha256": "f081f8a1fee0d365a4228570eef8227b6e73191989594970e89955e1764bc255",
       "pages": 9,
       "characters": 8799,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "debu1",
@@ -99,7 +106,8 @@
       "sha256": "2eb1b89d0c2bf14e541db2b3737407ec621ebc3d192a91c3b2a1ccf1f80aa70a",
       "pages": 9,
       "characters": 7441,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "debu1",
@@ -111,7 +119,8 @@
       "sha256": "693ddc63ef216f95820533698546c6a17007d6e1bdcadeb84bba3f6469ec3f9c",
       "pages": 9,
       "characters": 8450,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "debu1",
@@ -123,7 +132,8 @@
       "sha256": "00298b9111ee3e370095205b20d356492e938e4e7eaebc39f6115b3f8de08c37",
       "pages": 8,
       "characters": 6433,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "debu1",
@@ -135,7 +145,8 @@
       "sha256": "75559d3f6946ac4413664352eb68f4df6813bb7d4c50e15c6ac7e47e998d68e0",
       "pages": 7,
       "characters": 5615,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "debu1",
@@ -147,7 +158,8 @@
       "sha256": "4f26afedcfe325324b725c04245c966221c04823c8f38c5c363b42c9076c998c",
       "pages": 12,
       "characters": 9783,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "debu1",
@@ -159,7 +171,8 @@
       "sha256": "f3495d003769b6e44afb3b73cc452e7a9ae6b91a192513d4bccbd168bd0399eb",
       "pages": 10,
       "characters": 6916,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "debu1",
@@ -171,7 +184,8 @@
       "sha256": "b1ad5ee305c948736ab2a7f313e4c09e967c51e53edede34ddea5c7fd449aea9",
       "pages": 13,
       "characters": 9466,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "debu1",
@@ -183,7 +197,8 @@
       "sha256": "3504a409516e1fca5b50a1d49b433adfe6844835bb9d2eca1e9beee693af270d",
       "pages": 7,
       "characters": 4489,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "debu1",
@@ -195,7 +210,8 @@
       "sha256": "fcd02eaf3aa3eb1553bdf88e2860301d9c8f1ca365511e50d5b51f3c6df30e95",
       "pages": 13,
       "characters": 7212,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "debu1",
@@ -207,7 +223,8 @@
       "sha256": "ecd6347bd024e8aa288a0c37b292054d97d3d3448d3251902699e22f72de6646",
       "pages": 5,
       "characters": 2145,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "debu1",
@@ -219,7 +236,8 @@
       "sha256": "fb873acd9bca823582c90f5fdc74abaa2120de9345b7aa8fd346e756e787c448",
       "pages": 6,
       "characters": 2239,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     }
   ]
 }

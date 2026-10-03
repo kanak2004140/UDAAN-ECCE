@@ -15,7 +15,8 @@
       "sha256": "1aca7385d35d30558ce4374daba73bce6868353a469d399ac6e6c4b340c092ee",
       "pages": 11,
       "characters": 7769,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "ceky1",
@@ -27,7 +28,8 @@
       "sha256": "b02b99a18a9e00790f76083e07c3fadeaca9648577467aff9a695a48322b2417",
       "pages": 9,
       "characters": 6364,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "ceky1",
@@ -39,7 +41,8 @@
       "sha256": "1cf96f14ad97c87d30e2b4cb4358ddf4613113ec6ad8117439d29df0fdf7fcbe",
       "pages": 9,
       "characters": 6901,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "ceky1",
@@ -51,7 +54,8 @@
       "sha256": "923b3feac4d83900d222861af3660d7b59e5eec254975e1a2ee5f844f68e924c",
       "pages": 15,
       "characters": 8474,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "ceky1",
@@ -63,7 +67,8 @@
       "sha256": "2859f99b3e2ffa53d3698487a3dbd0f50e17998f4ac57cc510629822954d6ed3",
       "pages": 24,
       "characters": 18838,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "ceky1",
@@ -75,7 +80,8 @@
       "sha256": "61c7d01eceb20a5411b6bc20b9c32e0d58c4bb7c3786be7153d107cfc98d1c37",
       "pages": 16,
       "characters": 9141,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "ceky1",
@@ -87,7 +93,8 @@
       "sha256": "8e0d136c69090fa80ffab2f9037fcfc185a61fab35324b2d77a5221f97ff7f3e",
       "pages": 54,
       "characters": 41806,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     }
   ]
 }

@@ -32,6 +32,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import re
 import sys
 import time
 from dataclasses import dataclass, field
@@ -52,6 +53,19 @@ USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 
 # Below this many extracted characters per page, a PDF is treated as scanned.
 MIN_CHARS_PER_PAGE = 40
+
+# A PDF with a custom font whose ToUnicode map is offset (seen in "Bansuri -
+# I (Class 3)") extracts as cipher-shifted gibberish rather than garbage, so
+# it passes the scanned-PDF check above but is still wrong. These C0 control
+# characters are a reliable tell - but \x07 and \x08 are excluded: NCERT uses
+# those broadly as bullet/checkbox glyphs in otherwise-clean books (verified
+# across 14 books), so including them made this check fire on 97 of 195
+# chapters instead of the real 18.
+_CONTROL_CHAR_RE = re.compile(r"[\x00-\x06\x0b\x0c\x0e-\x1f]")
+
+
+def looks_garbled(text: str) -> bool:
+    return bool(_CONTROL_CHAR_RE.search(text))
 
 
 class ChapterFetchError(Exception):
@@ -163,7 +177,8 @@ def _ingest_chapter(
 
     chars_per_page = len(text.strip()) / max(num_pages, 1)
     needs_ocr = chars_per_page < MIN_CHARS_PER_PAGE
-    if needs_ocr:
+    needs_reextraction = looks_garbled(text)
+    if needs_ocr or needs_reextraction:
         result.needs_ocr_chapters.append(chapter_number)
 
     url = chapter_url(book_code, chapter_number)
@@ -201,6 +216,7 @@ def _ingest_chapter(
                 "char_count": len(text),
                 "chars_per_page": round(chars_per_page, 1),
                 "needs_ocr": needs_ocr,
+                "needs_reextraction": needs_reextraction,
             },
         )
     )

@@ -15,7 +15,8 @@
       "sha256": "e980949cb7dcc8e925a9605398a8d43d069d3991cb9ba0c9a84bb540209aa89c",
       "pages": 14,
       "characters": 5558,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "aemr1",
@@ -27,7 +28,8 @@
       "sha256": "d33e850133d57b5e722ba044abab10157c42d441466da354a5d8e288887dc877",
       "pages": 32,
       "characters": 10595,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "aemr1",
@@ -39,7 +41,8 @@
       "sha256": "a0a6ca47bcd2aea0800179981a54c96d88438e1066162c33bba04f7197e7153f",
       "pages": 7,
       "characters": 2062,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "aemr1",
@@ -51,7 +54,8 @@
       "sha256": "3a03cde433441aa312a7734aae4dac2d5d817458ac245afde21f716390a13e71",
       "pages": 21,
       "characters": 6954,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "aemr1",
@@ -63,7 +67,8 @@
       "sha256": "71b9527309c038e692d746c8abffe56b76d49e428380355d9929d287c3e503df",
       "pages": 9,
       "characters": 3410,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "aemr1",
@@ -75,7 +80,8 @@
       "sha256": "b1109285af6c816f5811c8ef8c5b36fb68bcac200d8e283b87571a7833a7155b",
       "pages": 14,
       "characters": 5276,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "aemr1",
@@ -87,7 +93,8 @@
       "sha256": "0947c9c6c7523fb67a0edfff94a3070dd69e465cbefc702c0508eeaa6c83218c",
       "pages": 8,
       "characters": 3121,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "aemr1",
@@ -99,7 +106,8 @@
       "sha256": "c30602b57e93dd02d6678e1365cb36866d3d215e698bd2ee7b536340891b0b9c",
       "pages": 9,
       "characters": 2347,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "aemr1",
@@ -111,7 +119,8 @@
       "sha256": "2b036ce71f781f7a75ef7693ceb04e61f9ae43b5ad36c8adbe74be8fc702be56",
       "pages": 8,
       "characters": 1935,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     }
   ]
 }

@@ -15,7 +15,8 @@
       "sha256": "ed3d9b6b69d1dc74462eb9b7a95cd29f5ef90ba04b496c33d08e1b743bcc3785",
       "pages": 7,
       "characters": 3208,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "bemr1",
@@ -27,7 +28,8 @@
       "sha256": "263f2b18aaf59b05fed6251cae3481681dd62f3d28b00ea3cc174de55efdf484",
       "pages": 10,
       "characters": 4546,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "bemr1",
@@ -39,7 +41,8 @@
       "sha256": "7d9f4e017f1fbfd7ec8f592782c2b1f640a29b052a71168727d3b283621dc1dd",
       "pages": 9,
       "characters": 3195,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "bemr1",
@@ -51,7 +54,8 @@
       "sha256": "1f47e1b278ee97404d9937404df6920c20e6a0c2ada228e274459f1656c4fa38",
       "pages": 10,
       "characters": 5308,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "bemr1",
@@ -63,7 +67,8 @@
       "sha256": "0040cc05bb23a85772dd1f28851dbdd3d652265363823eb8111e5b3426cc8c24",
       "pages": 5,
       "characters": 1893,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "bemr1",
@@ -75,7 +80,8 @@
       "sha256": "da4d91f30b1311f3a60528a3cee75aa824af940a414e7072e5f3b4325367a15d",
       "pages": 6,
       "characters": 2809,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "bemr1",
@@ -87,7 +93,8 @@
       "sha256": "43dd6c97488dc5fbf325e50e01b76ff533ab3aa7861361133c55315af738708d",
       "pages": 6,
       "characters": 2726,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "bemr1",
@@ -99,7 +106,8 @@
       "sha256": "2551fc4c160a851aef251f1839977da18ee290f2fcb2a20426f286cf2a222490",
       "pages": 7,
       "characters": 2866,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "bemr1",
@@ -111,7 +119,8 @@
       "sha256": "20b67d85c7ac1dd8f731e62ad2415e92dda664f41695eafb96301f6a15984e1c",
       "pages": 7,
       "characters": 4303,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "bemr1",
@@ -123,7 +132,8 @@
       "sha256": "2286b29f6e01d5ccce95fd41717727059ae9f68d3646422284e854aa87e6c05d",
       "pages": 8,
       "characters": 2754,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "bemr1",
@@ -135,7 +145,8 @@
       "sha256": "c36ff8e8e4f415d872023795b99c9139d213e3e1a900773e503bf99316780b0b",
       "pages": 8,
       "characters": 3757,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "bemr1",
@@ -147,7 +158,8 @@
       "sha256": "454854ee1d1a7f555c54571f61b1db5be8dfc449c5a2988a097079ce123eece6",
       "pages": 7,
       "characters": 3049,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "bemr1",
@@ -159,7 +171,8 @@
       "sha256": "eb42341f735655daa17239afd8a9a99297f988e209a69cc6c7452b1ee71e0094",
       "pages": 20,
       "characters": 9509,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     }
   ]
 }

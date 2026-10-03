@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { generateLesson, type LessonResponse } from "@/lib/api/lessons";
 import type { TopicResponse } from "@/lib/api/topics";
 import VideoScriptPlayer from "@/app/components/learning/VideoScriptPlayer";
@@ -21,6 +21,9 @@ export default function LessonPanel({ topic, variant = "text" }: LessonPanelProp
   const [lesson, setLesson] = useState<LessonResponse | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  // Re-selecting a topic (e.g. tapping back and forth) reuses the first
+  // generated lesson instead of paying for the LLM again every time.
+  const cacheRef = useRef(new Map<string, LessonResponse>());
 
   useEffect(() => {
     if (!topic) {
@@ -29,12 +32,22 @@ export default function LessonPanel({ topic, variant = "text" }: LessonPanelProp
       return;
     }
 
+    const cached = cacheRef.current.get(topic.id);
+    if (cached) {
+      setLesson(cached);
+      setError(null);
+      setLoading(false);
+      return;
+    }
+
     let isMounted = true;
+    setLesson(null);
     setLoading(true);
     setError(null);
 
     generateLesson(topic.id)
       .then((result) => {
+        cacheRef.current.set(topic.id, result);
         if (isMounted) setLesson(result);
       })
       .catch((err) => {
@@ -49,7 +62,8 @@ export default function LessonPanel({ topic, variant = "text" }: LessonPanelProp
     return () => {
       isMounted = false;
     };
-  }, [topic]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [topic?.id]);
 
   if (!topic) {
     return null;

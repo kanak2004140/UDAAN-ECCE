@@ -37,9 +37,9 @@ Age is calculated from the date of birth at registration and login.
 
 | Calculated age | Learning world |
 | --- | --- |
-| 2-4 years | `/learn/2-4` |
-| 5-6 years | `/learn/4-6` |
-| 7-8 years | `/learn/6-8` |
+| 2-3 years | `/learn/2-4` |
+| 4-5 years | `/learn/4-6` |
+| 6-8 years | `/learn/6-8` |
 
 Child registrations outside the 2-8 year range are rejected. Future dates of birth are also rejected.
 

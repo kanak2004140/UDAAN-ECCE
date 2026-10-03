@@ -104,6 +104,7 @@ def _manifest_entry(source: ContentSource, pdf: Path, txt: Path) -> dict:
         "pages": meta.get("num_pages"),
         "characters": meta.get("char_count"),
         "needs_ocr": bool(meta.get("needs_ocr")),
+        "needs_reextraction": bool(meta.get("needs_reextraction")),
     }
 
 

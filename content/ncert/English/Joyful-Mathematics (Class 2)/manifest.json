@@ -15,7 +15,8 @@
       "sha256": "ead718df99c547945c2b91072ccb4acd404f938244bf7aecda0c4e62d15f5b1d",
       "pages": 15,
       "characters": 9738,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "bejm1",
@@ -27,7 +28,8 @@
       "sha256": "e10a9e89b025c49d9e09f10646b1afa7a2914cdbe3113a31c3761ee8d59cd12d",
       "pages": 7,
       "characters": 3230,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "bejm1",
@@ -39,7 +41,8 @@
       "sha256": "50aae164e6b0afecf06146e89590c9295340def4d2d04a330f9accd138f68e75",
       "pages": 9,
       "characters": 7438,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "bejm1",
@@ -51,7 +54,8 @@
       "sha256": "4e4179a780d250af7a5e224884a39352fbf23e7bbf81572cfbf231cae340f521",
       "pages": 12,
       "characters": 5768,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "bejm1",
@@ -63,7 +67,8 @@
       "sha256": "0e0c9c3c859a61f3c445282a538c4b3f5d54fcace503412ae4945511e97c9bb5",
       "pages": 6,
       "characters": 2197,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "bejm1",
@@ -75,7 +80,8 @@
       "sha256": "c1abaf8014726e27e379ebbe4983ebd18207286083dc17f5071954833474c77e",
       "pages": 21,
       "characters": 11584,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "bejm1",
@@ -87,7 +93,8 @@
       "sha256": "14f870100d12aaad24055d26025d4d45af7e38ffeb334cf48b85fe1866adbb5d",
       "pages": 12,
       "characters": 5712,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "bejm1",
@@ -99,7 +106,8 @@
       "sha256": "3dd3b7075398ea08638e1703850548d4a6ab50446c6758141b057b95a17f41f9",
       "pages": 15,
       "characters": 6924,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "bejm1",
@@ -111,7 +119,8 @@
       "sha256": "02fbceec63a33eafe168ca92ee746e018ccaaa317a7e21647ac29aa32a5195a2",
       "pages": 15,
       "characters": 10021,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "bejm1",
@@ -123,7 +132,8 @@
       "sha256": "7070c75f6b25101883da5a4fab480eb9f1806770e2c40a2d748be327482d1763",
       "pages": 10,
       "characters": 4131,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     },
     {
       "book_code": "bejm1",
@@ -135,7 +145,8 @@
       "sha256": "1ffd8c2b779633eb21c729ca5de29edc72be1f4aa41e971b1bf5e7295ec0c8f0",
       "pages": 16,
       "characters": 6958,
-      "needs_ocr": false
+      "needs_ocr": false,
+      "needs_reextraction": false
     }
   ]
 }

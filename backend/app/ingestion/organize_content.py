@@ -32,14 +32,16 @@ from app.database import SessionLocal
 from app.models.content_chunk import ContentChunk
 from app.models.content_source import ContentSource
 from app.models.curriculum import Curriculum
+from app.models.learning_object import LearningObject
 from app.models.subject import Subject
 from app.models.topic import Topic
 
-# Judgment call, easy to change: the app's bands are 2-4 / 4-6 / 6-8 and its
-# age rule puts 5-6 year olds in 4-6 and 7-8 year olds in 6-8. Class 1 children
-# are ~5-6, Class 2 ~6-7, Class 3 ~7-8, Class 4 ~8-9 (closest band: 6-8).
-# NCERT has no textbooks for ages 2-4, so that band gets no NCERT content.
-CLASS_TO_AGE_GROUP = {1: "4-6", 2: "4-6", 3: "6-8", 4: "6-8"}
+# The app's own rule (app/age_groups.py): ages 2-3 -> "2-4", 4-5 -> "4-6",
+# 6-8 -> "6-8". Class 1 starts at age 6 (Class 4 is ages 9-10, just past the
+# top of the range, so 6-8 is the closest band), which puts every Class 1-4
+# textbook in "6-8". The 2-4 and 4-6 bands have no NCERT *textbooks*; their
+# NCERT material is the Balvatika / Jaadui Pitara set, ingested separately.
+CLASS_TO_AGE_GROUP = {1: "6-8", 2: "6-8", 3: "6-8", 4: "6-8"}
 
 CURRICULUM_NAME = "NCERT Primary (Classes 1-4)"
 
@@ -52,11 +54,13 @@ def _get_or_create_curriculum(db) -> Curriculum:
         curriculum = Curriculum(
             name=CURRICULUM_NAME,
             description="Official NCERT textbooks for Classes 1-4.",
-            min_age_group="4-6",
+            min_age_group="6-8",
             max_age_group="6-8",
         )
         db.add(curriculum)
         db.flush()
+    elif (curriculum.min_age_group, curriculum.max_age_group) != ("6-8", "6-8"):
+        curriculum.min_age_group = curriculum.max_age_group = "6-8"
     return curriculum
 
 
@@ -92,9 +96,34 @@ def _get_or_create_topic(db, subject: Subject, name: str, age_group: str, order:
     return topic
 
 
+def _remove_stale_topics(db, curriculum: Curriculum, keep_ids: set) -> int:
+    """Delete topics of this curriculum that this run did not use and that no
+    learning object refers to (e.g. topics from before the class was added to
+    topic names). Only ever touches this curriculum's own subjects."""
+    subject_ids = [row.id for row in db.query(Subject.id).filter(Subject.curriculum_id == curriculum.id)]
+    if not subject_ids:
+        return 0
+    in_use_by_objects = {
+        row.topic_id for row in db.query(LearningObject.topic_id).filter(LearningObject.topic_id.isnot(None))
+    }
+    stale = [
+        t for t in db.query(Topic).filter(Topic.subject_id.in_(subject_ids)).all()
+        if t.id not in keep_ids and t.id not in in_use_by_objects
+    ]
+    stale_ids = [t.id for t in stale]
+    if stale_ids:
+        db.query(ContentChunk).filter(ContentChunk.topic_id.in_(stale_ids)).update(
+            {"topic_id": None}, synchronize_session=False
+        )
+        for topic in stale:
+            db.delete(topic)
+    return len(stale)
+
+
 def apply_organization(db) -> None:
     curriculum = _get_or_create_curriculum(db)
     organized = skipped_lang = skipped_ocr = skipped_other = 0
+    touched_topic_ids: set = set()
 
     sources = db.query(ContentSource).filter(ContentSource.source_type == "ncert_pdf").all()
     for source in sources:
@@ -102,7 +131,7 @@ def apply_organization(db) -> None:
         if meta.get("language") != "English":
             skipped_lang += 1
             continue
-        if meta.get("needs_ocr"):
+        if meta.get("needs_ocr") or meta.get("needs_reextraction"):
             skipped_ocr += 1
             continue
 
@@ -114,16 +143,22 @@ def apply_organization(db) -> None:
             print(f"  skipping unrecognized source: {source.title!r}")
             continue
 
-        book, chapter = match.group("book"), int(match.group("ch"))
+        # Class is part of the topic name: the same book title (e.g. Mridang,
+        # Santoor) appears in two classes, and without it their chapters
+        # would be merged into one topic.
+        language = match.group("lang")
+        book = re.sub(rf"\s*\({re.escape(language)}\)\s*$", "", match.group("book"), flags=re.I).strip()
+        chapter = int(match.group("ch"))
         subject = _get_or_create_subject(db, curriculum, source.subject)
         topic = _get_or_create_topic(
             db,
             subject,
-            name=f"{book} - Chapter {chapter}",
+            name=f"{book} (Class {class_number}) - Chapter {chapter}",
             age_group=age_group,
             order=chapter,
             description=f"NCERT Class {class_number} {source.subject}: {book}, chapter {chapter}.",
         )
+        touched_topic_ids.add(topic.id)
 
         source.age_group = age_group
         db.query(ContentChunk).filter(ContentChunk.content_source_id == source.id).update(
@@ -131,7 +166,10 @@ def apply_organization(db) -> None:
         )
         organized += 1
 
+    removed = _remove_stale_topics(db, curriculum, touched_topic_ids)
     db.commit()
+    if removed:
+        print(f"Removed {removed} stale NCERT topic(s) left by an earlier layout.")
     print(
         f"Organized {organized} chapter(s). Skipped: {skipped_lang} non-English, "
         f"{skipped_ocr} needing OCR, {skipped_other} unrecognized. "
@@ -166,7 +204,7 @@ def approve(db, book_code: str | None, all_: bool) -> None:
 
     count = 0
     for source in query.all():
-        if source.source_metadata.get("needs_ocr"):
+        if source.source_metadata.get("needs_ocr") or source.source_metadata.get("needs_reextraction"):
             continue
         source.review_status = "approved"
         db.query(ContentChunk).filter(ContentChunk.content_source_id == source.id).update(
