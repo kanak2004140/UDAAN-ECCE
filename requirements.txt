@@ -10,3 +10,9 @@ alembic
 werkzeug
 email-validator
 PyJWT
+requests
+pymupdf
+fonttools
+pgvector
+sentence-transformers
+anthropic

@@ -14,6 +14,7 @@ class Settings(BaseSettings):
 
     DATABASE_URL: str
     AUTH_SECRET_KEY: str = "ecce-development-secret-key-change-me-32chars"
+    ANTHROPIC_API_KEY: str | None = None
 
 
 settings = Settings()

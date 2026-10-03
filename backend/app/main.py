@@ -11,6 +11,9 @@ from app.routers.learning_objects import router as learning_objects_router
 from app.routers.activity_attempts import router as activity_attempts_router
 from app.routers.learning_progress import router as learning_progress_router
 from app.routers.content_sources import router as content_sources_router
+from app.routers.topics import router as topics_router
+from app.routers.lessons import router as lessons_router
+from app.routers.languages import router as languages_router
 
 from app.database import engine
 
@@ -44,6 +47,9 @@ app.include_router(learning_objects_router)
 app.include_router(activity_attempts_router)
 app.include_router(learning_progress_router)
 app.include_router(content_sources_router)
+app.include_router(topics_router)
+app.include_router(lessons_router)
+app.include_router(languages_router)
 
 @app.get("/")
 def root():

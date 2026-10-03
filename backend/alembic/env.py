@@ -38,6 +38,7 @@ from app.models import (
     ActivityAttempt,
     LearningProgress,
     ContentSource,
+    ContentChunk,
 )
 
 
