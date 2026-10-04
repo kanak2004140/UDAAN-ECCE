@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { generateLesson, type LessonResponse } from "@/lib/api/lessons";
 import type { TopicResponse } from "@/lib/api/topics";
+import { generateStoryboard, type StoryboardResponse } from "@/lib/api/storyboards";
 import VideoScriptPlayer from "@/app/components/learning/VideoScriptPlayer";
 
 interface LessonPanelProps {
@@ -21,15 +22,28 @@ export default function LessonPanel({ topic, variant = "text" }: LessonPanelProp
   const [lesson, setLesson] = useState<LessonResponse | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [storyboard, setStoryboard] = useState<StoryboardResponse | null>(null);
   // Re-selecting a topic (e.g. tapping back and forth) reuses the first
   // generated lesson instead of paying for the LLM again every time.
   const cacheRef = useRef(new Map<string, LessonResponse>());
 
   useEffect(() => {
+    let isCurrent = true;
     if (!topic) {
       setLesson(null);
+      setStoryboard(null);
       setError(null);
       return;
+    }
+
+    // The scene plan is best-effort: the lesson still renders without it.
+    setStoryboard(null);
+    if (variant === "video") {
+      generateStoryboard(topic.id)
+        .then((result) => {
+          if (isCurrent) setStoryboard(result);
+        })
+        .catch(() => {});
     }
 
     const cached = cacheRef.current.get(topic.id);
@@ -61,6 +75,7 @@ export default function LessonPanel({ topic, variant = "text" }: LessonPanelProp
 
     return () => {
       isMounted = false;
+      isCurrent = false;
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [topic?.id]);
@@ -82,7 +97,7 @@ export default function LessonPanel({ topic, variant = "text" }: LessonPanelProp
       );
     }
     if (lesson) {
-      return <VideoScriptPlayer videoUrl={null} script={lesson.lesson_text} />;
+      return <VideoScriptPlayer videoUrl={null} scenes={storyboard?.scenes} script={lesson.lesson_text} />;
     }
     return null;
   }

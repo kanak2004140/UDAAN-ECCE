@@ -133,21 +133,19 @@ def build_prompt(
     return system_prompt, user_prompt
 
 
-def generate_lesson_text(
-    topic: Topic, age_group: str, chunks: list[RetrievedChunk], language: Language | None = None
-) -> str:
-    system_prompt, user_prompt = build_prompt(topic, age_group, chunks, language)
+def call_llm(system_prompt: str, user_prompt: str, max_tokens: int = 1024) -> str:
+    """One chat completion against whichever provider is configured.
 
-    # Anthropic (Claude) is preferred when configured - it follows the
-    # "ground only in the source material" instruction more reliably than
-    # the free-tier models available on OpenRouter, which matters for a
-    # kids' product where ungrounded facts are a real problem, not a
-    # cosmetic one. OpenRouter is a fallback for running this without a
-    # paid key, e.g. during development.
+    Anthropic (Claude) is preferred when configured - it follows the "ground
+    only in the source material" instruction more reliably than the free-tier
+    OpenRouter models, which matters for a kids' product where ungrounded
+    facts are a real problem. OpenRouter is the fallback for running without
+    a paid key, e.g. during development.
+    """
     if settings.ANTHROPIC_API_KEY:
         response = _get_anthropic_client().messages.create(
             model=GENERATION_MODEL_NAME,
-            max_tokens=1024,
+            max_tokens=max_tokens,
             system=system_prompt,
             messages=[{"role": "user", "content": user_prompt}],
         )
@@ -155,11 +153,12 @@ def generate_lesson_text(
 
     if settings.OPENROUTER_API_KEY:
         # Free models intermittently return an empty body when their shared
-        # pool is saturated, so retry once before giving up.
-        for attempt in (1, 2):
+        # pool is saturated (and spend part of the budget on hidden reasoning),
+        # so retry once and allow a generous token budget.
+        for _attempt in (1, 2):
             response = _get_openrouter_client().chat.completions.create(
                 model=settings.OPENROUTER_MODEL,
-                max_tokens=4096,
+                max_tokens=max(max_tokens, 4096),
                 messages=[
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_prompt},
@@ -175,8 +174,15 @@ def generate_lesson_text(
 
     raise LessonGenerationError(
         "No LLM is configured - set either ANTHROPIC_API_KEY or OPENROUTER_API_KEY "
-        "in the root .env file to enable live lesson generation."
+        "in the root .env file to enable live generation."
     )
+
+
+def generate_lesson_text(
+    topic: Topic, age_group: str, chunks: list[RetrievedChunk], language: Language | None = None
+) -> str:
+    system_prompt, user_prompt = build_prompt(topic, age_group, chunks, language)
+    return call_llm(system_prompt, user_prompt)
 
 
 @dataclass

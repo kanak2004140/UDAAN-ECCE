@@ -16,6 +16,7 @@ from app.models.activity_attempt import ActivityAttempt
 from app.models.learning_progress import LearningProgress
 from app.models.content_source import ContentSource
 from app.models.content_chunk import ContentChunk
+from app.models.topic_storyboard import TopicStoryboard
 
 __all__ = [
     "User",
@@ -35,4 +36,5 @@ __all__ = [
     "LearningProgress",
     "ContentSource",
     "ContentChunk",
+    "TopicStoryboard",
 ]
