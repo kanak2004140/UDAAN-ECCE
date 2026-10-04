@@ -19,6 +19,11 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[3]
 NCERT_CONTENT_DIR = REPO_ROOT / "content" / "ncert"
 
+# Jaadui Pitara (pre-primary / Balvatika material) is a separate NCERT
+# resource from the Class 1-4 textbooks above - kept in its own top-level
+# folder so the two tracks never mix on disk or in the database.
+JAADUI_PITARA_CONTENT_DIR = REPO_ROOT / "content" / "jaadui_pitara"
+
 _INVALID_FS_CHARS = re.compile(r'[<>:"/\\|?*\x00-\x1f]')
 
 
@@ -43,6 +48,10 @@ def book_dir(book_title: str, class_number: int | None, language: str) -> Path:
     return NCERT_CONTENT_DIR / _clean_component(language) / book_folder_name(
         book_title, class_number, language
     )
+
+
+def jaadui_pitara_dir(language: str) -> Path:
+    return JAADUI_PITARA_CONTENT_DIR / _clean_component(language)
 
 
 def to_repo_relative(path: Path) -> str:

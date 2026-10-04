@@ -63,9 +63,30 @@ MIN_CHARS_PER_PAGE = 40
 # chapters instead of the real 18.
 _CONTROL_CHAR_RE = re.compile(r"[\x00-\x06\x0b\x0c\x0e-\x1f]")
 
+# A different font-encoding bug (seen in Jaadui Pitara's Hindi Anand/Unmukh
+# books) duplicates Devanagari combining marks and consonants instead of
+# shifting them, e.g. "स्तर" -> "स््तर", "किया" -> "कियया". It produces no
+# control characters, so it passes the check above while still being wrong
+# text. A doubled virama (U+094D U+094D, "््") is the reliable tell: it is
+# not valid Devanagari, and it appeared throughout both corrupted books
+# (~1.5% of characters) but nowhere in the clean ones checked alongside them.
+#
+# Unlike the control-character check, this one has to be rate-based rather
+# than any-occurrence: OCR re-extraction (ocr_reextract.py) occasionally
+# misreads a bullet/icon glyph as a stray virama, which is page-level noise
+# (~0.02% of characters on a known-good OCR pass), not systemic corruption.
+# A one-occurrence threshold would reject good OCR output over that noise.
+_DOUBLED_VIRAMA_RE = re.compile("््")
+_DOUBLED_VIRAMA_RATE_THRESHOLD = 0.005  # 25x the ~0.02% seen from OCR noise
+
 
 def looks_garbled(text: str) -> bool:
-    return bool(_CONTROL_CHAR_RE.search(text))
+    if _CONTROL_CHAR_RE.search(text):
+        return True
+    if not text:
+        return False
+    virama_hits = len(_DOUBLED_VIRAMA_RE.findall(text))
+    return (virama_hits / len(text)) > _DOUBLED_VIRAMA_RATE_THRESHOLD
 
 
 class ChapterFetchError(Exception):

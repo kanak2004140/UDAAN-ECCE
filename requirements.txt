@@ -16,3 +16,4 @@ fonttools
 pgvector
 sentence-transformers
 anthropic
+openai

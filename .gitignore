@@ -33,3 +33,11 @@ Chat_Reference.md
 # SHA-256 of every PDF) ARE committed; re-download the PDFs with
 # `python -m app.ingestion.ingest_wave` and verify them against the manifest.
 content/ncert/**/*.pdf
+
+# Same reasoning for Jaadui Pitara - these run 15-90 MB each (whole-book PDFs,
+# no chapter split). manifest.json + extracted .txt stay committed.
+content/jaadui_pitara/**/*.pdf
+
+# Tesseract language packs used by ocr_reextract.py - redownload from
+# github.com/tesseract-ocr/tessdata_fast instead of committing ~1-4 MB binaries.
+backend/tessdata/
