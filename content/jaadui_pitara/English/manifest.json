@@ -1,0 +1,31 @@
+{
+  "language": "English",
+  "publisher": "NCERT",
+  "grade_or_stage": "Balvatika (pre-primary)",
+  "books": [
+    {
+      "series": "anand",
+      "subject": "Anand (Activity Book for Balvatika)",
+      "pdf": "anand.pdf",
+      "text": "anand.txt",
+      "source_url": "https://ncert.nic.in/pdf/e_jaaduipitara/anand/Anand_English.pdf",
+      "sha256": "ec18c3e43a44f30bf78d1f146cc90a682b99d86ecfe687337f5280fb8cf2a521",
+      "pages": 128,
+      "characters": 63144,
+      "needs_ocr": false,
+      "needs_reextraction": false
+    },
+    {
+      "series": "unmukh",
+      "subject": "Unmukh (Trainers' Handbook for Balvatika)",
+      "pdf": "unmukh.pdf",
+      "text": "unmukh.txt",
+      "source_url": "https://ncert.nic.in/pdf/e_jaaduipitara/unmukh/Unmukh_English.pdf",
+      "sha256": "8b6d5dde7f022c93bef77672d33e66415378937c4a505341d58ea2ec903c46d7",
+      "pages": 336,
+      "characters": 586219,
+      "needs_ocr": false,
+      "needs_reextraction": false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "language": "Urdu",
+  "publisher": "NCERT",
+  "grade_or_stage": "Balvatika (pre-primary)",
+  "books": [
+    {
+      "series": "anand",
+      "subject": "Anand (Activity Book for Balvatika)",
+      "pdf": "anand.pdf",
+      "text": "anand.txt",
+      "source_url": "https://ncert.nic.in/pdf/e_jaaduipitara/anand/Anand_Urdu.pdf",
+      "sha256": "bdfb73b251c55c4a4f94ccfbbc1b648e438c0f1d6f79b9bc1f7ac41d7cd1251e",
+      "pages": 124,
+      "characters": 44748,
+      "needs_ocr": false,
+      "needs_reextraction": true
+    }
+  ]
+}
