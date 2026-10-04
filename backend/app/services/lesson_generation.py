@@ -17,27 +17,43 @@ from uuid import UUID
 
 import numpy as np
 from anthropic import Anthropic
+from openai import OpenAI
 from sqlalchemy.orm import Session
 
 from app.database import settings
 from app.models.content_chunk import ContentChunk
+from app.models.content_source import ContentSource
+from app.models.language import Language
 from app.models.topic import Topic
 from app.services.embeddings import EMBEDDING_MODEL_NAME, embed_query
 
 GENERATION_MODEL_NAME = "claude-sonnet-5-5"
 DEFAULT_TOP_K = 5
-ANTHROPIC_TIMEOUT_SECONDS = 30.0
+REQUEST_TIMEOUT_SECONDS = 30.0
+OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
-# One client, not one per request: avoids a new connection pool per call and
-# lets a real request timeout be set (the SDK default has none).
-_client: Anthropic | None = None
+# One client per provider, not one per request: avoids a new connection pool
+# per call and lets a real request timeout be set (the SDK default has none).
+_anthropic_client: Anthropic | None = None
+_openrouter_client: OpenAI | None = None
 
 
-def _get_client() -> Anthropic:
-    global _client
-    if _client is None:
-        _client = Anthropic(api_key=settings.ANTHROPIC_API_KEY, timeout=ANTHROPIC_TIMEOUT_SECONDS)
-    return _client
+def _get_anthropic_client() -> Anthropic:
+    global _anthropic_client
+    if _anthropic_client is None:
+        _anthropic_client = Anthropic(api_key=settings.ANTHROPIC_API_KEY, timeout=REQUEST_TIMEOUT_SECONDS)
+    return _anthropic_client
+
+
+def _get_openrouter_client() -> OpenAI:
+    global _openrouter_client
+    if _openrouter_client is None:
+        _openrouter_client = OpenAI(
+            api_key=settings.OPENROUTER_API_KEY,
+            base_url=OPENROUTER_BASE_URL,
+            timeout=REQUEST_TIMEOUT_SECONDS,
+        )
+    return _openrouter_client
 
 
 class LessonGenerationError(Exception):
@@ -80,7 +96,9 @@ def retrieve_chunks(db: Session, topic: Topic, top_k: int = DEFAULT_TOP_K) -> li
     return scored[:top_k]
 
 
-def build_prompt(topic: Topic, age_group: str, chunks: list[RetrievedChunk]) -> tuple[str, str]:
+def build_prompt(
+    topic: Topic, age_group: str, chunks: list[RetrievedChunk], language: Language | None = None
+) -> tuple[str, str]:
     age_tone = {
         "2-4": "a toddler who needs extremely short, concrete, playful sentences",
         "4-6": "a young child who can follow simple step-by-step explanations",
@@ -94,8 +112,17 @@ def build_prompt(topic: Topic, age_group: str, chunks: list[RetrievedChunk]) -> 
         f"You are teaching {age_tone}. Use only the SOURCE MATERIAL below as "
         "factual grounding - do not introduce facts that aren't supported by "
         "it. Keep the lesson short, warm, and age-appropriate. Do not "
-        "mention that you were given source material; just teach."
+        "mention that you were given source material; just teach. "
+        "Every activity, example, number, name and instruction you mention "
+        "must appear in the SOURCE MATERIAL; if the material does not say "
+        "it, leave it out rather than inventing a plausible example."
     )
+    if language is not None:
+        system_prompt += (
+            f" Write the whole lesson in {language.name} ({language.native_name}), "
+            "in that language's own native script - never transliterated into "
+            "Latin letters (except for English itself)."
+        )
     user_prompt = (
         f"Topic: {topic.name}\n"
         f"Age group: {age_group}\n\n"
@@ -106,21 +133,50 @@ def build_prompt(topic: Topic, age_group: str, chunks: list[RetrievedChunk]) -> 
     return system_prompt, user_prompt
 
 
-def generate_lesson_text(topic: Topic, age_group: str, chunks: list[RetrievedChunk]) -> str:
-    if not settings.ANTHROPIC_API_KEY:
+def generate_lesson_text(
+    topic: Topic, age_group: str, chunks: list[RetrievedChunk], language: Language | None = None
+) -> str:
+    system_prompt, user_prompt = build_prompt(topic, age_group, chunks, language)
+
+    # Anthropic (Claude) is preferred when configured - it follows the
+    # "ground only in the source material" instruction more reliably than
+    # the free-tier models available on OpenRouter, which matters for a
+    # kids' product where ungrounded facts are a real problem, not a
+    # cosmetic one. OpenRouter is a fallback for running this without a
+    # paid key, e.g. during development.
+    if settings.ANTHROPIC_API_KEY:
+        response = _get_anthropic_client().messages.create(
+            model=GENERATION_MODEL_NAME,
+            max_tokens=1024,
+            system=system_prompt,
+            messages=[{"role": "user", "content": user_prompt}],
+        )
+        return "".join(block.text for block in response.content if block.type == "text")
+
+    if settings.OPENROUTER_API_KEY:
+        # Free models intermittently return an empty body when their shared
+        # pool is saturated, so retry once before giving up.
+        for attempt in (1, 2):
+            response = _get_openrouter_client().chat.completions.create(
+                model=settings.OPENROUTER_MODEL,
+                max_tokens=4096,
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_prompt},
+                ],
+            )
+            content = response.choices[0].message.content if response.choices else None
+            if content:
+                return content
         raise LessonGenerationError(
-            "ANTHROPIC_API_KEY is not configured - add it to the root .env file "
-            "to enable live lesson generation."
+            f"OpenRouter model '{settings.OPENROUTER_MODEL}' returned no content - "
+            "it may be rate-limited or unavailable right now."
         )
 
-    system_prompt, user_prompt = build_prompt(topic, age_group, chunks)
-    response = _get_client().messages.create(
-        model=GENERATION_MODEL_NAME,
-        max_tokens=1024,
-        system=system_prompt,
-        messages=[{"role": "user", "content": user_prompt}],
+    raise LessonGenerationError(
+        "No LLM is configured - set either ANTHROPIC_API_KEY or OPENROUTER_API_KEY "
+        "in the root .env file to enable live lesson generation."
     )
-    return "".join(block.text for block in response.content if block.type == "text")
 
 
 @dataclass
@@ -143,9 +199,15 @@ def generate_lesson_for_topic(db: Session, topic: Topic) -> LessonResult:
     # All chunk data needed below is already loaded in memory - end the
     # transaction before the slow, external LLM call so this request's DB
     # connection isn't held (and its rows locked) for that whole duration.
+    language = (
+        db.query(Language)
+        .join(ContentSource, ContentSource.language_id == Language.id)
+        .filter(ContentSource.id == retrieved[0].chunk.content_source_id)
+        .first()
+    )
     db.commit()
 
-    lesson_text = generate_lesson_text(topic, topic.age_group, retrieved)
+    lesson_text = generate_lesson_text(topic, topic.age_group, retrieved, language)
 
     return LessonResult(
         topic_id=topic.id,
