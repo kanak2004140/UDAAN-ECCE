@@ -1,10 +1,12 @@
 from datetime import date
 from uuid import UUID
 
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, Request, status
+from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 from werkzeug.security import generate_password_hash, check_password_hash
 
+from app import login_throttle
 from app.auth import create_access_token, get_current_user
 from app.age_groups import age_group_for_date_of_birth, calculate_age
 from app.database import get_db
@@ -15,6 +17,14 @@ router = APIRouter(
     prefix="/users",
     tags=["Users"],
 )
+
+# Checked against when an email isn't registered, so "no such user" takes as
+# long as "wrong password" and the response time doesn't reveal which emails exist.
+_DUMMY_PASSWORD_HASH = generate_password_hash("no-account-with-this-email")
+
+
+def _client_address(request: Request) -> str:
+    return request.client.host if request.client else "unknown"
 
 
 def user_response(user: User) -> UserResponse:
@@ -42,17 +52,17 @@ def register_user(
     data: UserCreate,
     db: Session = Depends(get_db),
 ):
-    if data.date_of_birth is not None:
-        if data.date_of_birth > date.today():
-            raise HTTPException(
-                status_code=status.HTTP_400_BAD_REQUEST,
-                detail="Date of birth cannot be in the future",
-            )
-        if data.role == "child" and age_group_for_date_of_birth(data.date_of_birth) is None:
-            raise HTTPException(
-                status_code=status.HTTP_400_BAD_REQUEST,
-                detail="A child must be between 2 and 8 years old",
-            )
+    if data.date_of_birth is not None and data.date_of_birth > date.today():
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Date of birth cannot be in the future",
+        )
+    if data.role == "child" and age_group_for_date_of_birth(data.date_of_birth) is None:
+        # Covers a missing birthday too: a child account needs one to get the right lessons.
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="A child must be between 2 and 8 years old",
+        )
 
     existing = (
         db.query(User)
@@ -76,7 +86,16 @@ def register_user(
     )
 
     db.add(user)
-    db.commit()
+    try:
+        db.commit()
+    except IntegrityError:
+        # Two sign-ups with the same email at the same moment: the unique index
+        # lets only one through.
+        db.rollback()
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="User with this email already exists",
+        ) from None
     db.refresh(user)
 
     return AuthResponse(access_token=create_access_token(user.id), user=user_response(user))
@@ -88,15 +107,25 @@ def register_user(
 )
 def login_user(
     data: UserLogin,
+    request: Request,
     db: Session = Depends(get_db),
 ):
-    user = (
-        db.query(User)
-        .filter(User.email == data.email.lower())
-        .first()
-    )
+    email = data.email.lower()
+    client = _client_address(request)
 
-    if user is None or not check_password_hash(user.password_hash, data.password):
+    wait = login_throttle.seconds_until_allowed(email, client)
+    if wait:
+        raise HTTPException(
+            status_code=status.HTTP_429_TOO_MANY_REQUESTS,
+            detail=f"Too many tries. Please wait {max(1, round(wait / 60))} minute(s) and try again.",
+            headers={"Retry-After": str(wait)},
+        )
+
+    user = db.query(User).filter(User.email == email).first()
+    password_ok = check_password_hash(user.password_hash if user else _DUMMY_PASSWORD_HASH, data.password)
+
+    if user is None or not password_ok:
+        login_throttle.record_failure(email, client)
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Invalid email or password",
@@ -108,7 +137,20 @@ def login_user(
             detail="User account is inactive",
         )
 
+    login_throttle.clear(email, client)
     return AuthResponse(access_token=create_access_token(user.id), user=user_response(user))
+
+
+# Declared before "/{user_id}" so "me" isn't parsed as a user id.
+@router.get(
+    "/me",
+    response_model=UserResponse,
+)
+def get_me(current_user: User = Depends(get_current_user)):
+    """The signed-in user, read fresh from the database. The browser calls this
+    to check that a saved session is still good (account exists, still active,
+    token not expired) instead of trusting what it stored."""
+    return user_response(current_user)
 
 
 @router.get(

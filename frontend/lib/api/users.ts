@@ -40,6 +40,11 @@ export async function loginUser(payload: UserLogin): Promise<AuthResponse> {
   return api.post<AuthResponse>("/users/login", payload);
 }
 
+/** The signed-in user, checked against the database. */
+export async function getMe(): Promise<UserResponse> {
+  return api.get<UserResponse>("/users/me");
+}
+
 export async function getUser(userId: string): Promise<UserResponse> {
   return api.get<UserResponse>(`/users/${userId}`);
 }

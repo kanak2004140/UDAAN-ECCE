@@ -1,3 +1,5 @@
+import { clearSession } from "@/lib/auth/session";
+
 export type HttpMethod = "GET" | "POST" | "PUT" | "PATCH" | "DELETE";
 
 export type QueryParams = Record<string, string | number | boolean | null | undefined>;
@@ -22,6 +24,46 @@ export class ApiError extends Error {
     this.statusText = statusText;
     this.details = details;
   }
+}
+
+interface ValidationItem {
+  type?: string;
+  loc?: unknown[];
+  msg?: string;
+  ctx?: { min_length?: number; max_length?: number };
+}
+
+const FIELD_LABELS: Record<string, string> = {
+  name: "Name",
+  email: "Email",
+  password: "Password",
+  date_of_birth: "Birthday",
+  role: "Role",
+};
+
+/** FastAPI reports a rejected request as a list of problems; turn it into one plain sentence. */
+function describeValidationErrors(items: ValidationItem[]): string {
+  const sentences = items.map((item) => {
+    const field = String(item.loc?.[item.loc.length - 1] ?? "");
+    const label = FIELD_LABELS[field] ?? "That";
+    if (item.type === "string_too_short" && item.ctx?.min_length) {
+      return `${label} must be at least ${item.ctx.min_length} characters.`;
+    }
+    if (item.type === "string_too_long" && item.ctx?.max_length) {
+      return `${label} must be at most ${item.ctx.max_length} characters.`;
+    }
+    if (field === "email") return "Please enter a valid email address.";
+    return `${label}: ${(item.msg ?? "is not valid").replace(/^Value error, /, "")}`;
+  });
+  return Array.from(new Set(sentences)).join(" ");
+}
+
+function messageFromDetails(details: unknown, fallback: string): string {
+  if (typeof details !== "object" || details === null || !("detail" in details)) return fallback;
+  const detail = (details as { detail?: unknown }).detail;
+  if (typeof detail === "string") return detail;
+  if (Array.isArray(detail)) return describeValidationErrors(detail as ValidationItem[]) || fallback;
+  return fallback;
 }
 
 function getBaseUrl(): string {
@@ -86,10 +128,7 @@ async function handleResponse<T>(response: Response): Promise<T> {
     details = undefined;
   }
 
-  const message =
-    typeof details === "object" && details !== null && "detail" in details
-      ? String((details as { detail?: unknown }).detail ?? response.statusText)
-      : response.statusText || "Request failed";
+  const message = messageFromDetails(details, response.statusText || "Request failed");
 
   throw new ApiError(message, response.status, response.statusText, details);
 }
@@ -120,6 +159,12 @@ export async function apiRequest<T>(path: string, options: RequestOptions = {}):
     headers: requestHeaders,
     body: hasBody ? JSON.stringify(body) : undefined,
   });
+
+  // The saved sign-in was refused (expired, or the account is gone): forget it,
+  // so the app stops sending a dead token and shows the signed-out state.
+  if (response.status === 401 && authToken && authToken === getStoredAuthToken()) {
+    clearSession();
+  }
 
   return handleResponse<T>(response);
 }
