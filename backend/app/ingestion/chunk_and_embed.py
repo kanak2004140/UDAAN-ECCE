@@ -16,6 +16,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import re
 import sys
 from uuid import UUID
 
@@ -27,6 +28,25 @@ from app.services.embeddings import EMBEDDING_MODEL_NAME, embed_passages
 
 CHUNK_SIZE_CHARS = 800
 CHUNK_OVERLAP_CHARS = 150
+
+# Page furniture NCERT prints on every page. It carries no teaching content
+# but pollutes chunks (and so embeddings and retrieval), so it is dropped
+# before chunking. Only whole lines that are clearly furniture are removed.
+_FURNITURE_LINE = re.compile(
+    r"""^\s*(
+        reprint\s+\d{4}\s*-\s*\d{2,4}            # "Reprint 2026-27"
+      | \d{4}\s*-\s*\d{2,4}                      # "2024-25"
+      | [A-Z][\w\- ()]{2,40}\s*(\||│)\s*(class|grade)\s*\d     # "Maths Mela | Class 3"
+      | [A-Z][\w\- ()]{2,40}\s+(class|grade)\s*\d              # "Santoor  Grade 4"
+    )\s*$""",
+    re.IGNORECASE | re.VERBOSE,
+)
+
+
+def strip_page_furniture(text: str) -> str:
+    kept = [line for line in text.splitlines() if not _FURNITURE_LINE.match(line)]
+    cleaned = "\n".join(line.rstrip() for line in kept)
+    return re.sub(r"\n{3,}", "\n\n", cleaned)
 
 def split_into_chunks(text: str, size: int = CHUNK_SIZE_CHARS, overlap: int = CHUNK_OVERLAP_CHARS) -> list[str]:
     """Split text into overlapping character-window chunks on paragraph
@@ -94,7 +114,7 @@ def chunk_and_embed_source(db, source: ContentSource) -> int:
         print(f"  {source.id}: no extracted text file found, skipping")
         return 0
 
-    text = text_file.read_text(encoding="utf-8")
+    text = strip_page_furniture(text_file.read_text(encoding="utf-8"))
     chunks = split_into_chunks(text)
     if not chunks:
         print(f"  {source.id}: no chunkable text, skipping")
@@ -119,12 +139,23 @@ def chunk_and_embed_source(db, source: ContentSource) -> int:
     return len(chunks)
 
 
-def run(content_source_id: UUID | None = None) -> int:
+def run(content_source_id: UUID | None = None, rebuild_source_type: str | None = None) -> int:
     db = SessionLocal()
     try:
         query = db.query(ContentSource)
         if content_source_id is not None:
             query = query.filter(ContentSource.id == content_source_id)
+
+        if rebuild_source_type:
+            # Drop and recreate chunks (e.g. after the cleaning rules change).
+            # Topic links are lost with them - re-run the matching organize
+            # step afterwards. Review status resets to pending_review.
+            ids = [s.id for s in query.filter(ContentSource.source_type == rebuild_source_type)]
+            deleted = db.query(ContentChunk).filter(ContentChunk.content_source_id.in_(ids)).delete(
+                synchronize_session=False
+            )
+            db.commit()
+            print(f"Rebuild: removed {deleted} existing '{rebuild_source_type}' chunk(s).")
 
         total_chunks = 0
         for source in query.order_by(ContentSource.created_at).all():
@@ -145,8 +176,14 @@ def main(argv: list[str] | None = None) -> None:
         default=None,
         help="Only process this one ContentSource (default: all unprocessed sources)",
     )
+    parser.add_argument(
+        "--rebuild",
+        metavar="SOURCE_TYPE",
+        default=None,
+        help="Delete and re-create all chunks for this source_type (ncert_pdf / jaadui_pitara)",
+    )
     args = parser.parse_args(argv)
-    run(content_source_id=args.content_source_id)
+    run(content_source_id=args.content_source_id, rebuild_source_type=args.rebuild)
 
 
 if __name__ == "__main__":

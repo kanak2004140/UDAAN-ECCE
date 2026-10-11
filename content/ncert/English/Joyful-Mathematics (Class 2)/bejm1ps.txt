@@ -1,0 +1,469 @@
+Reprint 2026-27
+
+First Edition
+May 2023 Vaishakha 1945
+Reprinted
+March 2024 Chaitra 1946
+March 2025 Phalguna 1946
+February 2026 Phalguna 1947
+PD 145T BS
+© National Council of Educational 
+Research and Training, 2023
+ALL RIGHTS RESERVED
+	 No part of this publication may be reproduced, stored in a retrieval system 
+or transmitted, in any form or by any means, electronic, mechanical, 
+photocopying, recording or otherwise without the prior permission of the 
+publisher.
+	 This book is sold subject to the condition that it shall not, by way of trade, 
+be lent, re-sold, hired out or otherwise disposed of without the publisher’s 
+consent, in any form of binding or cover other than that in which it is 
+published.
+	 The correct price of this publication is the price printed on this page, Any 
+revised price indicated by a rubber stamp or by a sticker or by any other 
+means is incorrect and should be unacceptable.
+OFFICES OF THE PUBLICATION 
+DIVISION, NCERT
+NCERT Campus
+Sri Aurobindo Marg
+New  Delhi 110 016	
+Phone :  011-26562708
+108, 100 Feet Road 
+Hosdakere Halli Extension
+Banashankari III Stage
+Bengaluru 560 085	
+	
+Phone : 080-26725740
+Navjivan Trust Building
+P.O.Navjivan 
+Ahmedabad 380 014	
+Phone :  079-27541446
+CWC Campus
+Opp. Dhankal Bus Stop
+Panihati
+Kolkata 700 114	
+Phone :  033-25530454
+CWC Complex
+Maligaon  
+Guwahati 781 021	
+	
+Phone :  0361-2674869
+Publication Team
+Head, Publication	
+:	M.V. Srinivasan
+Division
+Chief Editor	
+:	Bijnan Sutar
+Chief Business	
+:	Amitabh Kumar
+Manager
+Chief Production	
+:	Deepak Jaiswal
+Officer (In charge)
+Assistant Production	:	Deepak Kumar
+Officer
+Cover
+Santosh Mishra
+Printed on 80 GSM paper with NCERT 
+watermark
+Published at the Publication Division 
+by the Secretary, National Council of 
+Educational Research and Training, 
+Sri Aurobindo Marg, New Delhi 110 016 
+and printed at Kalyan Enterprises D-20, 
+Sector B3,Tronica City Indl. Area Loni, 
+Ghaziabad, UP
+ISBN  978-93-5292-426-4
+0224 – Joyful Mathematics
+Textbook for Class 2
+ 65.00
+Reprint 2026-27
+
+Foreword
+India has a rich tradition of nurturing the holistic development of 
+children during their most formative years. These traditions provide for 
+complementary roles for the immediate family, the extended family, the 
+community, and formal institutions of care and learning. In addressing 
+the first eight years of a child’s life, this holistic approach — which 
+includes the cultivation of sanskar which are passed on from generation 
+to generation — has a critical and positive lifelong influence on every 
+aspect of a child’s growth, health, behaviour, and cognitive capabilities 
+in the later years. 
+Considering the importance of the early years in a child’s lifelong 
+development, the National Education Policy 2020 (NEP 2020) envisioned 
+a 5+3+3+4 curricular and pedagogical structure as providing a much 
+needed focus on formal education and childcare in the country during 
+the first five years corresponding to ages 3-8, naming it the Foundational 
+Stage. Classes 1 and 2 form an integral part of this Foundational Stage, 
+continuing from the ages of 3-6 years, in which a child’s holistic growth 
+is taken care of in Balvatika. An individual’s lifelong learning, social 
+and emotional behaviour, and overall health depend deeply upon the 
+experiences gained during this critical Foundational Stage. 
+The Policy thus recommended developing a National Curriculum 
+Framework specifically for this Stage, which would comprehensively 
+guide the whole education system toward providing high-quality 
+education in children’s early years, thereby carrying this momentum 
+forward to the other later stages of school education. Based on the 
+principles and objectives enunciated under NEP 2020 — as well as 
+on research from a range of disciplines (including neuroscience and 
+early childhood education), on experiences and accumulated knowledge 
+from the ground, and on the aspirations and goals of our Nation — the 
+National Curriculum Framework for Foundational Stage (NCF-FS) was 
+developed and released on 22 October 2022. Subsequently, textbooks 
+have been developed to bring to life the curricular approach of the 
+NCF-FS. The textbooks attempt to connect to the children’s real life by 
+recognising their learning in the classroom and the significant learning 
+resources in the family and the community.
+The approach in the NCF-FS is also resonant with the Panchkoshiya 
+Vikas (the development of the five sheaths of human personality) as 
+elucidated in the Taittiriya Upanishad. The NCF-FS enunciates the five 
+domains of learning, i.e., physical and motor; socio-emotional; cognitive; 
+language and literacy; and cultural and aesthetic, which map to the 
+Reprint 2026-27
+
+iv
+Indian tradition of Panchkosh consisting of five kosh viz. Annamaya, 
+Pranmaya, Manomaya, Vijnanmaya and Anandmaya. Besides, it also 
+focuses on integrating a child’s experiences at home with the knowledge, 
+skills, and attitudes that would be developed within the school’s precinct. 
+The NCF-FS, which covers Classes 1 and 2, also articulates a play-
+based approach to learning. According to this approach, books form an 
+essential part of the learning process; however, it is also important to 
+understand that books are only one among many pedagogical tools and 
+methods, including activities, toys, games, conversation, discussion, 
+and more. This marks a departure from the prevailing system of merely 
+learning from books to a more congenial play-way and competency-
+based learning system, where children’s engagement with what they 
+do and learn becomes critical. Thus, the book in hand must be seen 
+as an instrument to promote a play-based pedagogical approach in its 
+entirety for this age group of children.
+The present textbook attempts to provide competency-based content 
+in a simple, interesting, and engaging manner. The endeavour has been 
+to make it inclusive and progressive by breaking several stereotypes 
+through the presentation of text and illustrations. The child’s local 
+context, which includes traditions, culture, language usage, and 
+rootedness in India and is central to students’ holistic development, 
+has been reflected in the books. An effort has been made to make it 
+engaging and joyful for the child. The book integrates art and craft to help 
+children appreciate the aesthetic sense inherent in such activities. The 
+textbook provides children with situational awareness to understand 
+the underlying concepts relating to them in their own contexts. Though 
+light in terms of content, this textbook is rich in substance, providing 
+varied experiences and integrating play-way methods of learning through 
+toys, games, and a variety of other activities. It includes questions that 
+will help children develop critical thinking and problem-solving abilities. 
+Besides, the textbook has rich subject matter and activities to help 
+children develop the necessary sensitivity towards our environment. 
+It also provides ample scope for our States/UTs to add/adapt content 
+with local perspectives in the versions that they may develop as per the 
+recommendations of NEP 2020.
+NCERT appreciates the hard work done by the committee set up to 
+develop the syllabus and learning-teaching material for the foundational 
+stage. I thank the Chairperson of this committee, Professor Shashikala 
+Wanjari, and all other members for completing this task in time and in 
+such an admirable way. I am also thankful to all the institutions and 
+organisations which have generously extended their help and assistance 
+in making this possible. I am especially thankful to Dr. K. Kasturirangan, 
+Chairperson of the National Steering Committee, and its other members, 
+including those of the Mandate Group, its Chairperson Professor Manjul 
+Bhargava, and members of the Review Committee, for their timely and 
+valuable suggestions.
+Reprint 2026-27
+
+v
+As an organisation committed to reforming school education in Bharat 
+and continuously improving the quality of all learning and teaching 
+material that it develops, NCERT looks forward to critical comments 
+and suggestions from all its stakeholders to further improve upon this 
+textbook.
+Professor Dinesh Prasad Saklani
+Director 
+27 January 2023 	
+National Council of Educational 
+New Delhi 	
+Research and Training
+Reprint 2026-27
+
+Reprint 2026-27
+
+About the Book
+The National Policy on Education 2020 has recognised the 
+importance of developing a strong foundation of learning during 
+the early developmental age (3–8 years) of children emphasising on 
+foundational literacy and numeracy. In view of policy’s perspective of 
+holistic development of children, the National Curriculum Framework 
+for Foundational Stage 2022 (NCF-FS 2022) has recommended 
+curricular goals, competencies and learning outcomes aligned to 
+developmental domains such as physical, socio-emotional-ethical, 
+cognitive, language and literacy, aesthetic and cultural and positive 
+learning habits. As a follow-up of this, syllabus for foundational 
+stage developed by the NCERT includes mathematics and numeracy 
+under the cognitive domain, also emphasising upon integration of 
+all other domains while developing learning-teaching materials for 
+mathematics including textbooks. 
+The present textbook of Mathematics for Class 2 named 
+as Joyful Mathematics has been designed keeping in view the 
+recommendations of NEP 2020, NCF-FS 2022 and Syllabus for 
+the Foundational Stage. Though it may be assumed that a child 
+entering Class 2 has intervention in the form of Balvatika 1 to 3 
+and Class 1 (age 3–8 years), yet in view of the diversity in our 
+country, there may be children who have got exposure of numeracy 
+in the institutional setup in Class 1 only. This textbook takes 
+care of such situations.
+Children at this stage enjoy free play, toys and games. Therefore, 
+plenty of opportunities are included for play and games within 
+activities while developing various mathematical ideas like spatial 
+understanding, handling numbers, mathematical and computational 
+thinking, etc. This helps the child in smooth transition from concrete 
+to pictorial and to abstract reasoning for every new concept or 
+competence being introduced. 
+The Joyful Mathematics for Class 2, has a lot of activities which 
+are expected to be conducted within and outside the classroom, 
+keeping in view the objective of experiential learning for holistic 
+development. In all the chapters, mathematical understanding is 
+built through play-based activities. The textbook tries to provide 
+children a feeling that they are playing, and mathematics is being 
+Reprint 2026-27
+
+viii
+learnt, rather than forcing them to learn mathematics without 
+any joy. 
+The learning of languages and age-appropriate physical and 
+mental development have been integrated with the book as learning 
+of mathematics does not take place in isolation. The book provides 
+suggestions to parents, teachers or other concerned like elder 
+siblings on having a healthy discussion with children through 
+thought provoking questions, stories, poems, etc. 
+Various mathematical ideas have been presented through 
+self-explanatory and contextual illustrations keeping in view the 
+differential abilities among children to read words at this stage. 
+Moreover, such pictures and illustrations also help the children in 
+enhancing their visual and reading comprehension. 
+The book is designed as text-cum-workbook that includes 
+opportunities for children to draw pictures, colour them and 
+write appropriately. The oral discussions with children have been 
+included in all the chapters to help them to verbalise and express 
+their thinking process. This will also help teachers to continuously 
+assess the learning in a non-threatening manner. The thought 
+provoking practice tasks in the form of questions and activities have 
+been given in this textbook. It is also expected that the teachers and 
+parents will develop similar questions for the children to have more 
+targeted skill practice. The innovative use of the textbook lies with 
+the parents and teachers and that will ensure the joyful learning of 
+mathematics among children of Class 2. 
+This book emphasise on inculcating logical thinking, analytical 
+skills, mathematical communication and 21st century skills through 
+activities, open ended questions, exploration and discussion 
+in the book. The chapters are framed as a beginning towards 
+mathematical proficiency by adding conceptual understanding, 
+procedural fluency, adaptive reasoning, and a positive attitude 
+towards mathematics. 
+The content in Joyful Mathematics for Class 2 is based on the 
+four blocks mentioned in the NCF-FS 2022. These are — Oral math 
+talk, Skills teaching, Skill practice and Math games have been 
+included in all the chapters. Most of them have been presented in an 
+integrated manner. However, one can find the following chapters not 
+only aligned to the curricular goal (CG-8) of developing mathematical 
+understanding and abilities to recognise the world through quantities, 
+shapes and measures but also to all other curricular goals as given 
+in NCF-FS 2022 and syllabus leading to holistic development: 
+Oral Math Talk: This includes discussion on mathematical 
+concepts through poems, picture stories and activities as 
+mentioned below:
+•	 Maths poems like ‘Seasons’ and ‘East, West, North or South’ 
+in Chapter 9.
+Reprint 2026-27
+
+ix
+•	 Picture stories for the introduction of concepts, practice and 
+assessment have been included like ‘Heena’ and ‘Aatif’ in 
+Chapter 2, ‘Shadow Story’ and ‘Hide and Seek’ in Chapter 4, 
+‘Decorating with Garlands’ in Chapter 6, ‘Rani’s Gift’ and 
+‘Pumpkin’s Chaupal’ in Chapter 7, etc. 
+•	 Discussion with children through various daily life contexts 
+like, ‘Vallam Kali’ on Chapter 1, ‘Garba Festival’ in Chapter 
+2, ‘Decoration for Festival’, ‘Let us Count Diyas’ in Chapter 
+6, ‘Fruits in the Park’ in Chapter 7, ‘Let us Share’ and ‘How 
+many Groups’ in Chapter 8, ‘Gargi’s Day’ in Chapter 9, ‘Picnic 
+Time’, and ‘Games we Play’ in Chapter 11.
+Skill Teaching: All Chapters have activities that can be done by 
+the child all alone, in groups, or with the help of elders (parents, 
+teachers, and siblings). This helps the child in the development 
+of various skills with the guided support of others.
+Skill Practice: Opportunities for skill practice have been included in 
+all the chapters in the form of Let us Do, Project Work, and practice 
+questions. For example, ‘Origami Fun’, ‘Mehandi’ and ‘Stamping’ in 
+Chapter 4 and ‘Make your Own Balance’ in Chapter 7. 
+Math Games: Math games and activities have been interwoven 
+in all the chapters throughout the book. For example, ‘Let us 
+Make 100’, ‘Mark by Passing the Path’ and ‘Flash Card Game’ 
+in Chapter 1; ‘Patterns in Number Chart’ in Chapter 3; ‘Yoga 
+asanas’ and ‘Let us Play with Dots’ in Chapter 5; ‘Choose the 
+Longest Path’ and ‘How Many Blocks?’ in Chapter 7; ‘How Old are 
+We?’ in Chapter 9.
+The above chapters have been developed keeping in view the 
+need for developing sensitivity towards environment, values, positive 
+habits, cultural rootedness, and inclusive perspectives in children. 
+Multilingual perspective is also reflected in the textbook. Engaging 
+activities also focusing on language development are included in the 
+entire textbook which will trigger interest in children to learn joyfully. 
+Teachers need to understand the objective of each of the chapters 
+and activities given, their alignment with the curricular goals and 
+competencies as included in the syllabus for the foundational stage, 
+and accordingly make a learning plan for children including a variety 
+of activities addressing the diverse needs of children. In this learning 
+plan, teachers need to be the active observants of learning outcomes 
+achieved by the children and their flow towards the development 
+of identified competencies under all the curricular goals. Mapping 
+with learning outcomes and activities given in different chapters is 
+required on the part of teachers if we want to make our education 
+competency-based in true letter and spirit. 
+Activities given in this textbook are suggestive. Teachers can 
+develop their own activities and supplement the same with local 
+toys, games or toys created by them and other materials available 
+Reprint 2026-27
+
+x
+in the child’s immediate environment for hands-on learning with 
+concrete material. Teachers are free to adapt, adopt and modify the 
+activities as per their contexts and circumstances without losing 
+the sight and aim of the development of identified competencies in 
+children at this stage. 
+Mental challenge and engagement in thought provoking tasks 
+lead to better mathematical learning and criticality. Solving brain 
+teasers, puzzles and riddles provide opportunities to children in 
+addition to their routine learning. Many age appropriate puzzles 
+have been given in the book. The child must be engaged for at least 
+a week in finding the solutions of a puzzle. There may be more than 
+one right answer for some of the problems. Also these puzzles are 
+given to provide joyful experiences to a child. Thus, child should not 
+be assessed on the basis of solving these puzzles.
+The chapters of the book need to be supplemented by audio-
+video aids, e-content, material available in the QR codes embedded 
+in the book and other learning-teaching material like educational 
+kits developed by the NCERT.
+This textbook is not the only source of learning. Children learn 
+much more while observing the environment; talking to peers and 
+elders including grandparents; making things of their interest; 
+watching TV; playing with mobile; toys and games; listening stories 
+and poems; doing projects; visiting places of cultural importance 
+and traveling. Therefore, we as teachers or parents need to value 
+this learning by going beyond the textbook and try to map it with 
+the competencies and curricular goals identified for this stage. The 
+education of our children is seen as our collective responsibility.
+Reprint 2026-27
+
+Development Team
+Advisor
+Dinesh Prasad Saklani, Director, NCERT, New Delhi
+Guidance
+Shashikala Wanjari, Professor (Retd.) and former VC, SNDT Women’s 
+University, Mumbai (Chairperson, Syllabus and Learning-Teaching 
+Material Development Committee)
+Suniti Sanwal, Professor and Head, Department of Elementary Education, 
+NCERT, New Delhi (Member Convenor, Syllabus and Learning-Teaching 
+Material Development Committee)
+Contributors
+Aastha Bhayana, Primary Teacher, MRG School, New Delhi
+Anup Kumar Rajput, Professor, DEE and Head, Publication Division, NCERT, New 
+Delhi
+Ashutosh Kedarnath Wazalwar, Professor, DESM, NCERT, New Delhi 
+Garima Pandey, Primary Teacher, MCD School, New Delhi
+Gunjan Khurana, Research Scholar, Jamia Millia Islamia, New Delhi
+Mukund Kumar Jha, Consultant, DEE, NCERT, New Delhi
+Nisha Negi Singh, Sr. Consultant, DEE, NCERT, New Delhi
+N Parvathi Bhat, Technical Assistant, DSERT, Bengaluru
+Padmapriya Shirali, Principal, Sahyadri School, Pune
+Ritu Giri, Assistant Teacher, Directorate of Education, Delhi
+Sapna Arora, TGT, Directorate of Education, Delhi
+Reviewers
+Divyanshu Dave, VC (In charge), Children’s University, Gandhinagar
+Gajanan Londhe, Director, Samvit Research Foundation, Bengaluru
+Manjul Bhargava, Member, National Steering Committee and Chairperson, 
+Mandate Group
+Sandeep Diwakar, Subject Expert, Azim Premji Foundation
+Sridhar Srivastava, Professor and Joint Director, NCERT, New Delhi
+Academic Coordinator
+Anup Kumar Rajput, Professor, DEE and Head, Publication Division, 
+NCERT, New Delhi
+Reprint 2026-27
+
+Acknowledgements
+The National Council of Educational Research and Training (NCERT) 
+acknowledges the valuable contributions of Anita Sharma, Principal, 
+SD Public School; Himani Dem, Assistant Professor, Rajdhani College, 
+University of Delhi; Manish Jain, Professor, IIT Gandhi Nagar; 
+Pankaj  Tiwari, Jan Shikashak, MLB School Seoni, Madhya Pradesh; 
+Preeti Hegde, Assistant Teacher, KPS, Hegganhalli, Bengaluru; Pushpa 
+Olhyan, SRA, DEE, NCERT; Rabin Chhetri, Director, SCERT, Sikkim; 
+Rakesh Bhatia, Subject Expert, HBSE, Haryana; Raymon Hooda, JPF, 
+DEE, NCERT; Sarah Rafat Khan, JPF, DEE, NCERT; Tejal Ahuja, 
+JPF, DEE, NCERT; and Veena H R, Teacher Educator, Samvit Research 
+Foundation, Bengaluru, for participating in discussions during the book 
+development workshops.
+The Council appreciates the efforts of Santosh Mishra, Artist, 
+Aimarts, Delhi and Achin Jain, Designer, Green Tree Designing, Delhi 
+for the illustrations, design and layout of this textbook.
+The Council gratefully acknowledges the contributions of DTP 
+Operators — Arun Verma, DESM, Kanika Walecha, DEE, Rohit Kumar, 
+DEE, Sandeep Om Kashyap, DESM in shaping this book.
+The efforts of Ilma Nasir, Editor (contractual) and Chanchal 
+Chauhan, Assistant Editor (contractual), Publication Division, NCERT 
+for editing this textbook are appreciated. The Council is also grateful 
+to Pawan Kumar Barriar, In charge, DTP Cell, Publication Division, 
+NCERT.
+Reprint 2026-27
+
+Contents
+	
+Foreword 	
+iii
+	
+About the Book	
+vii
+	 1.	 A Day at the Beach	
+1
+(Counting in Groups)
+	 2.	 Shapes Around Us	
+16
+	
+	 (3D Shapes)
+	 3.	 Fun with Numbers	
+23
+	
+	 (Numbers 1 to 100)
+	 4.	 Shadow Story (Togalu)  	
+32
+	
+	 (2D Shapes)
+	 5.	 Playing with Lines	
+44
+	
+	 (Orientations of a line)
+	 6.	 Decoration for Festival	
+50
+	
+	 (Addition and Subtraction)
+	 7.	 Rani’s Gift	
+71
+	
+	 (Measurement)
+	 8.	 Grouping and Sharing	
+83
+	
+	 (Multiplication and Division)
+	 9.	 Which Season is it?	
+98
+	
+	 (Measurement of Time)
+	10.	 Fun at the Fair	
+113
+	
+	 (Money)
+	11.	 Data Handling	
+123
+	
+	 Puzzles	
+130
+Reprint 2026-27
+
+Reprint 2026-27

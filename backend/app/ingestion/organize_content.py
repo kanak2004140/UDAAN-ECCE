@@ -29,6 +29,7 @@ import sys
 from collections import defaultdict
 
 from app.database import SessionLocal
+from app.ingestion.chapter_titles import load_titles
 from app.models.content_chunk import ContentChunk
 from app.models.content_source import ContentSource
 from app.models.curriculum import Curriculum
@@ -124,6 +125,7 @@ def apply_organization(db) -> None:
     curriculum = _get_or_create_curriculum(db)
     organized = skipped_lang = skipped_ocr = skipped_other = 0
     touched_topic_ids: set = set()
+    titles = load_titles()
 
     sources = db.query(ContentSource).filter(ContentSource.source_type == "ncert_pdf").all()
     for source in sources:
@@ -150,13 +152,17 @@ def apply_organization(db) -> None:
         book = re.sub(rf"\s*\({re.escape(language)}\)\s*$", "", match.group("book"), flags=re.I).strip()
         chapter = int(match.group("ch"))
         subject = _get_or_create_subject(db, curriculum, source.subject)
+        # Real chapter title when one was verified against the book's own
+        # text (see chapter_titles.py); otherwise the plain "Chapter N".
+        title = titles.get(meta.get("book_code"), {}).get(str(chapter))
+        suffix = f"Chapter {chapter}: {title}" if title else f"Chapter {chapter}"
         topic = _get_or_create_topic(
             db,
             subject,
-            name=f"{book} (Class {class_number}) - Chapter {chapter}",
+            name=f"{book} (Class {class_number}) - {suffix}",
             age_group=age_group,
             order=chapter,
-            description=f"NCERT Class {class_number} {source.subject}: {book}, chapter {chapter}.",
+            description=f"NCERT Class {class_number} {source.subject}: {book}, {suffix.lower() if not title else suffix}.",
         )
         touched_topic_ids.add(topic.id)
 

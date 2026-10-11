@@ -1,0 +1,521 @@
+Santoor
+Santoor
+Textbook of English for Class 3
+Reprint 2026-27
+
+First Edition				
+April  2024  Chaita 1946
+Reprinted				
+March  2025	
+Phalguna 1946
+January  2026	 Pausha 1947
+PD 155T BS
+©	National Council of Educational 
+Research and Training, 2024
+` 65.00
+ALL RIGHTS RESERVED
+No part of this publication may be reproduced, stored in a retrieval system
+or transmitted, in any form or by any means, electronic, mechanical,
+photocopying, recording or otherwise without the prior permission of the
+publisher.
+This book is sold subject to the condition that it shall not, by way of trade,
+be lent,  re-sold, hired out or otherwise disposed of without the publisher’s
+consent, in any form of binding or cover other than that in which it is published.
+The correct price of this publication is the price printed on this page, Any revised 
+price indicated by a rubber stamp or by a sticker or by any other means is
+incorrect and should be unacceptable.
+Publication Team
+Head, Publication	
+:	 M.V. Srinivasan
+Division
+Chief Editor 
+:	 Bijnan Sutar
+Chief Business	
+:	 Amitabh Kumar
+Manager
+Chief Production	
+:	 Deepak Jaiswal
+Officer (In charge)
+Assistant Production	
+:	 Sayuraj A.R.
+Officer
+Cover, Illustrations and Layout
+Joel Gill 
+OFFICES OF THE PUBLICATION 
+DIVISION, NCERT
+NCERT Campus
+Sri Aurobindo Marg
+New  Delhi 110 016		
+Phone :  011-26562708
+108, 100 Feet Road 
+Hosdakere Halli Extension
+Banashankari III Stage
+Bangaluru 560 085	
+	
+Phone : 080-26725740
+Navjivan Trust Building
+P.O.Navjivan 
+Ahmedabad 380 014		
+Phone :  079-27541446
+CWC Campus
+Opp. Dhankal Bus Stop
+Panihati
+Kolkata 700 114		
+Phone :  033-25530454
+CWC Complex
+Maligaon  
+Guwahati 781 021		
+Phone :  0361-2674869	
+0332 – Santoor
+Textbook of English for Class 3
+ISBN 978-93-5292-991-7
+Printed on 80 GSM paper with NCERT 
+watermark
+Published at the Publication Division 
+by the Secretary, National Council of 
+Educational Research and Training, 
+Sri Aurobindo Marg, New Delhi 110 016 and 
+printed at D.P. Printing & Binding, B-149, 
+Okhla-I, A-1, New Delhi–110020
+Reprint 2026-27
+
+Foreword
+The Foundational Stage in school education, as envisaged by the 
+National Education Policy 2020, serves as the cornerstone for 
+the holistic development of children. It enables them not only to 
+imbibe the invaluable samskaras rooted in our country’s ethos 
+and constitutional framework, but also to acquire basic literacy 
+and numeracy. This foundation equips them to transition 
+seamlessly into the more challenging Preparatory Stage. 
+The Preparatory Stage acts as a bridge between the 
+Foundational and the Middle Stages, spanning three years from 
+Grade 3 to Grade 5. The education provided during this stage 
+builds upon the pedagogical approaches of the Foundational 
+Stage. While the play-way, discovery, and activity-based learning 
+methods continue, children are also introduced to textbooks 
+and more formal classroom settings. This introduction aims not 
+to overwhelm but to establish a foundation across curricular 
+areas, promoting holistic learning and self-exploration through 
+reading, writing, speaking, drawing, singing, and playing. This 
+comprehensive approach encompasses physical education, art 
+education, environmental education, languages, mathematics, 
+basic science, and social science. This comprehensive approach 
+ensures children are well-prepared both at the cognitive-
+sensitive and physical-pranic (emotional) levels to effortlessly 
+transition to the Middle Stage. 
+The textbook, Santoor for Grade 3 is meticulously 
+designed to align with these objectives. It adheres to the 
+recommendations of the National Education Policy 2020 and the 
+National Curriculum Framework for School Education 2023. 
+The textbook emphasises conceptual understanding, critical 
+thinking, creativity, values and dispositions essential for this 
+developmental stage. It incorporates cross-cutting themes such 
+as inclusion, multilingualism, gender equality, and cultural 
+rootedness integrating appropriate ICT and school-based 
+assessments. The engaging content and activities are designed 
+to captivate students and encourage peer group learning, thus 
+enriching the educational experience for students as well as 
+teachers. 
+It is crucial to remember the pedagogical focus of the 
+textbook 
+emphasising 
+understanding, 
+critical 
+thinking, 
+Reprint 2026-27
+
+iv
+reasoning, and decision making. Children’s innate curiosity at 
+this stage should be nurtured by addressing their questions 
+and designing activities based on core learning principles. 
+While the play-way method continues, the nature of toys and 
+games used for teaching evolves to enhance engagement rather 
+than mere attraction.
+While this textbook is valuable, children should also explore 
+additional resources on the subject. School libraries should 
+facilitate this extended learning, and parents and teachers 
+should support their endeavours. 
+An effective learning environment motivates students, 
+keeping them engaged and fostering curiosity and wonder vital 
+for learning.
+With confidence, I recommend this textbook to all students 
+and teachers at the Preparatory Stage. I extend my gratitude to 
+everyone involved in its development, hopeful that it will meet 
+expectations. As NCERT remains committed to systemic reforms 
+and improving publication quality, we welcome feedback to 
+refine the textbook content.
+Dinesh Prasad Saklani
+Director
+New Delhi
+National Council of Educational 
+31 March 2024
+Research and Training
+Reprint 2026-27
+
+About the Book
+Language lies at the centre of human cognitive, social, and 
+cultural experiences. It enables effective communication, which 
+is integral to the formation and functioning of societies and 
+cultures National Curriculum Framework for School Education 
+(NCF SE, p. 234). The present textbook is designed in alignment 
+with the visionary framework of the National Education Policy 
+(NEP) 2020 and the National Curriculum Framework (NCF) 
+for School Education 2023. In the preparatory stage, students 
+develop proficiency in speaking and competencies in reading 
+and writing in both languages — Reading in Language 1 (R1) 
+and Reading in Language 2 (R2). While students achieve 
+these faster in R1, they are expected to gain familiarity with 
+R2, gradually progressing from basic communication skills to 
+greater fluency and proficiency in speaking and writing.
+To take children well beyond foundational literacy and 
+develop a genuine interest in independent reading, the textbook 
+draws from children’s real-life experiences and reflects their 
+cultural and social milieu. It is purposefully crafted to meet 
+specific stage competencies and grade-based learning outcomes, 
+ensuring alignment with core principles of the subject. It uses 
+language appropriate for the grade level and provides support 
+for unfamiliar vocabulary and complex sentence structures. It 
+incorporates digital elements and external references suitably 
+within the material. Local context heavily influences content 
+selection. The textbook aims to be engaging, striking a balance 
+between visuals and text, leaning towards visually appealing 
+material making it suitable for easy comprehension by young 
+learners.
+To foster oral skills, this textbook offers engaging learning 
+materials that encourage students to converse with each other. 
+The content features a range of activities such as reciting 
+rhymes, singing songs, role-playing, etc., facilitating in-class 
+practice. To enhance reading abilities, the textbook presents 
+a diverse array of content, encompassing stories, poems, 
+narratives and a comic strip. It maintains a balance between 
+familiar and unfamiliar texts and contexts. With large font 
+sizes, colourful illustrations, and captivating chapter titles, it 
+captivates student interest. The text stimulates critical thinking 
+Reprint 2026-27
+
+vi
+and sparks imagination, fostering curiosity. The content is 
+structured to aid students in transitioning from guided to 
+independent reading. For honing writing skills, the selected 
+content systematically imparts writing proficiency. Students 
+engage in activities that encourage independent practice, 
+such as constructing simple sentences, encouraging creative 
+expression and skill development in writing.
+All these are done through various sections, like ‘Let us 
+recite’, ‘Let us think’, ‘Let us speak’, ‘Let us learn’, ‘Let us listen’, 
+and ‘Let us write’, ‘Let us do’, and ‘Let us explore’. This not only 
+helps the learner in the process of language acquisition but 
+also builds up their confidence level.
+Curricular Goals (CG) lay the foundation of every 
+learning-teaching material. In line with the textbooks for Classes 
+1 and 2, Santoor (Class 3) has been developed after careful 
+consideration of the curricular goals. The curricular goals for 
+language address the diverse needs of learners in a language 
+classroom. Communication and comprehension are at the heart 
+of every language and the same has been reiterated through 
+CG1: Sustains effective communication skills for day-to-day 
+interactions, enhancing their oral ability to express ideas. The 
+book provides ample opportunities for learners to engage with 
+the text and share their input. Sections titled ‘Let us speak’ and 
+‘Think and say’ subsection of ‘Let us think’ present opportunities 
+for students to be creative with replies and share with classmates 
+allowing learners to engage with language in a meaningful way.
+Similarly, CG 4: Develops a wide range of vocabulary in 
+various contexts and through different sources has been 
+addressed by incorporation of texts and activities that are not 
+limited only to literature but also encompass content areas 
+like mathematics and ‘The World Around Us’ activities and 
+vocabulary pertaining to the same find a place in different 
+units. For example, Unit 1 has activities related to shapes 
+whereas, Unit 4 provides scope for learners and teachers to 
+discuss ordinal numbers.
+In Class 3, although guided writing is the main component, 
+there is a gradual progress towards making learners independent 
+writers. This is in alignment with the CG 3 that develops the 
+ability to express their understanding, experiences, feelings, 
+and ideas in writing.
+Reprint 2026-27
+
+vii
+Reading as a process is not limited to decoding, says 
+CG 2 which aims to develop fluency in reading and the ability 
+to read with comprehension. The activities in Santoor are 
+designed to evoke responses by the learners’ reflecting their 
+understanding of the text through the ‘Answer the following’ 
+subsection.
+One of the major recommendations of NCF-SE 2023 is the 
+inclusion of knowledge of India. Indian values and traditions 
+have been presented to the learner in an easily comprehensible 
+way, for instance the passage on Makar Sankranti and it’s 
+various manifestations.
+The theme of Unit 1 is ‘Fun with Friends’. This unit 
+encourages language acquisition through friendly animals, and 
+imaginative characters as a lens, allowing them to seamlessly 
+integrate cross-curricular elements of Mathematics. Through 
+engaging exercises, they learn that friendship may be between 
+children as well as with the environment. It also kindles 
+their imagination with whimsical characters of shapes to aid 
+language learning through a joyful, play-driven process. This 
+unit emphasises the value of friendship.
+Unit 2 titled ‘Toys and Games’, takes the children into the 
+world of indigenous toys and games. The chapters, ‘Out in the 
+Garden’ and ‘Talking Toys’ give a glimpse of the world of toys 
+taking the child into the imaginary world with emphasis on the 
+joy of playing. Chapter 3, ‘Paper Boats’, emphasises on the joy 
+of making and sharing simple toys.
+Unit 3 titled ‘Good Food’ in Chapter 1, ‘The Big Laddoo’ 
+steers us into the wondrous world of laddoos and sweets, while 
+playfully introduces the concept of size. Chapter 2 ‘Madhu’s 
+Wish’ identifies the significance of water in our lives with an 
+equal importance to good and healthy food. Chapter 3 ‘Thank 
+God’ makes students delve into the vibrant world of an orchard. 
+It not only imparts knowledge of fruits but also instills a sense 
+of gratitude.
+Unit 4, titled ‘The Sky’, begins with the Poem ‘Night’. 
+In the poem a young child wonders about his day and how 
+it is shaped by the sunset and sunrise. The first prose piece 
+of the Unit ‘Chanda Mama Counts the Stars’ is a story that 
+introduces the concept of infinity through the characters of the 
+Sun and the Moon. In the third text, ‘Chandrayaan’, siblings 
+Reprint 2026-27
+
+viii
+Rani and Prateek try to get a glimpse into India’s Lunar Mission 
+‘Chandrayaan’ with the help of their neighbour ‘Nandini Aunty’ 
+who is a scientist.
+Language and literacy, physical, socio-emotional, aesthetic 
+and cognitive domains have been integrated along with the 
+development of positive habits to create a learning impression 
+in totality for children. Development of Annamaya, Pranamaya, 
+Manomaya, and Vignyanmaya kosha is an ongoing process 
+which leads to the manifestation of Anandmaya kosha. The 
+present textbook is a step in this direction.
+In addition to the material provided in the textbook, teachers 
+may also use the matter embedded in the QR code. Further, as 
+suggested in ‘Note to the teacher’ section given throughout the 
+book, teachers are encouraged to use local stories, proverbs 
+and objects in the classroom, as well as audio and video support 
+from DIKSHA platform. The textbook is only one tool, learning 
+needs many resources. Children absorb a wealth of knowledge 
+by observing their surroundings, interacting with peers, elders 
+like grandparents, engaging in hands-on activities, watching 
+TV, using mobile devices, playing with toys and games, listening 
+to stories and poems, working on projects, visiting culturally 
+significant places, and travelling. It is crucial to appreciate and 
+align this diverse learning with the competencies and curricular 
+goals set for this phase. Educating our children is a shared 
+responsibility that extends beyond formal textbooks.
+ Varada Mohan Nikalje
+Professor, Academic Coordinator, 
+Department of Elementary Education, NCERT
+Reprint 2026-27
+
+National Syllabus and Teaching 
+Learning Material Committee (NSTC)
+  1.	 M.C. Pant, Chancellor, National Institute of Educational 
+Planning and Administration (NIEPA), (Chairperson)
+  2.	 Manjul 
+Bhargava, 
+Professor, 
+Princeton 
+University, 
+(Co-Chairperson)
+  3.	 Sudha Murty, Acclaimed Writer and Educationist
+  4.	 Bibek Debroy, Chairperson, Economic Advisory Council – 
+Prime Minister (EAC – PM)
+  5.	 Shekhar Mande, Former DG, CSIR, Distinguished 
+Professor, Savitribai Phule Pune University, Pune
+  6.	 Sujatha Ramdorai, Professor, University of British 
+Columbia, Canada
+  7.	 Shankar Mahadevan, Music Maestro, Mumbai
+  8.	 U. Vimal Kumar, Director, Prakash Padukone Badminton 
+Academy, Bangaluru
+  9.	 Michel Danino, Visiting Professor, IIT – Gandhinagar
+10.	 Sunina Rajan, IAS (Retd.), Haryana, Former DG, HPA
+11.	 Chamu Krishna Shastri, Chairperson, Bhartiya Bhasha 
+Samiti, Ministry of Education
+12.	 Sanjeev Sanyal, Member, Economic Advisory Council – 
+Prime Minister (EAC – PM)
+13.	 M.D. Srinivas, Chairperson, Centre for Policy Studies, 
+Chennai
+14.	 Gajanan Londhe, Head, Programme Office, NSTC
+15.	 Rabin Chhetri, Director, SCERT, Sikkim
+16.	 Pratyusha Kumar Mandal, Professor, Department of 
+Education in Social Science, NCERT, New Delhi
+17.	 Dinesh Kumar, Professor and Head, Planning and 
+Monitoring Division, NCERT, New Delhi
+18.	 Kirti Kapoor, Professor, Department of Education in 
+Languages, NCERT, New Delhi
+19.	 Ranjana Arora, Professor and Head, Department of 
+Curriculum Studies and Development, NCERT, New Delhi, 
+(Member-Secretary)
+Reprint 2026-27
+
+Reprint 2026-27
+
+Textbook Development Team 
+Guidance
+Mahesh Chandra Pant, Chairperson, NSTC and Member, 
+Coordination Committee, Curricular Area Group (CAG): 
+Preparatory Stage
+Manjul Bhargava, Co-Chairperson, NSTC and Member, 
+Coordination Committee, CAG: Preparatory Stage
+Suniti Sanwal, Professor and Head, Department of 
+Elementary Education, NCERT, New Delhi, Member-
+Convenor, Coordination Committee, Curricular Area Group: 
+Preparatory Stage
+Chairperson, Sub-Group (English) 
+G. Rajagopal, Professor (Retired) EFL University, Hyderabad
+Contributors
+A. Venkata Ramanamma, Secondary Grade Teacher, MPUPS 
+Indresham, Patancheru Mandal, Sangareddy District, 
+Telangana
+Deepti Pithwal, Headmistress, Kendriya Vidyalaya, National 
+Security Guard, Manesar, Gurugram
+Geyin Boli, Assistant Professor, Department of Elementary 
+Education, NCERT, New Delhi
+Kalpana Manwal, Assistant Teacher (Primary), School of 
+Excellence, Sec-17, Rohini, Delhi
+Larissa Lepcha, Resource Person, SCERT, Sikkim
+Rama Sharma, Vice-Principal, Swami Vivekanand Saraswati 
+Vidya Mandir, Sahibabad, Ghaziabad
+R. Savitha, Coordinator, Samvit Research Foundation, Bengaluru
+Reprint 2026-27
+
+xii
+Reviewers
+Anurag Behar, CEO, Azim Premji Foundation, Member, 
+National Curriculum Framework Oversight Committee
+Mira Bhargava, Professor Emeritus, Hofstra University, 
+New York, USA
+Member-Coordinator, Sub-Group (English)
+Varada Mohan Nikalje, Professor, Department of Elementary 
+Education, NCERT, New Delhi
+Reprint 2026-27
+
+Acknowledgements
+The National Council of Educational Research and Training 
+(NCERT) acknowledges the guidance and support of the 
+esteemed Chairperson and members of Curricular Area Group 
+(CAG): Preparatory Stage, and also of other concerned CAGs 
+for their guidelines on cross-cutting themes in developing 
+this textbook. The Council thanks Sudha Murty, author and 
+copyright holder, for granting permission to include the story, 
+‘Madhu’s Wish’; State Council of Educational Research and 
+Training (SCERT), Meghalaya for the poem ‘Aachoo’, and to 
+Samvit Research Foundation, Bengaluru, for the story ‘Best 
+Friends’ in this book.
+The text ‘Chanda Mama Counts the Stars’ is inspired by 
+the ‘Uncle Moon Forgets Counting’ published by the National 
+Book Trust (NBT), and the text ‘Paper Boats’ is inspired by the 
+English textbook published by the SCERT, Kerala, which the 
+Council gratefully acknowledges.
+The Council thanks Gajanan Londhe, Director,  Samvit 
+Research Foundation, Bengaluru; Ranjana Arora, Professor and 
+Head, Department of Curriculum Studies and Development, 
+NCERT; Anju Gandhi, Senior Consultant, Programme Office, 
+NSTC and Saket Bahuguna, Consultant, Programme Office, 
+NSTC for their continuous academic support.
+The efforts of Vidhi Joon, SRA (contractual); Sonam 
+Shree, JPF (contractual) and Vivek Mandal, DTP Operator 
+(contractual), Department of Elementary Education, NCERT 
+are appreciated for providing support in the development of 
+the textbook. 
+The Council acknowledges the efforts of Ilma Nasir, 
+Editor (contractual), Publication Division, NCERT, for editing 
+this textbook. The Council also appreciates the efforts of 
+Mohan  Singh and Ajay Kumar, DTP Operator (contractual), 
+Pawan Kumar Barriar, In charge, DTP Cell; Sanjeev Kumar, 
+Copy Holder, Publication Division, NCERT, for finalisation of 
+this textbook.
+It has not been possible to trace the copyright in all cases. 
+The publisher extend apologies for any omissions and would be 
+glad to hear from any such unacknowledged copyright holders.
+Reprint 2026-27
+
+Our National Anthem
+Jana-gana-mana adhinayaka, jaya he
+Bharata-bhagya-vidhata. 
+Punjab-Sindh-Gujarat-Maratha
+Dravida-Utkala-Banga 
+Vindhya-Himachala-Yamuna-Ganga
+Uchchhala-jaladhi-taranga. 
+Tava shubha name jage,
+Tava shubha asisa mage,
+Gahe tava jaya gatha.
+Jana-gana-mangala-dayaka jaya he 
+Bharata-bhagya-vidhata. 
+Jaya he, jaya he, jaya he, 
+Jaya jaya jaya, jaya he!
+Our National Anthem, composed originally in Bangla by 
+Rabindranath Tagore, was adopted in its Hindi version 
+by the Constituent Assembly as the national anthem of 
+India on 24 January 1950.
+Reprint 2026-27
+
+Contents
+Foreword	
+iii
+About the Book	
+v
+Unit 1: Fun with Friends
+	
+Picture Reading	
+  1
+	
+1. Colours	
+  4
+	
+2. Badal and Moti	
+15
+	
+3. Best Friends	
+25
+Unit 2: Toys and Games
+	
+Picture Reading	
+36
+	
+4. Out in the Garden	
+39
+	
+5. Talking Toys	
+44
+	
+6. Paper Boats	
+56
+Self Assessment	
+67
+Unit 3: Good Food
+	
+Picture Reading	
+68
+	
+7. The Big Laddoo	
+70
+	
+8. Thank God	
+78
+	
+9. Madhu’s Wish	
+88
+Unit 4: The Sky
+	
+Picture Reading	
+102
+	
+10. Night	
+104
+	
+11. Chanda Mama Counts 	
+109
+	
+      the Stars	
+	
+12. Chandrayaan	
+118
+Self Assessment	
+128
+Reprint 2026-27
+
+Reprint 2026-27

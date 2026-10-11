@@ -1,0 +1,511 @@
+Textbook of Mathematics 
+for Class 3
+Reprint 2026-27
+
+First Edition				
+April 2024  Chaitra 1946
+Reprinted
+June 2025 Jyeshtha 1947
+PD 500T BS
+©	National Council of Educational 
+Research and Training, 2024
+` 65.00
+ALL RIGHTS RESERVED
+No part of this publication may be reproduced, stored in a retrieval system
+or transmitted, in any form or by any means, electronic, mechanical,
+photocopying, recording or otherwise without the prior permission of the
+publisher.
+This book is sold subject to the condition that it shall not, by way of trade,  be 
+lent, re-sold, hired out or otherwise disposed of without the publisher’s consent, 
+in any form of binding or cover other than that in which it is published.
+The correct price of this publication is the price printed on this page, Any revised 
+price indicated by a rubber stamp or by a sticker or by any other means is
+incorrect and should be unacceptable.
+Publication Team
+Head, Publication	
+:	 M. V. Srinivasan
+Division
+Chief Editor 
+:	 Bijnan Sutar
+Chief Production	
+:	 Jahan Lal
+Officer (In charge)
+Chief Business	
+:	 Amitabh Kumar
+Manager
+Assistant Production	
+:	 Sayuraj A.R.
+Officer
+Book Design, Layout and Illustrations 
+Santosh Mishra, Aimarts, Delhi and 
+Achin Jain, Greentree Designing Studio 
+Pvt. Ltd., Delhi
+OFFICES OF THE PUBLICATION 
+DIVISION, NCERT
+NCERT Campus
+Sri Aurobindo Marg
+New Delhi 110 016		
+Phone : 011-26562708
+108, 100 Feet Road 
+Hosdakere Halli Extension
+Banashankari III Stage
+Bangaluru 560 085	
+	
+Phone : 080-26725740
+Navjivan Trust Building
+P.O.Navjivan 
+Ahmedabad 380 014		
+Phone : 079-27541446
+CWC Campus
+Opp. Dhankal Bus Stop
+Panihati
+Kolkata 700 114		
+Phone : 033-25530454
+CWC Complex
+Maligaon 
+Guwahati 781 021		
+Phone : 0361-2674869	
+ISBN 978-93-5292-816-3
+0333 – Maths Mela
+Textbook of Mathematics for Class 3
+Printed on 80 GSM paper with NCERT 
+watermark
+Published at the Publication Division 
+by the Secretary, National Council of 
+Educational Research and Training, 
+Sri Aurobindo Marg, New Delhi 110 016 
+and printed at Mittal Enterprises, 3/1/23, 
+Site-IV, Sahibabad Industrial Area, 
+Ghaziabad–201010
+Reprint 2026-27
+
+The Foundational Stage in school education, as envisaged by the 
+National Education Policy 2020, serves as the cornerstone for 
+the holistic development of children. It enables them not only to 
+imbibe the invaluable samskaras rooted in our country’s ethos 
+and constitutional framework, but also to acquire basic literacy 
+and numeracy skills. This foundation equips them to transition 
+seamlessly into the more challenging Preparatory Stage.
+The Preparatory Stage acts as a bridge between the 
+Foundational and the Middle Stages, spanning three years from 
+Class 3 to Class 5. The education provided during this stage 
+builds upon the pedagogical approaches of the Foundational 
+Stage. While the play-way, discovery, and activity-based learning 
+methods continue, children are also introduced to textbooks 
+and more formal classroom settings. This introduction aims 
+to establish a foundation across curricular areas, promoting 
+holistic learning and self-exploration through reading, writing, 
+speaking, drawing, singing, and playing. This comprehensive 
+approach encompasses physical education, art education, 
+environmental education, languages, mathematics, basic 
+science, and social science. This comprehensive approach 
+ensures children are well-prepared both at the cognitive-
+sensitive and physical-pranic (emotional) levels to effortlessly 
+transition to the Middle Stage. 
+This Mathematics textbook, Maths Mela for Class 3 is 
+meticulously designed to align with these objectives. It adheres 
+to the recommendations of the National Education Policy 2020 
+and the National Curriculum Framework for School Education 
+2023. The textbook emphasises conceptual understanding, 
+critical thinking, creativity, values and dispositions essential 
+for this developmental stage. It incorporates cross-cutting 
+themes, such as inclusion, multilingualism, gender equality, 
+and cultural rootedness integrating appropriate ICT and 
+school-based assessments. The engaging content and activities 
+are designed to captivate students and encourage peer group 
+learning, thus enriching the educational experience for students 
+as well as teachers. 
+Foreword
+Foreword
+Reprint 2026-27
+
+iv
+It is crucial to remember the pedagogical focus of the 
+textbook 
+emphasising 
+understanding, 
+critical 
+thinking, 
+reasoning, and decision making. Children’s innate curiosity at 
+this stage should be nurtured by addressing their questions 
+and designing activities based on core learning principles. 
+While the play-way method continues, the nature of toys and 
+games used for teaching evolves to enhance engagement rather 
+than mere attraction.
+While this textbook is valuable, children should also explore 
+additional resources on the subject. School libraries should 
+facilitate this extended learning, and parents and teachers 
+should support their endeavours. 
+An effective learning environment motivates students, 
+keeping them engaged, and fostering curiosity and wonder vital 
+for learning.
+With confidence, I recommend this textbook to all students 
+and teachers at the Preparatory Stage. I extend my gratitude to 
+everyone involved in its development, hopeful that it will meet 
+expectations. As NCERT remains committed to systemic reforms 
+and improving publication quality, we welcome feedback to 
+refine the textbook content.
+Dinesh Prasad Saklani
+Director
+New Delhi
+National Council of Educational 
+31 March 2024
+Research and Training
+Reprint 2026-27
+
+The book Maths Mela for Class 3 has been developed based on 
+the recent documents National Education Policy (NEP) 2020 
+and National Curriculum Framework for School Education 
+(NCF-SE) 2023. They aim to ensure that all children achieve 
+basic numerical skills, and abilities to think mathematically 
+and logically, solve problems, develop intuitions regarding 
+quantities and reasons, and feel a sense of joy, wonder, and 
+curiosity. The Preparatory Stage specifically focuses on the 
+development of conceptual ideas about numbers, shapes, 
+and spatial relationships, measurement and data handling, 
+procedural skills and fluency, and computational thinking. 
+In light of this, the book for Class 3 is designed to support 
+learners consolidate their learnings in the Foundational 
+Stage and make progress towards dealing with more abstract 
+ideas. The chapters of the book cover the foundational ideas 
+of Mathematics: whole numbers and operations, introduction 
+to fractions, shapes and spatial relationships, measurement 
+(length, weight, capacity, time), and introduction to data 
+handling. While each chapter has a particular theme (building 
+on earlier ideas and making connections to other ideas), the 
+ideas will recur throughout the book.
+We firmly believe that young learners are capable of 
+reasoning, thinking and problem solving in different ways. 
+Therefore, the book provides several occasions for identifying 
+and noticing ideas and relationships across ideas, giving 
+examples and counter-examples to statements, creating 
+objects using mathematical ideas, measuring and quantifying, 
+estimating and solving problems. There are also opportunities 
+to hone one’s arithmetic skills through bare exercises, games, 
+and puzzles. At some places in the chapter, such opportunities 
+have been provided under the section ‘Let us Play’. Another 
+important purpose behind games and puzzles is to provide 
+learners a stress-free and joyful learning. Most of these need 
+not be assessed. Some tasks are aimed towards ‘computational 
+thinking’ where learners are expected to observe and articulate 
+About  the  Book
+About  the  Book
+Reprint 2026-27
+
+vi
+patterns, and find exhaustive solutions and solutions under 
+different constraints. 
+We also believe that learners should develop a liking for 
+Mathematics. The chapters of this textbook provide several 
+enjoyable activities, tasks, games, and puzzles that build on 
+children’s intuitions and tap on to their experiences in the 
+world around them. These have been given under the section 
+‘Let us Do’ at many places in the chapters. These are sometimes 
+used for making an entry to the concept and at other times 
+provide opportunities to consolidate the ideas. The narrative 
+in the chapters is supported through vivid illustrations, which 
+are also integral to the tasks. We hope that this will allow 
+learners to read pictures and use them for developing important 
+mathematical ideas. While the use of appropriate mathematical 
+vocabulary and ways of communicating thoughts is exemplified 
+in the chapters, linguistic instructions and explanations are 
+kept to the minimum, so that learners can also read and make 
+sense of the book. 
+Mathematics is an integrated body of knowledge, with a 
+connected and coherent set of ideas. It can be built logically 
+on commonly shared assumptions. Mathematical thinking and 
+reasoning are an important part of learning mathematics. The 
+book attempts to move away from rote memorisation of rules and 
+procedures which kill learners’ curiosity, and burdens them. 
+It rather pushes learners to explore and discover important 
+mathematical ideas. The sections named ‘Let us Think’, ‘Let 
+us Explore’, and ‘Let us Discuss’, included at various places, 
+aim at keeping learners curious to reason out their thinking. 
+These will give them reasons and insights that can be used 
+to remember ideas, and apply ideas flexibly and creatively, 
+making further learning easier. It is important to engage with 
+these processes of Mathematics so that learners can go beyond 
+routine mathematical problems confidently and without fear and 
+anxiety. We hope that the carefully chosen learning activities 
+will help them make sense of the ideas, develop capacities to 
+solve problems, experience wonder and joy in the process, and 
+be curious about the world of mathematics. 
+We believe that the time available for children to work on 
+problems, and share their solutions and ideas will be crucial 
+to achieve the objectives of NEP 2020 and NCF-SE 2023. The 
+book carries several suggestions for appropriate activities and 
+Reprint 2026-27
+
+vii
+experiences (in class, and in and around the home) to develop 
+mathematical ideas. Teachers’ and parents’ support in changing 
+conditions of learning for our children will be very important to 
+achieve the dreams of a better and more confident nation. 
+The book also advises on the making of simple inexpensive 
+concrete materials for learners to work with, and develop 
+and communicate their thinking. A few perforated sheets for 
+some of the tasks in the chapters are provided at the end of 
+the book. There are some more ideas in the Teacher’s Notes 
+for activities and materials. The chapters also show a gradual 
+movement from the use of materials to the use of pictures and 
+making schematic diagrams to make sense of the situation and 
+strategise ways forward. The book tries to build models for the 
+ideas using materials and pictures so that learners can use 
+them for their thinking independently. We would sincerely urge 
+teachers and parents  to use the sequence of ideas suggested in 
+the book for teaching, and not to rush to rules and procedures. 
+When children develop a better understanding, they will be in a 
+better position to appreciate the rules and procedures. Similar 
+care is also to be taken up by parents and elder siblings who 
+may help their wards in learning through this book. ‘Teacher’s 
+Note’ may help teachers and parents in appropriately enhancing 
+the child’s learning. 
+Several activities and tasks in the book also require that 
+children talk, and discuss their ideas. Learning will significantly 
+improve in a classroom that welcomes and respects learners’ 
+ideas. They will see different ways of thinking and use ideas, 
+and alternative solutions leading to better and independent 
+solutions over a period of time. They will get opportunities 
+to scrutinise each other’s solutions and develop fluency with 
+mathematical language, symbols, and procedures. These will 
+also serve as good assessments of learning for the teacher 
+and also provide feedback to them. The exercises given in 
+the book are also examples of how learners can be assessed. 
+Assessment should be done in multiple forms — using materials 
+and pictures, problem situations and bare problems, activities, 
+creating objects, and sharing and explaining solutions. The 
+book provides enough opportunities for adaptive assessment, 
+assessment for learning, and assessment as learning while the 
+child is learning and is engaged in different activities. Teachers 
+can note down their observations while the learners discuss 
+their ideas, replying to the questions asked, and explaining the 
+Reprint 2026-27
+
+viii
+reasoning for the answer. Such records can be included in the 
+learner’s portfolio. All ideas in the book have been concluded 
+with some paper pen tasks (questions, word problems, and 
+projects) that a child can complete in the classroom or at 
+home. Such tasks provide opportunities to practice writing and 
+present their thinking on a paper. 
+In the times to come, we will provide more resources to 
+the teachers and learners in the form of videos, worksheets for 
+practice, and links to online resources. 
+We hope that the book will be enjoyable to all and will lead 
+to better teaching-learning conditions.
+	
+Anup Kumar Rajput
+Professor 
+Department of Elementary Education 
+Head, Publication Division 
+NCERT, New Delhi
+Reprint 2026-27
+
+1.
+M.C. Pant, Chancellor, National Institute of Educational
+Planning and Administration (NIEPA), (Chairperson)
+2.
+Manjul 
+Bhargava, 
+Professor, 
+Princeton 
+University,
+(Co-Chairperson)
+3.
+Sudha Murty, Acclaimed Writer and Educationist
+4.
+Bibek Debroy, Chairperson, Economic Advisory Council –
+Prime Minister (EAC – PM)
+5.
+Shekhar Mande, Former DG, CSIR, Distinguished
+Professor, Savitribai Phule Pune University, Pune
+6.
+Sujatha Ramdorai, Professor, University of British
+Columbia, Canada
+7.
+Shankar Mahadevan, Music Maestro, Mumbai
+8.
+U. Vimal Kumar, Director, Prakash Padukone Badminton
+Academy, Bangaluru
+9.
+Michel Danino, Visiting Professor, IIT – Gandhinagar
+10.
+Sunina Rajan, IAS (Retd.), Haryana, Former DG, HPA
+11.
+Chamu Krishna Shastri, Chairperson, Bhartiya Bhasha
+Samiti, Ministry of Education
+12.
+Sanjeev Sanyal, Member, Economic Advisory Council –
+Prime Minister (EAC – PM)
+13.
+M.D. Srinivas, Chairperson, Centre for Policy Studies,
+Chennai
+14.
+Gajanan Londhe, Head, Programme Office, NSTC
+15.
+Rabin Chhetri, Director, SCERT, Sikkim
+16.
+Pratyusha Kumar Mandal, Professor, Department of
+Education in Social Science, NCERT, New Delhi
+17.
+Dinesh Kumar, Professor and Head, Planning and
+Monitoring Division, NCERT, New Delhi
+18.
+Kirti Kapoor, Professor, Department of Education in
+Languages, NCERT, New Delhi
+19.
+Ranjana Arora, Professor and Head, Department of
+Curriculum Studies and Development, NCERT, New Delhi,
+(Member-Secretary)
+National Syllabus and Teaching
+National Syllabus and Teaching
+Learning Material Committee (NSTC)
+Learning Material Committee (NSTC)
+Reprint 2026-27
+
+Reprint 2026-27
+
+Guidance
+Mahesh Chandra Pant, Chairperson, NSTC and Member, 
+Coordination Committee, Curricular Area Group (CAG): 
+Preparatory Stage
+Manjul Bhargava, Co-Chairperson, NSTC and Member, 
+Coordination Committee, CAG: Preparatory Stage
+Suniti Sanwal, Professor and Head, Department of Elementary 
+Education, NCERT, New Delhi and Member-Convenor, 
+Coordination Committee, Curricular Area Group: Preparatory 
+Stage
+Chairperson, Sub-Group (Mathematics) 
+Rakhi Banerjee, Associate Professor, Azim Premji University
+Contributors
+Ajay Sharma, Assistant Professor, DEE, NCERT, New Delhi
+Chhavi Kataria, Maths Educator, Tech Mahindra Foundation 
+Dharam Prakash, Former Professor, NCERT, New Delhi
+Garima Pandey, Teacher, MCD School, Delhi 
+Gunjan Khurana, Research Scholar, Jamia Milia Islamia, 
+New Delhi
+Haneet Gandhi, Professor, University of Delhi, New Delhi
+Jasneet Kaur, Lecturer, SCERT, Haryana 
+Mukesh Malviya, Teacher Educator, Madhya Pradesh 
+Mukund Kumar Jha, Consultant, DEE, NCERT, New Delhi
+Nisha Negi, Senior Consultant, DEE, NCERT, New Delhi
+Padmapriya Shirali, Principal, Sahyadri School, Pune 
+Parvathi Bhatt, Assistant Teacher, Karnataka Public School, 
+Uttarahalli, Bengaluru, Karnataka 
+Pushpa Thantry, Director-Programme, Akshara Foundation 
+Textbook Development Team
+Textbook Development Team
+Reprint 2026-27
+
+xii
+Ritu Giri, Primary School Teacher, DOE, Delhi 
+Ruchi Kumar, Assistant Professor, TISS, Mumbai 
+Shivkumar K M, Director, Pedagogy and Innovation (Maths), 
+Seed2Sapling Education Foundation, Bengaluru 
+Shravan S K, Chief Curriculum Designer (Maths), Seed2Sapling 
+Education Foundation, Bengaluru 
+Shweta S. Naik, Scientific Officer, HBCSE, Mumbai 
+Surekha Bhargava, Assistant Teacher (Retd.), Bal Bharati 
+Public School, Pitampura, New Delhi
+Reviewers
+Manjul Bhargava, Professor and Co-Chairperson, NSTC and 
+Member, Coordination Committee, CAG: Preparatory Stage
+Anurag Behar, CEO, Azim Premji Foundation, Member, NOC
+Member-Coordinator, Sub-Group (Mathematics)
+Anup Kumar Rajput, Professor, Department of Elementary 
+Education and Head, Publication Division, NCERT, New Delhi
+Reprint 2026-27
+
+The National Council of Educational Research and Training 
+(NCERT) acknowledges the guidance, and support of the 
+esteemed Chairperson and Members of the National Curriculum 
+Frameworks Oversight Committee, Chairperson and members 
+of Curricular Area Group (CAG): Preparatory Stage and also 
+of other concerned CAGs for their guidelines on cross-cutting 
+themes in developing this textbook. 
+The Council acknowledges the support of its faculty— 
+Indrani Bhaduri, Professor and Head, Educational Survey 
+Division; Mona Yadav, Professor, Department of Gender Studies; 
+Vinay Singh, Professor and Head, Department of Education 
+of Groups with Special Needs; Milli Roy, Professor and Head, 
+Department of Gender Studies, and Jyotsna Tiwari, Professor 
+and Head, Department of Education in Arts and Aesthetics, 
+for reviewing the cross-cutting themes, such as integration of 
+gender, inclusion, art education, etc., in this textbook. 
+The efforts of Shaveta Sharma, TGT, SD SVM Talwara, 
+Punjab; Nazarana Khan, Senior Research Associate and Gazala 
+Parveen, Research Associate, Department of Elementary 
+Education, NCERT are appreciated for providing support in the 
+development of this textbook.
+The Council also acknowledges the efforts of Ilma 
+Nasir, Editor (Contractual), and Ariba Usman, Proof Reader 
+(Contractual), Publication Division, NCERT, for editing this 
+textbook. The efforts and hardwork of Pawan Kumar Barriar, 
+In charge, DTP Cell, Publication Division, NCERT; Manoj Kumar, 
+Bittu Kumar Mahato, Anita, Shiv Shankar, Sanju Sharma 
+and Vivek Mandal, DTP Operators (Contractual), Publication 
+Division, NCERT are appreciated for giving this document its 
+final shape.
+Acknowledgements
+Acknowledgements
+Reprint 2026-27
+
+Our National Anthem
+Jana-gana-mana adhinayaka, jaya he
+Bharata-bhagya-vidhata. 
+Punjab-Sindh-Gujarat-Maratha
+Dravida-Utkala-Banga 
+Vindhya-Himachala-Yamuna-Ganga
+Uchchhala-jaladhi-taranga. 
+Tava shubha name jage,
+Tava shubha asisa mage,
+Gahe tava jaya gatha.
+Jana-gana-mangala-dayaka jaya he 
+Bharata-bhagya-vidhata. 
+Jaya he, jaya he, jaya he, 
+Jaya jaya jaya, jaya he!
+Our National Anthem, composed originally in Bangla by 
+Rabindranath Tagore, was adopted in its Hindi version 
+by the Constituent Assembly as the national anthem of 
+India on 24 January 1950.
+Reprint 2026-27
+
+Foreword
+iii
+About the Book	
+v
+Chapter 1: What’s in a Name?	
+  1
+Chapter 2: Toy Joy	
+  9
+Chapter 3: Double Century	
+16
+Chapter 4: Vacation with My Nani Maa	
+29
+Chapter 5: Fun with Shapes	
+44
+Chapter 6: House of Hundreds – I	
+64
+Chapter 7: Raksha Bandhan	
+82
+Chapter 8: Fair Share	
+107
+Chapter 9: House of Hundreds – II	
+117
+Chapter 10: Fun at Class Party!	
+128
+Chapter 11: Filling and Lifting	
+139
+Chapter 12: Give and Take	
+150
+Chapter 13: Time Goes On	
+165
+Chapter 14: The Surajkund Fair	
+177
+Learning Material Sheets	
+192
+Contents
+Contents
+Reprint 2026-27
+
+Reprint 2026-27

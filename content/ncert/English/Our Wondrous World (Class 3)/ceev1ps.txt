@@ -1,0 +1,535 @@
+Textbook for Class 3
+The World Around Us
+ Our 
+Wondrous 
+World
+Reprint 2026-27
+
+First Edition
+June 2024 Jyeshtha 1946
+Reprinted
+March 2025 Phalguna 1946
+February 2026 Phalguna 1947
+PD 140T BS
+© National Council of Educational 
+Research and Training, 2024
+ 65.00
+Printed on 80 GSM paper with NCERT 
+watermark
+Published at the Publication Division 
+by the Secretary, National Council
+of Educational Research and
+Training, Sri Aurobindo Marg, 
+New Delhi 110 016 and printed at 
+Print Pack India D-12, Sector 
+B-3, Tronica City Indl. Area, Loni,
+Ghaziabad, UP
+Publication Team
+Head, Publication	
+:	 M.V. Srinivasan
+Division
+Chief Editor 	
+:	 Bijnan Sutar
+Chief Business Manager	 :	 Amitabh Kumar
+Chief Production Officer	 :	 Deepak Jaiswal
+(In charge)
+Assistant Production	
+:	 Sayuraj A.R.
+Officer
+Cover, Design and Artwork
+Joel Gill 
+Illustration
+Silja Bansriyar, Susnata Paul, 
+Palak Sharma and Nanit BS
+—Azim Premji Foundation, Bengaluru
+ALL RIGHTS RESERVED
+No part of this publication may be reproduced, stored in a
+retrieval system or transmitted, in any form or by any means, 
+electronic, mechanical, photocopying, recording or otherwise
+without the prior permission of the publisher.
+This book is sold subject to the condition that it shall not, by
+way of trade, be lent, re-sold, hired out or otherwise disposed
+of without the publisher’s consent, in any form of binding or
+cover other than that in which it is published.
+The correct price of this publication is the price printed on
+this page, Any revised price indicated by a rubber stamp or
+by a sticker or by any other means is incorrect and should
+be unacceptable.
+OFFICES OF THE PUBLICATION 
+DIVISION, NCERT
+NCERT Campus
+Sri Aurobindo Marg
+New  Delhi 110 016	
+Phone :  011-26562708
+108, 100 Feet Road 
+Hosdakere Halli Extension
+Banashankari III Stage
+Bengaluru 560 085	
+Phone : 080-26725740
+Navjivan Trust Building
+P.O. Navjivan 
+Ahmedabad 380 014	
+Phone :  079-27541446
+CWC Campus
+Opp. Dhankal Bus Stop
+Panihati
+Kolkata 700 114	
+Phone :  033-25530454
+CWC Complex
+Maligaon  
+Guwahati 781 021	
+Phone :  0361-2674869
+ISBN 978-93-5292-863-7
+0335 – Our Wondrous World— Textbook for Class 3 
+The World Around Us
+Reprint 2026-27
+
+Foreword
+The Foundational Stage in school education, as envisaged by the 
+National Education Policy (NEP) 2020, serves as the cornerstone 
+for the holistic development of children. It enables them not only 
+to imbibe the invaluable samskaras rooted in our country’s ethos 
+and constitutional framework, but also to acquire basic literacy and 
+numeracy. This foundation equips them to transition seamlessly 
+into the more challenging Preparatory Stage.  
+The Preparatory Stage acts as a bridge between the Foundational 
+and the Middle stages, spanning three years from Class 3 to Class 5. 
+The education provided during this stage builds upon the pedagogical 
+approaches of the Foundational Stage. While the play-way and 
+discovery, plus the activity-based learning methods continue, 
+children are also introduced to textbooks and formal classroom 
+settings. This introduction aims not to overwhelm but to establish 
+a foundation across curricular areas, promoting holistic learning 
+and self-exploration through reading, writing, speaking, drawing, 
+singing, and playing. This comprehensive approach encompasses 
+physical education, art education, environmental education, 
+languages, mathematics, basic science, and social sciences. This 
+comprehensive approach ensures children are well-prepared both 
+at the cognitive-sensitive and physical-pranic (emotional) levels to 
+effortlessly transition to the Middle Stage.   
+Adhering to the recommendations of the National Curriculum 
+Framework for School Education (NCF-SE), brought out, as a follow-
+up to the NEP 2020, a new subject area called ‘The World Around Us’ 
+at the Preparatory Stage. This subject aims to provide environmental 
+education through an experiential learning approach, connecting 
+children’s experiences with the basic concepts of different subject 
+areas which they will study at the Middle Stage.
+Our Wondrous World, the textbook for The World Around Us, 
+has been designed to help children connect their day-to-day 
+learning about their world to the basic concepts of various subject 
+areas— science, social sciences and environmental education. It aims 
+to enhance their sensitivity towards their environment, develop skills 
+to work with the community, and foster a positive attitude towards 
+various professions. 
+Reprint 2026-27
+
+iv
+Our Wondrous World emphasises conceptual understanding, 
+critical thinking, creativity, and the values and dispositions essential 
+for this developmental stage. It incorporates cross-cutting themes 
+such as inclusion, multilingualism, gender equality, and cultural 
+rootedness, integrating appropriate ICT tools and school-based 
+assessments.  
+Children’s innate curiosity at this stage needs to be nurtured by 
+addressing their questions and designing activities based on core 
+learning principles. While the play-way method continues, the nature 
+of toys and games used for teaching evolves to enhance engagement 
+rather than mere attraction.
+While this textbook is valuable, children also need to explore 
+additional resources on the subject. School libraries should facilitate 
+this extended learning, and parents and teachers should support 
+their endeavours. 
+An effective learning environment motivates children, keeping 
+them engaged and fostering curiosity and wonder, vital for learning.
+I recommend this textbook with confidence to all children and 
+teachers at the Preparatory Stage. I extend my gratitude to everyone 
+involved in its development, hopeful that it will meet the expectations. 
+As NCERT remains committed to systemic reforms and improving 
+publication quality, we welcome feedback to refine the textbook 
+content.
+	
+	
+	
+	
+	
+	
+Dinesh Prasad Saklani
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Director
+New Delhi	
+       National Council of Educational 
+25 May 2024	
+          Research and Training
+Reprint 2026-27
+
+About the Textbook 
+The National Curriculum Framework for School Education 
+(NCF-SE) 2023 has identified The World Around Us (TWAU) as a 
+core curricular area at the Preparatory Stage of School Education 
+for Classes 3–5. The National Education Policy (NEP) 2020 and the 
+NCF-SE 2023 emphasise the need for integrating a holistic and 
+multidisciplinary approach to learning in this subject area. Thus, 
+the nature of this subject area has been recommended as integrated 
+and interdisciplinary. Both the above policy documents advocate 
+experiential learning, exploration and discovery as an essential 
+component of the Preparatory Stage curriculum. 
+Based on the above policy perspective, a textbook titled Our 
+Wondrous World for Class 3 has been designed and developed. 
+Our Wondrous World, as the title suggests, evokes curiosity and 
+promotes experiential learning, exploration, investigation, discovery, 
+and critical thinking through hands-on activities and open-ended 
+inquiries. This subject integrates science, social sciences and 
+environmental education. The book emphasises real life experiences 
+to deepen understanding and foster problem solving and critical 
+thinking skills as children explore their surroundings with joy 
+and curiosity. The design of the chapters for each unit provides 
+opportunities for the young minds to think independently, reflect on 
+their observations and answer open-ended questions. This provides 
+opportunities to children to do away with rote memorisation and 
+encourages children to actively engage with their surroundings, 
+fostering a sense of curiosity and inquiry. This approach follows 
+a progression from known to unknown, local to global, simple to 
+complex, concrete to abstract and familiar to unfamiliar in the 
+development of concepts and skills. 
+This textbook has three broad components. The first component 
+is the selection of content and skills for expected learning. The 
+second component is the presentation of content in a manner 
+that is interactive for children. It assists teachers in transacting 
+concepts and skills. The presentation of the text includes various 
+age-appropriate pedagogical approaches such as play-based, theme-
+based, toy-based and inquiry-based to make the transactional 
+processes child-centric and enjoyable.  
+Reprint 2026-27
+
+vi
+The third component is the selection of assessment processes 
+and tracking the progress of children’s learning. We all know 
+that children also learn through picture reading, discussion, 
+experimentation, solving puzzles and riddles, sharing experiences, 
+and expressing thoughts and ideas through drawing and writing. To 
+lighten the burden of assessment, instructions have been given to 
+assess learning through such activities. For effective and meaningful 
+assessment, class-wise learning outcomes and competencies have 
+been identified in each subject, and teachers should assess learning 
+accordingly.  
+All the three components related to the approach of this textbook 
+can be understood by this example—in the chapter ‘Food We Eat’, 
+children learn about traditional cuisines like haakh (a kind of green 
+saag which is popular in Srinagar). This instance arouses curiosity 
+about the variety of foods in their own region and the different regions 
+of our country. This exploration integrates various subjects as we 
+try to understand the ingredients used to cook the particular food 
+item, learn about the regions where these foods originated from and 
+their cultural practices. Children examine how food reflects cultural 
+practices across India.  Such an interdisciplinary approach deepens 
+children’s understanding, and helps them make rich connections 
+across subjects, themes, and concepts. 
+Our Wondrous World is structured in four units concerning 
+themes involving the world around children. The structure of each 
+unit follows a coherent format designed to engage children effectively. 
+Each chapter of the units feature an interactive-cum-dialogue 
+or story-cum-narrative approach to the concepts and skills being 
+taught. For instance, in Unit 2, the theme ‘Getting to Know Plants’ 
+presents an interactive dialogue between children who are exploring 
+a garden and discovering different types of plants, parts of a plant, 
+and the need to take care of the plants for balanced and harmonious 
+living.  
+The presentation of the content in each chapter is child 
+friendly, and encourages active participation of the children in 
+the learning process. The self-explanatory illustrations aim in 
+developing   observation and critical-thinking skills of the children. 
+An effort has been made that the level of language and concepts 
+in the book are age-appropriate and relate to different regions of 
+our  country.
+Reprint 2026-27
+
+vii
+At the beginning of each unit, a concept scheme for each chapter 
+is given that will help to target the desired competencies and expected 
+learning outcomes.
+The language used in the book is simple and clear, ensuring that 
+children can easily grasp the concepts given in all the four units. 
+However, the book also incorporates some new vocabulary to offer 
+a gentle challenge and expand children’s language skills, e.g., by 
+introducing terms like ‘transparent’, ‘opaque’ and ‘translucent’ 
+within the context of learning about materials and their properties. 
+It has been explained through illustrations and descriptions to help 
+children understand these words in relation to real-world objects.  
+Furthermore, each chapter has an inbuilt assessment idea that 
+helps in tracking the progress of children and tailoring learning-
+teaching strategies accordingly. These assessment ideas include 
+activities like drawing a sketch from home to school, creating a rangoli 
+using materials from nature, discussion points, matching traffic 
+signs, labelling certain pictures, conducting simple experiments to 
+observe plant growth, or answering open-ended questions about the 
+functions of different parts of a plant.  
+‘Let us reflect’ is a section in which children get an opportunity to 
+summarise  the learning from the chapter.
+The activities given in the book are suggestive in nature. Teachers 
+are free to create additional activities besides what is given in the 
+book, without putting any kind of pressure on the children, and 
+see that they connect the children with their local environment. 
+Through Our Wondrous World, we have endeavoured to offer our 
+children dynamic and engaging learning experiences. 
+We hope that this book will open doors to understanding the 
+wonders of nature and lead to better learning-teaching of this 
+important interdisciplinary subject. 
+Reprint 2026-27
+
+Reprint 2026-27
+
+National Syllabus and Teaching 
+Learning Material Committee (NSTC) 
+1.
+M. C. Pant, Chancellor, National Institute of Educational
+Planning and Administration (NIEPA) (Chairperson)
+2.
+Manjul Bhargava, Professor, Princeton University
+(Co-Chairperson)
+3.
+Sudha Murty, Acclaimed Writer and Educationist
+4.
+Bibek Debroy, Chairperson, Economic Advisory Council
+–Prime Minister (EAC–PM)
+5.
+Shekhar Mande, Former DG, CSIR, Distinguished
+Professor, Savitribai Phule Pune University, Pune
+6.
+Sujatha Ramdorai, Professor, University of British
+Columbia, Canada
+7.
+Shankar Mahadevan, Music Maestro, Mumbai
+8.
+U. Vimal Kumar, Director, Prakash Padukone
+Badminton Academy, Bengaluru
+9.
+Michel Danino, Visiting Professor, IIT–Gandhinagar
+10.
+Surina Rajan, IAS (Retd.), Haryana, Former DG, HIPA
+11.
+Chamu Krishna Shastri, Chairperson, Bhartiya Bhasha
+Samiti, Ministry of Education
+12.
+Sanjeev Sanyal, Member, Economic Advisory Council–
+Prime Minister (EAC–PM)
+13.
+M. D. Srinivas, Chairperson, Centre for Policy Studies,
+Chennai
+14.
+Gajanan Londhe, Head, NSTC Programme Office
+15.
+Rabin Chhetri, Director, SCERT, Sikkim
+16.
+Pratyusha Kumar Mandal, Professor, Department of
+Education in Social Sciences, NCERT, New Delhi
+17.
+Dinesh Kumar, Professor and Head, Planning and
+Monitoring Division, NCERT, New Delhi
+18.
+Kirti Kapur, Professor, Department of Education in
+Languages, NCERT, New Delhi
+19.
+Ranjana Arora, Professor and Head, Department of
+Curriculum Studies and Development, NCERT, New Delhi
+(Member-Secretary)
+Reprint 2026-27
+
+Reprint 2026-27
+
+Textbook Development Team
+Guidance
+Mahesh Chandra Pant, Chairperson, NSTC and Member, Coordination 
+Committee, Curricular Area Group (CAG): Preparatory Stage
+Manjul Bhargava, Co-Chairperson, NSTC and Member, Coordination 
+Committee, CAG: Preparatory Stage
+Suniti Sanwal, Professor and Head, Department of Elementary 
+Education, NCERT, New Delhi and Member-Convenor, Coordination 
+Committee, Curricular Area Group: Preparatory Stage
+Chairperson, Sub-Group (TWAU)
+Rabin Chhetri, Director, SCERT, Sikkim
+Contributors
+Anita Bhatnagar, Former IAS and Author of children’s books
+Archana Panicker, Programme Director, Center for Environment 
+Education (CEE), Ahmedabad
+Binay Pattanayak, Chief Consultant, NSTC Programme Office, 
+NCERT, New Delhi
+Chong Shimray, Associate Professor, Department of Elementary 
+Education, NCERT, New Delhi
+Deborah Dutta, Research and Documentation Consultant, Institute 
+of Rural Management, Anand
+Dhanya Krishnan, Associate Professor, Department of Elementary 
+Education, NCERT
+Dikila Lepcha, Assistant Professor, SCERT, Sikkim
+Gayatri Dave, Programme Coordinator, Center for Environment 
+Education (CEE), Ahmedabad
+Jayashree Ramadas, Retired Professor of Science Education, HBCSE 
+and TIFR Hyderabad
+Mahendrakumar Arjan Chotalia, Former Dean, Faculty of Education 
+and Head, Post Graduate Department of Education, Sardar Patel 
+University, Gujarat
+Matrika Sharma, PGT (History), Government Sr. Secondary School, 
+Dikling, Sikkim
+Patel Rakesh Kumar Chandrakant, Head Teacher, Nava Nadisar 
+Primary School, Panchamahal, Gujarat
+Reprint 2026-27
+
+xii
+Rama Jayasundar, Head, Department of NMR, All India Institute of 
+Medical Sciences (AIIMS), New Delhi
+Romila Bhatnagar, Associate Professor, Department of Elementary 
+Education, NCERT, New Delhi
+Sandeep Kumar, Assistant Professor, Department of Elementary 
+Education, NCERT, New Delhi
+Shamin Padalkar, Assistant Professor, Tata Institute of Social 
+Sciences, Mumbai
+Sridevi K. V., Associate Professor, Regional Institute of Education, 
+Ajmer
+Swati Shelar, Senior project associate, Center for Creative Learning, 
+IIT Gandhinagar
+Tarun Choubisa, Director, Pedagogy and Innovations (science) 
+Seed2Sapling Education Foundation, Bengaluru
+Tulika Dey, Associate Professor, North-Eastern Regional Institute of 
+Education, Shillong.
+Vena Kapoor, Nature Education Consultant, Nature Classrooms, 
+Bengaluru
+Vijay Datta, Principal, Modern School, Barakhamba road, New Delhi 
+V. Ramanathan, Assistant Professor, Tata Institute of Social Sciences 
+(TISS), Mumbai 
+Reviewers
+Manjul Bhargava, Co-Chairperson, NSTC and Member, Coordination 
+Committee, CAG: Preparatory Stage
+Anurag Behar, Member, National Oversight Committee (NOC)
+Ranjana Arora, Professor and Head, Department of Curriculum 
+Studies and Development, NCERT, New Delhi
+Gajanan Londhe, Head, NSTC Programme Office
+Member-coordinators, Sub-Group (TWAU)
+Romila Bhatnagar, Associate Professor, Department of Elementary 
+Education, NCERT, New Delhi
+Kavita Sharma, Professor, Department of Elementary Education, 
+NCERT, New Delhi
+Sarla Verma, Associate Professor (Co-Coordinator), Department of 
+Teacher Education, NCERT, New Delhi
+Reprint 2026-27
+
+Acknowledgements
+The National Council of Educational Research and Training (NCERT) 
+acknowledges the guidance and support of esteemed Chairperson 
+and members of the National Curriculum Frameworks Oversight 
+Committee, Chairperson and members of Curricular Area Group 
+(CAG): Preparatory Stage and also of other concerned CAGs for their 
+guidelines on cross-cutting themes in developing this textbook. 
+The NCERT acknowledges the support of Varada Nikalje, 
+Professor, Department of Elementary Education; Kirti Kapur, 
+Professor, Department of Languages; Indrani Bhaduri, Professor 
+and Head, Educational Survey Division, NCERT; Mona Yadav, 
+Professor, Department of Gender Studies, NCERT; Vinay Singh, 
+Professor and Head, Department of Education of Groups with 
+Special Needs, NCERT; Milli Roy, Professor and Head, Department 
+of Gender Studies, NCERT; and Jyotsna Tiwari, Professor and 
+Head, Department of Education in Arts and Aesthetics, NCERT; for 
+reviewing the cross-cutting themes such as integration of gender, 
+inclusion, art education, etc., in this textbook. 
+Special thanks are due to Gajanan Londhe, Head and Binay 
+Pattanayak, Chief Consultant, NSTC Programme Office, NCERT who 
+played a significant role in coordinating for the content finalisation 
+and designing aspects of this textbook. 
+The support from Aparna Joshi, Gargi College and Smriti Sharma, 
+LSR from Delhi University in content editing is appreciated. Sushmita 
+Malik, former Consultant, NCERT and writer; Manju Jain, former 
+Professor, DEE, NCERT; Baljeet Kaur, Principal and Coordinator PEC 
+Samagra Shiksha, Delhi; Sangeeta Arora, retired Teacher, Kendriya 
+Vidyalaya Shalimar Bagh, New Delhi and Suparna Diwakar also 
+assisted in editing and translation of content. Acknowledgements are 
+also due to Vikas Chandra Roy, Tirang Luikang Rangsanamei, Arun 
+Naik and Ronita Sharma from Azim Premji University, Bangalore 
+for their academic contribution towards improvising content in the 
+book.
+Reprint 2026-27
+
+xiv
+Efforts of Sangeeta Mathur, Hargun Kaur, Rinky, Chanchal 
+Dahiya, Tarandeep Kaur, Mamta and Manish are appreciated for 
+providing technical support in formatting of the textbook. 
+	
+The Council acknowledges the contribution of Pawan Kumar 
+Barriar, In-charge, DTP Cell, Publication Division, NCERT; Ilma 
+Nasir, Editor (Contractual), Vipan Kumar Sharma, Vivek Rajpoot 
+and Bittu Kumar Mahato, DTP Operators (Contractual), Publication 
+Division, NCERT for giving this document a final shape.
+Reprint 2026-27
+
+Foreword	
+	
+iii
+About the Textbook	
+                                                    v
+Unit 1: Our Families and Communities
+Chapter 1: Family and Friends	
+	
+	
+	
+  3
+Chapter 2: Going to the Mela	
+	
+	
+	
+19
+Chapter 3: Celebrating Festivals	
+	
+	
+	
+34
+Unit 2: Life Around Us
+Chapter 4: Getting to Know Plants		
+	
+	
+47
+Chapter 5: Plants and Animals Live Together	
+	
+62
+Chapter 6: Living in Harmony 	
+	
+	
+	
+72
+Unit 3: Gifts of Nature
+Chapter 7: Water— A Precious Gift		
+	
+	
+86
+Chapter 8: Food We Eat	
+	
+	
+	
+	
+100
+Chapter 9: Staying Healthy and Happy	
+	
+	
+109
+Unit 4: Things Around Us
+Chapter 10: This World of Things	 	
+	
+	
+123
+Chapter 11: Making Things	 	
+	
+	
+	
+135
+Chapter 12: Taking Charge of Waste	
+	
+	
+149
+Contents
+Reprint 2026-27
+
+Reprint 2026-27

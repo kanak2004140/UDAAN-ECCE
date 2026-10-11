@@ -1,0 +1,525 @@
+i
+Our Wondrous World
+Textbook for Grade 4
+The World Around Us
+Reprint 2026-27
+
+First Edition
+March 2025 Chaitra 1947
+Reprinted
+February 2026 Phalaguna 1947
+PD 135T BS
+© National Council of Educational 
+Research and Training, 2025
+ 65.00
+Printed on 80 GSM paper with NCERT 
+watermark
+Published at the Publication Division 
+by the Secretary, National Council of 
+Educational Research and Training, 
+Sri Aurobindo Marg, New Delhi 110 016 
+and printed at Deep Trading Co. 
+H-203, Sector-63, Noida-201301, UP
+Publication Team
+Head, Publication	
+:	 M.V. Srinivasan
+Division
+Chief Editor 	
+:	 Bijnan Sutar
+Chief Business Manager	 :	 Amitabh Kumar
+Chief Production Officer	 :	 Deepak Jaiswal
+(In charge)
+Production Assistant	
+:	 Nalla Aravind
+ALL RIGHTS RESERVED
+No part of this publication may be reproduced, stored in a
+retrieval system or transmitted, in any form or by any means, 
+electronic, mechanical, photocopying, recording or otherwise
+without the prior permission of the publisher.
+This book is sold subject to the condition that it shall not, by
+way of trade, be lent, re-sold, hired out or otherwise disposed
+of without the publisher’s consent, in any form of binding or
+cover other than that in which it is published.
+The correct price of this publication is the price printed on
+this page, Any revised price indicated by a rubber stamp or
+by a sticker or by any other means is incorrect and should
+be unacceptable.
+OFFICES OF THE PUBLICATION 
+DIVISION, NCERT
+NCERT Campus
+Sri Aurobindo Marg
+New  Delhi 110 016	
+Phone :  011-26562708
+108, 100 Feet Road 
+Hosdakere Halli Extension
+Banashankari III Stage
+Bengaluru 560 085	
+Phone : 080-26725740
+Navjivan Trust Building
+P.O. Navjivan 
+Ahmedabad 380 014	
+Phone :  079-27541446
+CWC Campus
+Opp. Dhankal Bus Stop
+Panihati
+Kolkata 700 114	
+Phone :  033-25530454
+CWC Complex
+Maligaon  
+Guwahati 781 021	
+Phone :  0361-2674869
+ISBN 978-93-5729-123-1
+0435 – Our Wondrous World— Textbook for Grade 4 
+The World Around Us
+Layout and Cover
+Joel Gill
+Illustrations 
+Joel Gill and Green Tree Designing Studio
+Reprint 2026-27
+
+Foreword
+The foundational stage in school education, as envisaged by the 
+National Education Policy (NEP) 2020, serves as the cornerstone for 
+the holistic development of children. It enables students not only 
+to imbibe the invaluable samskaras rooted in our country’s ethos 
+and constitutional framework, but also to acquire basic literacy and 
+numeracy. This foundation equips them to transition seamlessly 
+into the more challenging preparatory stage.
+The preparatory stage acts as a bridge between the foundational 
+and the middle stages, spanning three years from Grade 3 to 
+Grade 5. The education provided during this stage builds upon 
+the pedagogical approaches of the foundational stage. While the 
+play-way, discovery and the activity-based learning methods 
+continue, children are also introduced to textbooks and formal 
+classroom settings. This introduction aims to establish a foundation 
+across curricular areas, promoting holistic learning and self-
+exploration through reading, writing, speaking, thinking, drawing, 
+singing, and playing. This comprehensive approach encompasses 
+physical education, art education, environmental education, 
+languages, mathematics, basic science and social sciences. This 
+comprehensive approach also ensures children are well-prepared 
+both at the cognitive-sensitive and physical-emotional levels to 
+effortlessly transition to the middle stage.
+Adhering to the recommendations of the National Curriculum 
+Framework for School Education (NCF-SE) 2023, brought out as 
+a follow-up to the NEP 2020, a new subject area called ‘The World 
+Around Us’ at the preparatory stage is introduced. This subject aims 
+to provide environmental education through an experiential learning 
+approach, connecting children’s experiences with the basic concepts 
+of different subject areas, which they will study at the middle stage.
+Our Wondrous World, the textbook for The World Around Us, has 
+been designed to help children connect their day-to-day learning 
+about their world to the basic concepts of various subject areas — 
+science, social sciences and environmental education. It aims to 
+enhance their sensitivity towards their environment, develop skills 
+to work with the community, and foster a positive attitude towards 
+various professions.
+Reprint 2026-27
+
+iv
+Our Wondrous World emphasises conceptual understanding, 
+critical thinking, creativity, and the values and dispositions essential 
+for this developmental stage. It incorporates cross-cutting themes 
+such as inclusion, multilingualism, gender equality, and cultural 
+rootedness, integrating appropriate ICT tools and school-based 
+assessments.
+In Grade 3, students were familiarised with four broad units, 
+which included Our Families and Communities, Life Around Us, 
+Gifts of Nature and Things Around Us. This textbook for Grade 4 
+centres on five broad units, including Our Community, Life Around 
+Us, Health and Well-Being, Things Around Us, and Our Environment. 
+The content and processes have been designed by keeping in view 
+the age, experiences, interests and diversity of children everywhere. 
+Children’s innate curiosity at this stage needs to be nurtured 
+by addressing their questions and designing activities based on 
+the core learning principles. While the play-way method continues, 
+the nature of toys and games used for teaching evolves to enhance 
+engagement rather than mere attraction.
+While this textbook is valuable, children also need to explore 
+additional resources on the subject. School libraries should facilitate 
+this extended learning, and parents and teachers should support 
+their endeavours.
+An effective learning environment motivates children, keeping 
+them engaged, and fostering curiosity and wonder, vital for learning. 
+I recommend this textbook with confidence to all children and 
+teachers at the Preparatory Stage. I extend my gratitude to everyone 
+involved in its development, hopeful that it will meet the expectations. 
+As NCERT remains committed to systemic reforms and improving 
+publication quality, we welcome feedback to refine the contents of 
+this textbook.
+	
+	
+	
+	
+	
+	
+Dinesh Prasad Saklani
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Director
+New Delhi	
+       National Council of Educational 
+25 March 2025	
+          Research and Training
+Reprint 2026-27
+
+About the Textbook
+The National Education Policy (NEP) 2020 envisions a transformative 
+education system that is deeply rooted in the Indian values and 
+culture. By creating engaging, experiential and exploratory learning 
+experiences, we can turn this vision into reality. The National 
+Curriculum Framework for School Education (NCF-SE) 2023 has 
+introduced The World Around Us as a core curricular area at 
+the Preparatory Stage of School Education for Grades 3 – 5. The 
+World Around Us helps children discover and connect with their 
+surroundings, fostering a sense of belonging and responsibility. By 
+exploring their physical, social and natural environments, children 
+develop awareness, sensitivity, and a deeper appreciation for the 
+world around them. Encouraging curiosity, hands-on exploration, 
+and connecting with people and objects help children develop a more 
+holistic understanding of the world. Hence, this curricular area is 
+designed to be integrated and interdisciplinary.
+Guided by the NEP 2020, the Grade 4 textbook Our Wondrous World 
+has been carefully designed to spark curiosity and encourage experiential 
+learning. Through hands-on activities and open-ended inquiries, 
+students explore, investigate, and discover the world around them. 
+By integrating science, social sciences, and environmental education, 
+the book connects learning to real-life experiences, to enhance 
+problem-solving skills and fostering critical thinking. Ultimately, the 
+goal is to empower students with essential competencies — including 
+skills, knowledge, values and dispositions that foster a deeper 
+understanding and connection with their environment. Through 
+joyful and curious engagement with their surroundings, children 
+deepen their learning and develop a lifelong appreciation for the 
+world around them.
+Building on the foundational concepts introduced in the textbook 
+of Grade 3, this book offers developmentally progressive activities 
+and discussion around five units — Our Community, Life Around Us, 
+Health and Well-being, Things Around Us, and Our Environment. 
+Each unit follows a consistent and engaging structure, carefully 
+designed to captivate young learners. Every chapter within the 
+units includes; an interactive dialogue or narrative, observation and 
+inference activities, experiments, field visits and exploration. For 
+Reprint 2026-27
+
+vi
+instance, in Unit 4 — Things Around Us, the chapters begin with 
+interactive dialogues. These dialogues spark curiosity and encourage 
+children to explore, and investigate the phenomenon further. By 
+changing conditions and drawing inferences, students develop a 
+deeper understanding the scientific processes. Similarly, the ‘Nature 
+Trail ’ in Unit 2 helps children to understand the importance of 
+conserving resources for a balanced and harmonious way of life.
+Each chapter presents content in a child friendly manner and 
+encourages active participation of the children in the learning 
+process. Engaging puzzles and riddles spark curiosity in children, 
+bringing a smile to their faces and making learning a joyful 
+experience. The self-explanatory illustrations are designed to foster 
+observation and critical-thinking skills in children. The language 
+and concepts presented in the book are carefully crafted to be 
+age-appropriate, reflecting the diversity of our country. To promote 
+diversity and inclusivity, the book incorporates varied activities 
+and discussions. Additionally, the rich Indian Knowledge System 
+is integrated into the content and illustrations, enabling children 
+to appreciate and connect with vibrant culture, and heritage of our 
+country. Indigenous practices are highlighted through case studies, 
+illustrations and activities. Social phenomena are explored through 
+diverse experiences such as interaction with family members, 
+neighbourhood surveys, and peer conversations. The development 
+of essential values and dispositions is fostered through activities 
+emphasising care, concern, and respect for nature. By empowering 
+children to make responsible choices, this approach aligns with the 
+noble vision of ‘Vasudhaiva Kutumbakam’ — a world united as one 
+family. 
+Each unit begins with a concept scheme, outlining the desired 
+competencies and expected learning outcomes for each chapter. 
+The content is presented in an interactive and engaging manner. 
+Employing the developmentally appropriate pedagogical approaches, 
+including play-based, theme-based, toy-based and inquiry-based 
+methods, ensures that the learning process remains child-centric, 
+engaging, and enjoyable. To support teachers, the ‘Notes to the 
+Teachers’ provide additional clarity and guidance for facilitating 
+activities. Each chapter also features intriguing facts in the ‘Do you 
+know’ section, encouraging children to think critically and explore 
+the topics more deeply. 
+Efforts were made to celebrate the linguistic diversity of our 
+country by providing context-specific examples and activities that 
+encourage children to explore equivalent terms in various Indian 
+languages. The integrated approach is evident throughout the 
+Reprint 2026-27
+
+vii
+book. For instance, the Chapter 9 — Different Lands, Different Lives 
+revolves around the central theme of various landforms — plains, 
+deserts, coastal regions and mountains — and their influence on 
+socio-cultural aspects such as food, clothing, art, and housing. 
+Through an example of a visit to four states of our country, the chapter 
+captures the essence of diversity and emphasises the importance of 
+appreciating the rich cultural diversity around us. It also highlights 
+how we successfully overcome challenges, showcasing resilience in 
+the process. Exploration of things around us is planned for children 
+to get hands-on experience of the scientific process, but without 
+introducing scientific terms. The chapters have a seamless blend 
+of tradition and modernity. While the book provides opportunities 
+for students to explore India’s rich heritage, it also highlights the 
+significance of technology in daily life. 
+The book adopts an integrated assessment approach, where 
+assessment strategies are flawlessly integrated with pedagogical 
+methods. By avoiding the burden of assessment, learning activities 
+are assessed through multiple modes. This includes, creating art 
+forms, discussion and writing activities, open-ended inquiries, 
+field-based projects, conducting simple experiments, etc. 
+The ‘Let us reflect’ section provides students with an opportunity 
+to summarise their learning from the chapter. The activities in the 
+book serve as suggestions, allowing teachers the flexibility to design 
+additional activities as needed. 
+With Our Wondrous World, we strive to provide children with 
+dynamic and engaging learning experiences. We aspire for this book 
+to spark curiosity in children and enrich their learning experience of 
+the world around us.
+Dhanya Krishnan
+	
+Associate Professor and Member-Coordinator
+	
+Department of Elementary Education 
+NCERT, New Delhi
+Reprint 2026-27
+
+CONSTITUTION OF INDIA
+Part III (Articles 12 – 35)
+(Subject to certain conditions, some exceptions
+and reasonable restrictions)
+guarantees these
+Fundamental Rights
+Right to Equality
+• before law and equal protection of laws;
+• irrespective of religion, race, caste, sex or place of birth;
+• of opportunity in public employment;
+• by abolition of untouchability and titles.
+Right to Freedom
+• of expression, assembly, association, movement, residence and profession;
+• of certain protections in respect of conviction for offences;
+• of protection of life and personal liberty;
+• of free and compulsory education for children between the age of six and fourteen years;
+• of protection against arrest and detention in certain cases.
+Right against Exploitation
+• for prohibition of traffic in human beings and forced labour;
+• for prohibition of employment of children in hazardous jobs.
+Right to Freedom of Religion
+• freedom of conscience and free profession, practice and propagation of religion;
+• freedom to manage religious affairs;
+• freedom as to payment of taxes for promotion of any particular religion;
+• freedom as to attendance at religious instruction or religious worship in educational
+institutions wholly maintained by the State.
+Cultural and Educational Rights
+• for protection of interests of minorities to conserve their language, script and culture;
+• for minorities to establish and administer educational institutions of their choice.
+Right to Constitutional Remedies
+• by issuance of directions or orders or writs by the Supreme Court and High
+Courts for enforcement of these Fundamental Rights.
+Reprint 2026-27
+
+National Syllabus and Teaching Learning  
+Material Committee (NSTC) 
+1.	 M. C. Pant, Chancellor, National Institute of Educational 
+Planning and Administration (NIEPA), (Chairperson) 
+2.	 Manjul Bhargava, Professor, Princeton University,  
+(Co-Chairperson) 
+3.	 Sudha Murty, Acclaimed Writer and Educationist 
+4.	 Bibek Debroy, Chairperson, Economic Advisory Council to the 
+Prime Minister (EAC – PM) 
+5.	 Shekhar Mande, Former Director General, CSIR; Distinguished 
+Professor, Savitribai Phule Pune University, Pune 
+6.	 Sujatha Ramdorai, Professor, University of British Columbia, 
+Canada 
+7.	 Shankar Mahadevan, Music Maestro, Mumbai 
+8.	 U. Vimal Kumar, Director, Prakash Padukone Badminton 
+Academy, Bengaluru 
+9.	 Michel Danino, Visiting Professor, IIT – Gandhinagar 
+10.	 Surina Rajan, IAS (Retd.), Haryana, Former Director General, 
+HIPA 
+11.	 Chamu Krishna Shastri, Chairperson, Bharatiya Bhasha 
+Samiti, Ministry of Education 
+12.	 Sanjeev Sanyal, Member, Economic Advisory Council to the 
+Prime Minister (EAC – PM) 
+13.	 M.D. Srinivas, Chairperson, Centre for Policy Studies, Chennai 
+14.	 Gajanan Londhe, Head, Programme Office 
+15.	 Rabin Chhetri, Director, SCERT, Sikkim 
+16.	 Pratyusa Kumar Mandal, Professor, Department of Education 
+in Social Sciences, NCERT, New Delhi 
+17.	 Dinesh Kumar, Professor, Department of Education in Science 
+and Mathematics, NCERT, New Delhi 
+18.	 Kirti Kapur, Professor, Department of Education in Languages, 
+NCERT, New Delhi 
+19.	 Ranjana Arora, Professor and Head, Department of 
+Curriculum Studies and Development, NCERT (Member-
+Secretary)
+Reprint 2026-27
+
+Reprint 2026-27
+
+Textbook Development Team
+Rabin Chhetri, Director, SCERT, Sikkim (Team Leader)
+Archana Panicker, Programme Director, Center for Environment 
+Education (CEE), Ahmedabad
+Arun Naik, Professor, Azim Premji University, Bengaluru
+Binay Pattanayak, Chief Consultant, NSTC Programme Office
+Dikila Lepcha, Assistant Professor, SCERT, Sikkim
+Gayatri Dave, Programme Coordinator, Center for Environment 
+Education (CEE), Ahmedabad
+Jubilee Padmanabhan, Associate Professor, DESM, NCERT, New 
+Delhi 
+K.V. Sridevi, Associate Professor, RIE, Ajmer
+Shyamala Kamath, Project Coordinator, Samvit Research Foundation, 
+Bengaluru
+Tarun Choubisa, Senior Consultant, NSTC Programme Office
+Dhanya Krishnan, Associate Professor, DEE, NCERT, New Delhi 
+(Member-Coordinator)
+Reviewers 
+Manjul Bhargava, Co-Chairperson, NSTC and Member, Coordination 
+Committee, CAG: Preparatory Stage 
+Anurag Behar, Member, National Oversight Committee (NOC) 
+Ranjana Arora, Professor and Head, Department of Curriculum 
+Studies and Development, NCERT, New Delhi 
+Suniti Sanwal, Professor and Head, Department of Elementary 
+Education, NCERT, New Delhi and Member-Convenor, Coordination 
+Committee, Curricular Area Group: Preparatory Stage
+Gajanan Londhe, Head, NSTC Programme Office
+Sukhvinder Singh, Associate Professor, Educational Survey Division, 
+NCERT, New Delhi
+Abhay Kumar, Assistant Professor, CIET, NCERT, New Delhi
+Amit Ranjan, Assistant Professor, CIET, NCERT, New Delhi
+Reprint 2026-27
+
+Constitution of India
+Fundamental Duties
+Part IV A (Article 51 A)
+It shall be the duty of every citizen of India —
+(a) to abide by the Constitution and respect its ideals and institutions, the
+National Flag and the National Anthem;
+(b) to cherish and follow the noble ideals which inspired our national struggle
+for freedom;
+(c) to uphold and protect the sovereignty, unity and integrity of India;
+(d) to defend the country and render national service when called upon to
+do so;
+(e) to promote harmony and the spirit of common brotherhood amongst all
+the people of India transcending religious, linguistic and regional or
+sectional diversities; to renounce practices derogatory to the dignity of
+women;
+(f)
+to value and preserve the rich heritage of our composite culture;
+(g) to protect and improve the natural environment including forests, lakes,
+rivers, wildlife and to have compassion for living creatures;
+(h) to develop the scientific temper, humanism and the spirit of inquiry and
+reform;
+(i)
+to safeguard public property and to abjure violence;
+(j)
+to strive towards excellence in all spheres of individual and collective
+activity so that the nation constantly rises to higher levels of endeavour
+and achievement;
+*(k) who is a parent or guardian, to provide opportunities for education to
+his child or, as the case may be, ward between the age of six and
+fourteen years.
+Note: The Article 51A containing Fundamental Duties was inserted by the Constitution
+(42nd Amendment) Act, 1976 (with effect from 3 January 1977).
+*(k) was inserted by the Constitution (86th Amendment) Act, 2002 (with effect from
+1 April 2010).
+Reprint 2026-27
+
+The National Council of Educational Research and Training (NCERT) 
+acknowledges the guidance and support of the esteemed Chairperson 
+and members of the National Curriculum Framework Oversight 
+Committee for their invaluable contributions in overseeing the 
+translation of National Curriculum Framework for School Education 
+(NCF-SE) perspectives into the textbook. The NCERT is also deeply 
+grateful to the Chairperson, Co-Chairperson, and the members of 
+the National Syllabus and Teaching-Learning Material Development 
+Committe for their continuous guidance and thorough review of the 
+textbook. Furthermore, the NCERT extends its heartfelt thanks to 
+the Chairperson and members of the NSTC, Preparatory Stage and 
+Sub-Group: The World Around Us as well as other relevant CAGs, 
+for their support and guidelines on the cross-cutting themes. 
+The Council acknowledges the support of Amarendra Behera, 
+Professor and Joint Director, CIET; Pratyusa Kumar Mandal, 
+Professor and Head, DESS; Sunita Farkiya, Professor and Head, 
+DESM; Indrani Bhaduri, Professor and Head, ESD; Vinay Singh, 
+Professor and Head, DEGSN; Milli Roy, Professor and Head, DGS; 
+and Jyotsna Tiwari, Professor and Head, DEAA, NCERT; along with 
+their teams, for their meticulous efforts in ensuring the seamless 
+integration of cross-curricular aspects throughout the textbook and 
+linkages with other curricular areas. 
+The Council also acknowledges the efforts of Sandeep Kumar, 
+Assistant Professor, DEE, NCERT for his contribution in content 
+development and finalising the textbook. Special thanks are due to 
+Bir Abhimanyu Kumar, Associate Professor, DEE, NCERT; Shruti 
+Karmalkar, children’s author and Kirti Kaul, Head, Research and 
+Resources, Shiv Nadar School, Noida, for their support in the content 
+development. The Council extends thanks to Bhawna Upadhyay, 
+Azim Premji Fondation, Bengaluru, who assisted in coordination of 
+the content development.
+Active support from practicing teachers, including Prashant 
+Divekar from Jnana Prabodhini, Pune; Baren Kumar Raul from 
+Mirambika; Geetika Malhotra Arora, The Heritage School, Rohini; 
+Gurpreet Kaur, Heritage Xperiential Learning School, Gurugram; 
+and Sneha Yadav, The Heritage School, Vasant Kunj, are also 
+Acknowledgements
+Reprint 2026-27
+
+xiv
+acknowledged. The Council acknowledges the contribution of Chetna 
+Kaushik, Senior Research Associate and Trishna Nath, Junior Project 
+Fellow, DEE, NCERT, who assisted continuously in academics 
+and logistics in the process of book development. The Council 
+also appreciates team Arpan for collaborating in the finalisation of 
+age-appropriate content related to ‘Safe and Unsafe Touch’. 
+Special thanks are also due to the Publication Division, 
+NCERT for their support. The NCERT gratefully acknowledges 
+the contributions of Pawan Kumar Barriar, In-charge DTP Cell; 
+Bittu Kumar Mahato, Vipan Kumar Sharma and Pawan Kumar, DTP 
+Operators (contractual). The efforts of Ilma Nasir, Editor (contractual); 
+Aastha Sharma, Editorial Assistant (contractual); Adiba Tasneem 
+and Rajan Dabur, Proof readers (contractual), Publication Division, 
+NCERT are also appreciated.
+Reprint 2026-27
+
+Contents
+Foreword
+iii
+About the Textbook	
+v
+Unit 1: Our Community
+Chapter 1: Living Together	
+3
+Chapter 2: Exploring Our Neighbourhood	
+17
+Unit 2: Life Around Us
+Chapter 3: Nature Trail	
+35
+Chapter 4: Growing up with Nature	
+57
+Unit 3: Health and Well-being
+Chapter 5: Food for Health	
+71
+Chapter 6: Happy and Healthy Living	
+85
+Unit 4: Things Around Us
+Chapter 7: How Things Work	
+104
+Chapter 8: How Things are Made	
+117
+Unit 5: Our Environment
+Chapter 9: Different Lands, Different Lives	
+130
+Chapter 10: Our Sky	
+152
+Reprint 2026-27
+
+Reprint 2026-27
