@@ -17,6 +17,15 @@ class Settings(BaseSettings):
     ANTHROPIC_API_KEY: str | None = None
     OPENROUTER_API_KEY: str | None = None
     OPENROUTER_MODEL: str = "nvidia/nemotron-3-super-120b-a12b:free"
+    # Local Ollama: free, no daily limit, runs on the developer's machine only
+    # (not usable by website/app users) - intended for bulk, one-off generation.
+    OLLAMA_BASE_URL: str = "http://localhost:11434/v1"
+    OLLAMA_MODEL: str = "qwen3:8b"
+    # "auto" = Anthropic, else OpenRouter, else Ollama. Set explicitly to force one.
+    LLM_PROVIDER: str = "auto"
+    # Development only: let the API serve lessons/storyboards a person has not
+    # approved yet (clearly unsafe for real children).
+    ALLOW_DRAFT_LESSONS: bool = False
 
 
 settings = Settings()

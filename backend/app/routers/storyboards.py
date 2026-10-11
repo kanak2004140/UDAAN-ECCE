@@ -4,7 +4,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 
 from app.auth import get_current_user
-from app.database import get_db
+from app.database import get_db, settings
 from app.models.topic import Topic
 from app.models.user import User
 from app.schemas.storyboard import StoryboardGenerateRequest, StoryboardResponse
@@ -21,6 +21,8 @@ def read_storyboard(
     current_user: User = Depends(get_current_user),
 ):
     storyboard = get_storyboard(db, topic_id)
+    if storyboard is not None and storyboard.review_status != "approved" and not settings.ALLOW_DRAFT_LESSONS:
+        storyboard = None  # unreviewed plans are not served to children
     if storyboard is None:
         raise HTTPException(status_code=404, detail="No storyboard for this topic yet")
     return storyboard

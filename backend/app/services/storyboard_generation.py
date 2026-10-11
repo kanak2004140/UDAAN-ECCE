@@ -101,7 +101,7 @@ def generate_storyboard_for_topic(db: Session, topic: Topic, regenerate: bool = 
     scenes, last_error = None, None
     for _attempt in (1, 2):
         try:
-            scenes = parse_scenes(call_llm(system_prompt, user_prompt, max_tokens=1500))
+            scenes = parse_scenes(call_llm(system_prompt, user_prompt, max_tokens=1500, json_mode=True))
             break
         except (ValueError, AttributeError, TypeError) as exc:  # JSONDecodeError is a ValueError
             last_error = exc

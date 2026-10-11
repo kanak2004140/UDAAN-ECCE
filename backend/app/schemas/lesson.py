@@ -5,6 +5,7 @@ from pydantic import BaseModel
 
 class LessonGenerateRequest(BaseModel):
     topic_id: UUID
+    regenerate: bool = False
 
 
 class LessonResponse(BaseModel):
@@ -14,3 +15,4 @@ class LessonResponse(BaseModel):
     lesson_text: str
     content_chunk_ids: list[UUID]
     content_source_ids: list[UUID]
+    review_status: str = "pending_review"

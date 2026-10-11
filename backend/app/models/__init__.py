@@ -17,6 +17,7 @@ from app.models.learning_progress import LearningProgress
 from app.models.content_source import ContentSource
 from app.models.content_chunk import ContentChunk
 from app.models.topic_storyboard import TopicStoryboard
+from app.models.topic_lesson import TopicLesson
 
 __all__ = [
     "User",
@@ -37,4 +38,5 @@ __all__ = [
     "ContentSource",
     "ContentChunk",
     "TopicStoryboard",
+    "TopicLesson",
 ]
