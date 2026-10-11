@@ -17,6 +17,11 @@ export interface StoryboardResponse {
   created_at: string;
 }
 
+/** The stored scene plan for a topic; 404 when none is approved yet. */
+export async function getStoryboard(topicId: string): Promise<StoryboardResponse> {
+  return api.get<StoryboardResponse>(`/storyboards/${topicId}`);
+}
+
 export async function generateStoryboard(topicId: string): Promise<StoryboardResponse> {
   return api.post<StoryboardResponse>("/storyboards/generate", { topic_id: topicId });
 }

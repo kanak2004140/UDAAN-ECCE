@@ -1,8 +1,14 @@
 @import "tailwindcss";
 
+/*
+ * UDAAN is a light, daytime world for children, so the site stays light even
+ * when the visitor's device is in dark mode (a dark page background used to
+ * show through the landing page and make text unreadable).
+ */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: light;
+  --background: #fffaf0;
+  --foreground: #2b2147;
 }
 
 @theme inline {
@@ -10,119 +16,53 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  /* Landing page tokens: the same palette and fonts as the learning screens. */
+  --font-display: var(--font-kids), ui-rounded, "Segoe UI", sans-serif;
+  --font-text: var(--font-body), var(--font-deva), ui-sans-serif, system-ui, sans-serif;
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  --color-ink: #2b2147;
+  --color-ink-soft: #5b5280;
+  --color-brand: #6a4be0;
+  --color-brand-deep: #4b32ae;
+  --color-brand-soft: #f1edff;
+  --color-leaf: #2fb36d;
+  --color-leaf-deep: #208a52;
+  --color-sun: #ffc93c;
+  --color-sky: #bfe9ff;
+  --color-cream: #fffaf0;
+  --color-blush: #ffd3e0;
+  --color-butter: #ffe9a8;
+  --color-periwinkle: #d3e5ff;
 }
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
 }
 
 body {
   margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body), Arial, Helvetica, sans-serif;
 }
 
 ::selection {
-  background: #f5bd42;
-  color: #17474b;
+  background: #ffc93c;
+  color: #2b2147;
 }
 
-@keyframes splashLogo {
-  0% {
-    opacity: 0;
-    transform: scale(0.45) rotate(-15deg);
-  }
+/* ---------- landing page motion ---------- */
 
-  70% {
-    transform: scale(1.08) rotate(3deg);
-  }
-
-  100% {
-    opacity: 1;
-    transform: scale(1) rotate(0);
-  }
-}
-
-@keyframes splashText {
-  from {
-    opacity: 0;
-    transform: translateY(18px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes loadingLine {
-  0% {
-    transform: translateX(-130%);
-  }
-
-  50% {
-    transform: translateX(150%);
-  }
-
-  100% {
-    transform: translateX(300%);
-  }
-}
-
-@keyframes gentleFloat {
+@keyframes floatY {
   0%,
   100% {
-    transform: translateY(0);
+    transform: translateY(0) rotate(var(--tilt, 0deg));
   }
 
   50% {
-    transform: translateY(-12px);
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
-}
-@keyframes characterFloat {
-  0%,
-  100% {
-    transform: translateY(0) rotate(0deg);
-  }
-
-  50% {
-    transform: translateY(-14px) rotate(1deg);
-  }
-}
-
-@keyframes floatObject {
-  0%,
-  100% {
-    transform: translateY(0) rotate(0deg);
-  }
-
-  50% {
-    transform: translateY(-15px) rotate(5deg);
+    transform: translateY(-12px) rotate(var(--tilt, 0deg));
   }
 }
 
@@ -135,7 +75,7 @@ body {
 
   50% {
     opacity: 1;
-    transform: scale(1.2);
+    transform: scale(1.15);
   }
 }
 
@@ -146,38 +86,33 @@ body {
   }
 
   50% {
-    transform: scale(1.08);
+    transform: scale(1.06);
   }
 }
 
-@keyframes cloudMove {
-  0% {
-    transform: translateX(-20px);
+@keyframes drift {
+  from {
+    transform: translateX(-30vw);
   }
 
-  50% {
-    transform: translateX(60px);
-  }
-
-  100% {
-    transform: translateX(-20px);
+  to {
+    transform: translateX(130vw);
   }
 }
 
-@keyframes cloudMoveReverse {
-  0% {
-    transform: translateX(30px);
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.96);
   }
 
-  50% {
-    transform: translateX(-60px);
-  }
-
-  100% {
-    transform: translateX(30px);
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
   }
 }
 
+/* opening splash: plays once, then removes itself without any script */
 @keyframes splashLogo {
   0% {
     opacity: 0;
@@ -197,7 +132,7 @@ body {
 @keyframes splashText {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(16px);
   }
 
   to {
@@ -206,27 +141,23 @@ body {
   }
 }
 
-@keyframes loadingLine {
-  0% {
-    transform: translateX(-120%);
-  }
-
-  50% {
-    transform: translateX(120%);
-  }
-
-  100% {
-    transform: translateX(260%);
+@keyframes splashOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
   *,
   *::before,
   *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
   }
 }

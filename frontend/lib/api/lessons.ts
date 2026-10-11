@@ -7,8 +7,14 @@ export interface LessonResponse {
   lesson_text: string;
   content_chunk_ids: string[];
   content_source_ids: string[];
+  review_status: string;
 }
 
-export async function generateLesson(topicId: string): Promise<LessonResponse> {
-  return api.post<LessonResponse>("/lessons/generate", { topic_id: topicId });
+/**
+ * The stored lesson for a topic. Never triggers AI generation (that is a
+ * batch job), so it is fast and safe to call from a child's tap. Fails with a
+ * 404 when the lesson is not approved yet.
+ */
+export async function getLesson(topicId: string): Promise<LessonResponse> {
+  return api.get<LessonResponse>(`/lessons/${topicId}`);
 }

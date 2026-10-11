@@ -1,87 +1,67 @@
-const features = [
+import SectionHeading from "./SectionHeading";
+
+const FEATURES = [
   {
-    icon: "🧠",
-    title: "Learn",
-    text: "Build early thinking and learning skills.",
+    icon: "🐥",
+    title: "Udi, a friend who talks",
+    text: "Udi reads each lesson out loud and cheers every right answer, so young children never have to read alone.",
+    tint: "bg-butter",
+    wide: true,
   },
   {
-    icon: "🎨",
-    title: "Create",
-    text: "Imagine, draw, explore and express.",
-  },
-  {
-    icon: "🗣️",
-    title: "Communicate",
-    text: "Build language and communication skills.",
+    icon: "📚",
+    title: "Real school lessons",
+    text: "Lessons are written from NCERT textbook material, not made up.",
+    tint: "bg-white",
   },
   {
     icon: "🎮",
-    title: "Play",
-    text: "Learn naturally through playful activities.",
+    title: "Picture games",
+    text: "Find the cat, count the stars: tap the right picture and hear the answer.",
+    tint: "bg-white",
   },
   {
-    icon: "🔊",
-    title: "Listen",
-    text: "Audio-supported experiences for young learners.",
+    icon: "🌐",
+    title: "English and हिन्दी",
+    text: "Lessons can be read in English or Hindi. A grown-up switches the language.",
+    tint: "bg-white",
   },
   {
-    icon: "🌱",
-    title: "Grow",
-    text: "Support the whole child's development.",
+    icon: "⭐",
+    title: "Stars that stay",
+    text: "Finished lessons and right answers earn stars, saved on the device so they're there next time.",
+    tint: "bg-blush",
+    wide: true,
+  },
+  {
+    icon: "🔒",
+    title: "A grown-ups corner",
+    text: "Settings sit behind a quick sum, so little fingers can't wander off.",
+    tint: "bg-white",
   },
 ];
 
 export default function Features() {
   return (
-    <section
-      id="features"
-      className="mx-auto max-w-7xl px-6 py-20 sm:px-10 lg:px-12"
-    >
+    <section id="features" className="mx-auto max-w-6xl px-5 py-20 sm:px-8 sm:py-24">
+      <SectionHeading eyebrow="What's inside" title="Learning can feel like play.">
+        Everything in UDAAN is built to be easy for small hands and calm for the grown-ups beside them.
+      </SectionHeading>
 
-      <div className="max-w-2xl">
-
-        <p className="text-sm font-black uppercase tracking-[0.18em] text-[#D16F4E]">
-          Explore
-        </p>
-
-        <h2 className="mt-4 text-4xl font-black tracking-tight sm:text-5xl">
-          Learning can feel like play.
-        </h2>
-
-        <p className="mt-5 text-lg leading-8 text-[#557276]">
-          Every experience is designed to help children discover
-          something new.
-        </p>
-
-      </div>
-
-      <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-
-        {features.map((feature) => (
-
-          <div
+      <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        {FEATURES.map((feature) => (
+          <article
             key={feature.title}
-            className="group rounded-[28px] border border-[#17474B]/10 bg-white p-7 shadow-[0_12px_35px_rgba(23,71,75,0.06)] transition duration-300 hover:-translate-y-2 hover:shadow-[0_22px_45px_rgba(23,71,75,0.11)]"
+            className={`rounded-[2rem] border border-ink/5 p-7 shadow-[0_8px_0_rgba(43,33,71,0.05)] transition duration-300 hover:-translate-y-1.5 ${feature.tint} ${feature.wide ? "lg:col-span-2" : ""}`}
           >
-
-            <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-[#FFF0D2] text-3xl transition duration-300 group-hover:rotate-6 group-hover:scale-110">
+            <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-brand-soft text-3xl" aria-hidden="true">
               {feature.icon}
-            </div>
-
-            <h3 className="mt-6 text-xl font-black">
-              {feature.title}
-            </h3>
-
-            <p className="mt-3 leading-7 text-[#557276]">
-              {feature.text}
-            </p>
-
-          </div>
-
+            </span>
+            <h3 className="mt-5 font-display text-2xl font-extrabold leading-tight text-ink">{feature.title}</h3>
+            <p className="mt-2 text-lg font-semibold leading-7 text-ink-soft">{feature.text}</p>
+          </article>
         ))}
-
       </div>
-
     </section>
   );
 }

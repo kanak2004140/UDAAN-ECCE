@@ -13,13 +13,14 @@ import type { LanguageResponse } from "@/lib/api/languages";
 import { getLanguages } from "@/lib/api/languages";
 
 const SELECTED_CHILD_STORAGE_KEY = "ecce_selected_child_id";
-const SELECTED_LANGUAGE_STORAGE_KEY = "ecce_selected_language_id";
+export const SELECTED_LANGUAGE_STORAGE_KEY = "ecce_selected_language_id";
 
 interface AppStateContextValue {
   selectedChildId: string | null;
   setSelectedChildId: (childId: string | null) => void;
 
   languages: LanguageResponse[];
+  languagesLoaded: boolean;
   selectedLanguageId: string | null;
   setSelectedLanguageId: (languageId: string | null) => void;
 
@@ -58,6 +59,7 @@ function writeStoredValue(key: string, value: string | null): void {
 export function AppStateProvider({ children }: { children: ReactNode }) {
   const [selectedChildId, setSelectedChildIdState] = useState<string | null>(null);
   const [languages, setLanguages] = useState<LanguageResponse[]>([]);
+  const [languagesLoaded, setLanguagesLoaded] = useState(false);
   const [selectedLanguageId, setSelectedLanguageIdState] = useState<string | null>(null);
   const [isOnline, setIsOnline] = useState(true);
 
@@ -69,7 +71,8 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     getLanguages()
       .then(setLanguages)
-      .catch(() => setLanguages([]));
+      .catch(() => setLanguages([]))
+      .finally(() => setLanguagesLoaded(true));
   }, []);
 
   useEffect(() => {
@@ -105,11 +108,12 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
       selectedChildId,
       setSelectedChildId,
       languages,
+      languagesLoaded,
       selectedLanguageId,
       setSelectedLanguageId,
       isOnline,
     }),
-    [selectedChildId, languages, selectedLanguageId, isOnline],
+    [selectedChildId, languages, languagesLoaded, selectedLanguageId, isOnline],
   );
 
   return <AppStateContext.Provider value={value}>{children}</AppStateContext.Provider>;

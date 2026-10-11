@@ -24,12 +24,14 @@ PostgreSQL
 
 ### User Authentication
 
-- User registration and login.
-- Secure password hashing with Werkzeug.
-- JWT access tokens with PyJWT.
+- User registration and login. Accounts live in the `users` table of PostgreSQL (name, email, role, optional date of birth, password hash); login looks the account up there.
+- Passwords are at least 8 characters and stored only as Werkzeug (scrypt) hashes.
+- Roles are limited to `parent` and `child`. A child account needs a birthday that puts it in the 2-8 range; a parent does not.
+- JWT access tokens with PyJWT. `GET /users/me` reads the signed-in user fresh from the database, which is how the browser checks that a saved session is still valid.
+- Login throttling: 5 wrong passwords for one email from one address locks that pair out for 15 minutes (kept in server memory, so it resets when the server restarts).
+- Set `AUTH_SECRET_KEY` in `.env`. The built-in default is public and only for local development.
 - Protected child, session, attempt, and progress routes.
 - CORS configured for local frontend development.
-- User email, role, and date of birth stored in PostgreSQL.
 
 ### Automatic Age Grouping
 
@@ -97,7 +99,8 @@ Important routes include:
 | --- | --- | --- |
 | POST | `/users/register` | Register a user and return a JWT |
 | POST | `/users/login` | Authenticate a user and return a JWT |
-| GET | `/users/{user_id}` | Get a user |
+| GET | `/users/me` | The signed-in user, read from the database |
+| GET | `/users/{user_id}` | Get your own user record |
 | POST | `/children` | Create an authenticated user's child |
 | GET | `/children/{child_id}` | Get an owned child |
 | GET | `/activities` | List active activities |
@@ -110,11 +113,12 @@ Important routes include:
 | GET | `/activity-attempts/session/{id}` | Get session attempts |
 | POST | `/learning-progress` | Create or update progress |
 | GET | `/learning-progress/child/{id}` | Get child progress |
-| GET | `/topics` | List topics (filter by `age_group`, `subject_id`) |
+| GET | `/topics` | List topics (filter by `age_group`, `subject_id`, `language_id`, `lesson_status`); each row carries subject, language and whether a stored lesson exists |
 | GET | `/topics/{topic_id}` | Get one topic |
 | GET | `/languages` | List active languages |
 | GET | `/content-sources` | List approved NCERT source chapters (authenticated) |
-| POST | `/lessons/generate` | Generate a lesson for a topic from approved NCERT text, in the source book's own language and script (authenticated) |
+| GET | `/lessons/{topic_id}` | Read a topic's stored lesson. Never generates. Only `approved` lessons are served unless the server runs with `ALLOW_DRAFT_LESSONS=true` (development) |
+| POST | `/lessons/generate` | Generate a lesson for a topic from approved NCERT text, in the source book's own language and script (development only: needs `ALLOW_DRAFT_LESSONS=true`; never overwrites an approved lesson) |
 | POST | `/storyboards/generate` | Plan (or return the cached) language-independent scene storyboard for a topic (authenticated) |
 | GET | `/storyboards/{topic_id}` | Get a topic's stored storyboard (authenticated) |
 | GET | `/health` | Check API and database health |
@@ -131,10 +135,13 @@ http://127.0.0.1:8000/docs
 /
 /login
 /signup
+/learn
 /learn/2-4
 /learn/4-6
 /learn/6-8
 ```
+
+After signing in, a child account opens its own learning world directly. A parent lands on `/learn`, where they pick the world that fits their child. The sign-in and sign-up screens are in `frontend/app/components/auth/`; the saved session (token and user) is handled in `frontend/lib/auth/session.ts`, and a saved session the server refuses is dropped automatically.
 
 The frontend uses a centralized API client in `frontend/lib/api/client.ts`. The client reads the backend URL from `frontend/.env.local` and automatically attaches the stored JWT to authenticated requests.
 
@@ -245,26 +252,48 @@ as `anand_ocr_draft.txt` for a person to judge, and Urdu stays unusable until a 
 
 ### Lesson and storyboard generation
 
-Both use whichever LLM is configured in the root `.env`:
+Lessons are generated once, stored, reviewed by a person, and only then shown to children. The app
+reads stored lessons (`topic_lessons` table); it does not call an LLM while a child is using it,
+which is what lets it work offline later. Both generators use whichever LLM is configured in the
+root `.env`:
 
 ```text
 ANTHROPIC_API_KEY=...        # preferred (Claude); best at staying inside the source text
-OPENROUTER_API_KEY=...       # fallback for development; a free model works but is weaker
+OPENROUTER_API_KEY=...       # fallback for development; a free model works but is weaker (about 50 requests/day)
 OPENROUTER_MODEL=...         # optional; defaults to a free model that may change - see openrouter.ai/models
+OLLAMA_BASE_URL=...          # local model server, default http://localhost:11434/v1
+OLLAMA_MODEL=...             # default qwen3:8b; gemma3:4b is also installed
+LLM_PROVIDER=auto            # auto (Anthropic, then OpenRouter, then Ollama) | anthropic | openrouter | ollama
+ALLOW_DRAFT_LESSONS=false    # true only in development: serve lessons that are not approved yet
 ```
 
-Free models sometimes invent examples, mix scripts or return empty replies, so use Claude for
-anything shown to real children. Lessons are written in the language and native script of the source
-book. A storyboard is a list of silent scenes (visual description, duration, narration cue) shared by
-every language; it is stored as `pending_review` and rendered by the frontend as a timed slideshow
-until a real image or video renderer is plugged in.
+Small local models invent details the book never gives (picture contents, counts, colours, rhymes).
+The prompt forbids this and measured results are in `ECCE_UDAAN_Roadmap.md`, but a person must still
+read lessons before they are approved. Batch commands (run from `backend/`):
+
+```powershell
+# models live on D: ; start the server with OLLAMA_MODELS set, then:
+$env:LLM_PROVIDER = "ollama"; $env:OLLAMA_MODEL = "qwen3:8b"
+python -m app.ingestion.generate_lessons --dry-run          # topics that need a lesson
+python -m app.ingestion.generate_lessons                    # generate them (stored as pending_review)
+python -m app.ingestion.generate_lessons --audit            # flag colours/numbers/quotes the book never gives
+python -m app.ingestion.generate_lessons --tidy             # strip stage directions, markdown, app name
+python -m app.ingestion.generate_lessons --regenerate-flagged
+python -m app.ingestion.generate_lessons --show 5           # read pending lessons
+python -m app.ingestion.generate_lessons --approve --all    # only after reading them
+```
+
+Lessons are written in the language and native script of the source book. A storyboard is a list
+of silent scenes (visual description, duration, narration cue) shared by every language; it is stored
+as `pending_review` and rendered by the frontend as a timed slideshow until a real image or video
+renderer is plugged in.
 
 ## Migrations
 
 Alembic manages all schema changes. Current migration head:
 
 ```text
-a1c9e7d2b345
+b7e2f4c8d901
 ```
 
 Apply migrations with the existing virtual environment:
@@ -315,6 +344,7 @@ Frontend configuration is stored in `frontend/.env.local`:
 
 ```text
 NEXT_PUBLIC_API_URL=http://127.0.0.1:8000
+NEXT_PUBLIC_SHOW_DRAFT_LESSONS=false   # true only in development, to preview unapproved lessons
 ```
 
 ## Presentation Demo

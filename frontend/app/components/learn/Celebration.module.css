@@ -1,0 +1,107 @@
+.wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: center;
+  overflow: hidden;
+  color: var(--ink, #26264a);
+}
+
+.message {
+  margin: 0;
+  font-family: var(--font-kids), sans-serif;
+  font-size: clamp(1.9rem, 6vw, 2.8rem);
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.stars {
+  margin: 0;
+  padding: 0.4rem 1.4rem;
+  border-radius: 999px;
+  background: var(--surface, #fff);
+  box-shadow: 0 4px 0 rgb(0 0 0 / 0.1);
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.primary,
+.secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  min-width: 80px;
+  min-height: 80px;
+  padding: 0.8rem 1.6rem;
+  border: 0;
+  border-radius: 999px;
+  font-family: inherit;
+  font-size: 1.7rem;
+  font-weight: 800;
+  box-shadow: 0 5px 0 rgb(0 0 0 / 0.16);
+  cursor: pointer;
+}
+
+.primary span,
+.secondary span {
+  font-size: 1.1rem;
+}
+
+.primary {
+  background: var(--accent, #2e9e6a);
+  color: #fff;
+}
+
+.secondary {
+  background: var(--surface, #fff);
+  color: inherit;
+}
+
+.primary:focus-visible,
+.secondary:focus-visible {
+  outline: 4px solid var(--focus, #5b4de0);
+  outline-offset: 3px;
+}
+
+.confetti {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.confetti span {
+  position: absolute;
+  top: -2rem;
+  font-size: 1.8rem;
+  animation: fall 3.2s linear infinite;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(520px) rotate(220deg);
+    opacity: 0.2;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .confetti span {
+    animation: none;
+    opacity: 0.5;
+    top: 0.5rem;
+  }
+}

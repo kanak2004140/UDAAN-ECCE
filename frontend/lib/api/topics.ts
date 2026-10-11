@@ -9,11 +9,18 @@ export interface TopicResponse {
   difficulty_level: number;
   display_order: number;
   created_at: string;
+  subject_name: string | null;
+  language_code: string | null;
+  language_name: string | null;
+  /** "approved" | "pending_review" | null (no stored lesson yet) */
+  lesson_status: string | null;
 }
 
 export async function getTopics(params?: {
   age_group?: string;
   subject_id?: string;
+  language_id?: string;
+  lesson_status?: "approved" | "any";
 }): Promise<TopicResponse[]> {
   return api.get<TopicResponse[]>("/topics", { params });
 }

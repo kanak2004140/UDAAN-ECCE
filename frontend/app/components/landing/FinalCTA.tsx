@@ -1,106 +1,38 @@
+import Link from "next/link";
+import Mascot from "@/app/components/learn/Mascot";
+
 export default function FinalCTA() {
   return (
-    <>
-      {/* Language */}
-      <section className="mx-auto max-w-7xl px-6 py-10 sm:px-10 lg:px-12">
+    <section className="mx-auto max-w-6xl px-5 pb-20 sm:px-8 sm:pb-24">
+      <div className="relative isolate overflow-hidden rounded-[2.5rem] bg-gradient-to-b from-sky to-[#e9f7ff] px-6 pb-14 pt-10 text-center shadow-[0_10px_0_rgba(43,33,71,0.1)] sm:px-12 sm:pb-16">
+        <div aria-hidden="true" className="absolute -right-6 -top-6 -z-10 h-32 w-32 rounded-full bg-[#fff1a6] shadow-[0_0_0_18px_rgba(255,241,166,0.45)]" />
 
-        <div className="flex flex-col items-center justify-between gap-6 rounded-[28px] border border-[#17474B]/10 bg-white p-7 text-center shadow-sm sm:flex-row sm:text-left">
+        <div className="mx-auto w-36 sm:w-44">
+          <Mascot size="100%" mood="happy" />
+        </div>
 
-          <div>
+        <h2 className="mx-auto mt-4 max-w-2xl font-display text-4xl font-extrabold leading-[1.05] tracking-tight text-ink sm:text-6xl">
+          Ready to meet Udi?
+        </h2>
+        <p className="mx-auto mt-4 max-w-xl text-lg font-semibold leading-8 text-ink-soft sm:text-xl">
+          Make an account in a minute, pick a world and let the learning begin.
+        </p>
 
-            <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D16F4E]">
-              🌐 Language matters
-            </p>
-
-            <h3 className="mt-2 text-2xl font-black">
-              Learning in a language children understand.
-            </h3>
-
-          </div>
-
-          <a
+        <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
+          <Link
             href="/signup"
-            className="rounded-full bg-[#EAF3EF] px-6 py-3 font-black transition hover:-translate-y-1 hover:bg-[#D9ECE5] active:scale-95"
+            className="inline-flex min-h-14 items-center rounded-full bg-brand px-9 font-display text-xl font-bold text-white shadow-[0_5px_0_var(--color-brand-deep)] transition hover:brightness-110 active:translate-y-1 active:shadow-none focus-visible:outline-3 focus-visible:outline-offset-3 focus-visible:outline-ink"
           >
-            Choose Language →
-          </a>
-
-        </div>
-
-      </section>
-
-      {/* Final CTA */}
-      <section className="mx-auto max-w-7xl px-6 py-20 sm:px-10 lg:px-12">
-
-        <div className="relative overflow-hidden rounded-[36px] bg-[#17474B] px-7 py-16 text-center text-white sm:px-12">
-
-          <div className="absolute left-10 top-10 text-3xl animate-pulse">
-            ✦
-          </div>
-
-          <div className="absolute right-12 top-16 text-2xl animate-bounce">
-            ⭐
-          </div>
-
-          <div className="absolute bottom-10 left-1/4 text-2xl animate-pulse">
-            ✧
-          </div>
-
-          <div className="absolute bottom-14 right-1/4 text-xl animate-bounce">
-            ✦
-          </div>
-
-          <p className="text-sm font-black uppercase tracking-[0.2em] text-[#F5BD42]">
-            Ready to explore?
-          </p>
-
-          <h2 className="mx-auto mt-5 max-w-3xl text-4xl font-black leading-tight sm:text-6xl">
-            Let's make learning a little more magical.
-          </h2>
-
-          <a
-            href="/signup"
-            className="mt-9 rounded-full bg-[#EF8B5C] px-8 py-4 text-sm font-black text-white shadow-xl transition hover:-translate-y-1 hover:scale-[1.02] active:scale-95"
+            Get started
+          </Link>
+          <Link
+            href="/login"
+            className="inline-flex min-h-14 items-center rounded-full bg-white px-9 font-display text-xl font-bold text-brand-deep shadow-[0_5px_0_rgba(0,0,0,0.08)] transition hover:bg-brand-soft active:translate-y-1 active:shadow-none focus-visible:outline-3 focus-visible:outline-offset-3 focus-visible:outline-ink"
           >
-            🚀 Start the Journey
-          </a>
-
+            I have an account
+          </Link>
         </div>
-
-      </section>
-
-      {/* Footer */}
-      <footer className="border-t border-[#17474B]/10 bg-white">
-
-        <div className="mx-auto flex max-w-7xl flex-col gap-5 px-6 py-8 sm:px-10 lg:flex-row lg:items-center lg:justify-between lg:px-12">
-
-          <div className="flex items-center gap-3">
-
-            <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#FFF0C4]">
-              ✨
-            </div>
-
-            <div>
-
-              <p className="font-black tracking-[0.14em]">
-                UDAAN
-              </p>
-
-              <p className="text-xs text-[#557276]">
-                Learn • Play • Grow
-              </p>
-
-            </div>
-
-          </div>
-
-          <p className="text-xs font-semibold text-[#557276]">
-            A playful learning world for growing minds.
-          </p>
-
-        </div>
-
-      </footer>
-    </>
+      </div>
+    </section>
   );
 }

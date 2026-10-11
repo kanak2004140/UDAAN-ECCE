@@ -1,0 +1,129 @@
+.udi {
+  display: inline-block;
+  line-height: 0;
+  transform-origin: 50% 90%;
+  animation: float 3.2s ease-in-out infinite;
+}
+
+.eyes {
+  transform-origin: 100px 94px;
+  animation: blink 4.5s infinite;
+}
+
+.happyEyes {
+  display: none;
+}
+
+.lowerBeak {
+  transform-origin: 100px 118px;
+}
+
+.wingLeft {
+  transform-origin: 56px 100px;
+}
+
+.wingRight {
+  transform-origin: 144px 100px;
+}
+
+.talking .lowerBeak {
+  animation: talk 0.34s ease-in-out infinite;
+}
+
+.talking {
+  animation: float 1.6s ease-in-out infinite;
+}
+
+.happy {
+  animation: hop 0.9s ease-in-out infinite;
+}
+
+.happy .eyes {
+  display: none;
+}
+
+.happy .happyEyes {
+  display: block;
+}
+
+.happy .wingLeft {
+  animation: flapLeft 0.45s ease-in-out infinite;
+}
+
+.happy .wingRight {
+  animation: flapRight 0.45s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes hop {
+  0%,
+  100% {
+    transform: translateY(0) scale(1, 1);
+  }
+  40% {
+    transform: translateY(-18px) scale(0.98, 1.03);
+  }
+  70% {
+    transform: translateY(0) scale(1.03, 0.97);
+  }
+}
+
+@keyframes blink {
+  0%,
+  92%,
+  100% {
+    transform: scaleY(1);
+  }
+  95% {
+    transform: scaleY(0.1);
+  }
+}
+
+@keyframes talk {
+  0%,
+  100% {
+    transform: scaleY(1) translateY(0);
+  }
+  50% {
+    transform: scaleY(0.4) translateY(-3px);
+  }
+}
+
+@keyframes flapLeft {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-22deg);
+  }
+}
+
+@keyframes flapRight {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(22deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .udi,
+  .eyes,
+  .talking .lowerBeak,
+  .happy .wingLeft,
+  .happy .wingRight {
+    animation: none;
+  }
+}

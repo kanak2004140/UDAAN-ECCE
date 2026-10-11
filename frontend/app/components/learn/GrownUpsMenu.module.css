@@ -1,0 +1,145 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  background: rgb(30 27 75 / 0.55);
+}
+
+.dialog {
+  position: relative;
+  width: min(420px, 100%);
+  padding: 2rem 1.75rem 1.75rem;
+  border-radius: 1.5rem;
+  background: #fff;
+  color: #26264a;
+  box-shadow: 0 24px 60px rgb(30 27 75 / 0.35);
+  font-family: var(--font-body), sans-serif;
+}
+
+.dialog h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.5rem;
+}
+
+.close {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.8rem;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  font-size: 1.8rem;
+  line-height: 1;
+  color: #5a5a85;
+  cursor: pointer;
+}
+
+.gate {
+  display: grid;
+  gap: 0.9rem;
+  justify-items: start;
+}
+
+.gate p {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.answer {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 2px solid #c9c9ea;
+  border-radius: 0.9rem;
+  font-size: 1.4rem;
+  font-family: inherit;
+}
+
+.answer:focus-visible {
+  outline: 3px solid #7c6cf0;
+  outline-offset: 1px;
+}
+
+.wrong {
+  color: #b3261e;
+  font-size: 1rem;
+}
+
+.primary,
+.secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0.7rem 1.3rem;
+  border-radius: 999px;
+  border: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.primary {
+  background: #5b4de0;
+  color: #fff;
+}
+
+.secondary {
+  background: #eeedfb;
+  color: #3a3480;
+}
+
+.settings {
+  display: grid;
+  gap: 1.1rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.4rem;
+  font-weight: 700;
+}
+
+.field select {
+  padding: 0.75rem 0.9rem;
+  border: 2px solid #c9c9ea;
+  border-radius: 0.9rem;
+  font-size: 1rem;
+  font-family: inherit;
+  background: #fff;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0;
+  color: #4a4a72;
+}
+
+.online,
+.offline {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.online {
+  background: #2e9e6a;
+}
+
+.offline {
+  background: #e08a1e;
+}
+
+.actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
